@@ -5,6 +5,27 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+    integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="fonts/icomoon/style.css">
+
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/jquery-ui.css">
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/owl.theme.default.min.css">
+  <link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+  <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+
+  <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+
+  <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+
+  <link rel="stylesheet" href="css/aos.css">
+
+  <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" 
   integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
@@ -19,20 +40,52 @@ integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b
  width: 300px !important;
  height:200px; 
 }
+
+   
+   .Header-icons{
+ justify-content: center;
+   }
+   .roundedd{
+     border-radius: 30px !important;
+   }
+   .site-footer{
+     background-color: #CCC3BC;
+   }
+   .Footer-links{
+     color :#691C32;
+     text-decoration: none;
+     font-size: 13px;
+   }
+   .footer-heading{
+     color :#691C32 !important;
+     font-size: 16px !important;
+     font-weight: bold !important;
+     text-decoration: underline;
+     
+   }
+ .margin{
+  margin-top:120px;
+ }
+ header{
+    position: fixed !important;
+    top: 0;
+    box-shadow:1px 1px 2px lightgrey;
+}
 </style>
 
 
 
 </head>
 <body>
+<?php
+  require_once('header.php');
+ ?>
   <div class="container">
     
-    <div class="row">
-      <div class="col-md-12">
-        <a href="./index.html" class="nav-link"><b>Home</b></a>
-      </div>
+    <div class="row margin ">
+     
       <div class="col-md-7 ">
-        <h2 class="mt-4">Contact Us</h2>
+        <h2 class="mt-5">Contact Us</h2>
         <p style="font-size:16px;"><b><b> Do you have an enquiry? </b><br>
         <b> Please complete the form and we will get back to you as soon as we can.</b>
         </p>
@@ -84,8 +137,11 @@ integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b
         <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" required="true"></textarea>
       </div>
     </div>
-      <button type="submit" class="btn btn-primary">submit</button> 
+      <button type="submit" class="btn btn-primary mb-5">submit</button> 
     </form>
   </div>
+  <?php
+  require_once('footer.php');
+ ?>
 
 </body>
