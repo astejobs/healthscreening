@@ -14,7 +14,7 @@
           </div> -->
             </div>
             <div class="col-lg-8">
-                <div class="row">
+                <div class="row">   
                     <div class="col-lg-3">
                         <h2 class="footer-heading mb-4">Health Screening</h2>
                         <ul class="list-unstyled">
