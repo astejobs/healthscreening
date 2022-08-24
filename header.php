@@ -1,9 +1,9 @@
-<header class="site-navbar light js-sticky-header site-navbar-target" role="banner">
+<header class="site-navbar light js-sticky-header site-navbar-target bg-white" role="banner">
       <div class="header1" style="background-color: #691C32; height: 30%;">
         <div class=" container Header-icons p-2 text-white">
           <i class="fa fa-envelope "></i>&nbsp;&nbsp;<a href="mailto:concierge@thetestingpro.com" class="text-white">concierge@thetestingpro.com</a>&nbsp;
-          <i class="fa-brands fa-facebook-f"></i>&nbsp;
-          <i class="fa-brands fa-instagram"></i>
+          <a href="https://www.facebook.com/thetestingpro "><i class="fa-brands fa-facebook-f"></i></a>&nbsp;&nbsp;
+         <a href="https://www.instagram.com/thetestingpro"> <i  class="fa-brands fa-instagram"></i></a>
         </div>
       </div>
       <div class="container">
@@ -31,8 +31,8 @@
                 <li class="has-children">
                   <a href="prevention.html" class="nav-link">Health Screening</a>
                   <ul class="dropdown">
-                    <li><a href="#" class="nav-link">Mobile Health Screening</a></li>
-                    <li><a href="#" class="nav-link">Corporate Health Screening</a></li>
+                    <li><a href="./mobilehealthscreening.php" class="nav-link">Mobile Health Screening</a></li>
+                    <li><a href="./corporateHealthPage.php" class="nav-link">Corporate Health Screening</a></li>
                     
                   </ul>
                 </li>

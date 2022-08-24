@@ -1,10 +1,14 @@
+
+<?php 
+require('config.php');
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Contact Us</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
     integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -34,7 +38,8 @@
 integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
  integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-
+ <!-- Google captcha -->
+ <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 <style>
   #img {
  width: 300px !important;
@@ -42,9 +47,10 @@ integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b
 }
 
    
-   .Header-icons{
- justify-content: center;
-   }
+.Header-icons>a{
+  justify-content: center;
+  color:white !important;
+    }
    .roundedd{
      border-radius: 30px !important;
    }
@@ -71,6 +77,10 @@ integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b
     top: 0;
     box-shadow:1px 1px 2px lightgrey;
 }
+.btn-corporate{
+    background-color:#691C32;
+    color:white;
+  }
 </style>
 
 
@@ -136,8 +146,12 @@ integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b
         <label for="exampleFormControlTextarea1">How can we help? <b>*</b></label>
         <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" required="true"></textarea>
       </div>
+      <div class="form-group col-md-6">
+      <div class="g-recaptcha" data-sitekey="<?php echo $siteKey ?>"></div>
+
+      </div>
     </div>
-      <button type="submit" class="btn btn-primary mb-5">submit</button> 
+      <button type="submit" class="btn btn-corporate mb-5">submit</button> 
     </form>
   </div>
   <?php
