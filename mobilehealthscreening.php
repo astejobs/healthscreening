@@ -1252,7 +1252,7 @@
           </div>
         </div>
                       <h5 class="text-center">Please click <a href="beforebookingapp.html" style="text-decoration:none ;"> here</a> for important information to take note of before booking appointment.</h5>
-                      <h5 class="text-center">Focus Lite is also available. Please click <a href="#" style="text-decoration:none ;"> here</a> to know more.</h5>
+                      <h5 class="text-center">Focus Lite is also available. Please click <a href="./focustable.php" style="text-decoration:none ;"> here</a> to know more.</h5>
                         <h5 class="text-center mb-5"> Please<a href="contact.html" style="text-decoration:none ;"> Contact Us</a> if you require fasting options.</h5>
                     
                     </div>       

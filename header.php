@@ -36,7 +36,7 @@
                     
                   </ul>
                 </li>
-                <li class="has-children">
+                <!-- <li class="has-children">
                   <a href="prevention.html" class="nav-link">COVID-19 Testing</a>
                   <ul class="dropdown">
                     <li><a href="#" class="nav-link">Testing Pods</a></li>
@@ -44,10 +44,9 @@
                     <li><a href="#" class="nav-link">Tele-ART(i-ART)</a></li>
                   
                   </ul>
-                </li>
+                </li> -->
 
                 <li><a href="contact.php" class="nav-link">Contact Us</a></li> &nbsp;&nbsp;
-                <li><i class="fa fa-cart-shopping  text-dark mx-3"><sup><span class='badge badge-warning' id='lblCartCount'> 0</span></sup></i></li>
                 <li><button class="btn text-white roundedd fs-3"  style="background-color: #691C32; text-transform: capitalize;">Book Appointment </button></li>
               </ul>
             </nav>
