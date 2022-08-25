@@ -127,10 +127,10 @@ use PHPMailer\PHPMailer\Exception;
                      
                      
                      <div>
-                       <b>Dear &nbsp;'.$first_name.'<br>
-                       Thank you for your time to write to us. We will review it and get back to you within <br>three (3) working days.<br>
-                       
-                       Best Regards,<br>
+                       <b>Dear &nbsp;'.$first_name.'<br><br>' . "\r\n" . 
+                       'Thank you for your time to write to us. We will review it and get back to you within <br>three (3) working days.<br>
+                       ' . " \r\n" . '
+                       <br><br> Best Regards,<br>
                       TheTestingPro™ <br>
                        
                      </div>
