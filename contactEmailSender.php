@@ -39,8 +39,14 @@ use PHPMailer\PHPMailer\Exception;
  
      //Recipients
      $mail->setFrom('info@thetestingpro.com', 'Info');
+     if($enquiry_type=="Corporate Mobile Health Screening" || $enquiry_type=="Partnership Opportunities"){
+        $mail->addAddress('hs@thetestingpro.com');               //Name is optional
+
+      }else{
+        $mail->addAddress('concierge@thetestingpro.com'); 
+      }
     //  $mail->addAddress('hs@thetestingpro.com', 'TheTestingPro');     //Add a recipient
-     $mail->addAddress('najarsalman4@gmail.com');               //Name is optional
+                  //Name is optional
     
  
      //Attachments
@@ -110,7 +116,6 @@ use PHPMailer\PHPMailer\Exception;
        $autoRespond->Username   = "khalid@stie.com.sg";
        $autoRespond->Password   = "Kh1234E!#";
        $autoRespond->Host       = "mail.stie.com.sg";
-     
        $autoRespond->setFrom('info@stie.com.sg', 'Info');
        $autoRespond->AddAddress("$from"); 
        $autoRespond->Subject = "TheTestingPro™ has received your email"; 
