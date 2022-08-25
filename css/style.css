@@ -4,9 +4,13 @@ html {
 
 body {
   line-height: 1.7;
-  color: gray;
+  color: #575756;
   font-weight: 400;
-  font-size: 1rem; }
+  font-size: 1rem;
+  
+    font-family: 'Montserrat' !important;
+ 
+}
 
 ::-moz-selection {
   background: #000;
@@ -17,6 +21,7 @@ body {
   color: #fff; }
 
 a {
+  color:#691C32 !important;
   -webkit-transition: .3s all ease;
   -o-transition: .3s all ease;
   transition: .3s all ease; }
@@ -1209,3 +1214,6 @@ figure figcaption {
 .card-title {
   font-size: 1.4rem;
   color: #000; }
+  .text-bold {
+    color: #691C32;
+  }

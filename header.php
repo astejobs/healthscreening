@@ -1,9 +1,11 @@
 <header class="site-navbar light js-sticky-header site-navbar-target bg-white" role="banner">
       <div class="header1" style="background-color: #691C32; height: 30%;">
         <div class=" container Header-icons p-2 text-white">
-          <i class="fa fa-envelope "></i>&nbsp;&nbsp;<a href="mailto:concierge@thetestingpro.com" class="text-white">concierge@thetestingpro.com</a>&nbsp;
-          <a href="https://www.facebook.com/thetestingpro "><i class="fa-brands fa-facebook-f"></i></a>&nbsp;&nbsp;
-         <a href="https://www.instagram.com/thetestingpro"> <i  class="fa-brands fa-instagram"></i></a>
+        <a href="https://www.facebook.com/thetestingpro " class="float-right" style="margin-right:10px"><i class="fa-brands fa-facebook-f"></i></a>&nbsp;&nbsp;
+        <a href="https://www.instagram.com/thetestingpro" class="float-right" style="margin-right:10px"> <i  class="fa-brands fa-instagram"></i></a>&nbsp;&nbsp;
+         <a href="mailto:concierge@thetestingpro.com" class="text-white float-right" style="margin-right:10px">concierge@thetestingpro.com</a>&nbsp;&nbsp; <i class="fa fa-envelope float-right" style="margin-right:10px; margin-top:5px"></i>
+        
+         
         </div>
       </div>
       <div class="container">
@@ -20,14 +22,14 @@
             <nav class="site-navigation position-relative text-right" role="navigation">
 
               <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
-                <li class="has-children">
+            <!--    <li class="has-children">
                   <a href="prevention.html" class="nav-link">About Us</a>
                   <ul class="dropdown">
                     <li><a href="#" class="nav-link">Announcement/Media</a></li>
                     
                   
                   </ul>
-                </li>
+                </li>-->
                 <li class="has-children">
                   <a href="prevention.html" class="nav-link">Health Screening</a>
                   <ul class="dropdown">

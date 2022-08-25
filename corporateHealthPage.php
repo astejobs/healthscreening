@@ -8,7 +8,7 @@ include('config.php');
     $phone = $_REQUEST["phone"];
     $company = $_REQUEST["company"];
     $help = $_REQUEST["help"];
-    $mailTo ="salmanquadir@outlook.com";
+    $mailTo ="khalid@stie.com.sg";
     $mailheaders = "Email:".$email."\r\n PhoneNo:".$phone."\r\n companyName:".$company."\r\n Message:".$help."";
         mail($mailTo,$name,$mailheaders);
         echo "Email send successfully";
@@ -100,7 +100,7 @@ include('config.php');
 
   <div id="overlayer"></div>
   <div class="loader">
-    <div class="spinner-border text-primary" role="status">
+    <div class="spinner-border text-bold" role="status">
       <span class="sr-only">Loading...</span>
     </div>
   </div>
