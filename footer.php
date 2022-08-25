@@ -44,6 +44,10 @@
                     <div class="col-lg-3 ">
                         <img class="image mr-4" src="./images/fihlogo.png" alt="image"
                             height="auto" width="300px">
+                            <div class="conatiner footer-icons">
+                            <a  href="https://www.facebook.com/thetestingpro " class="float-right " style="margin-right:20px"><i class="fa-brands fa-facebook-f fa-1x"></i></a>&nbsp;&nbsp;
+                            <a href="https://www.instagram.com/thetestingpro" class="float-right " style="margin-right:10px"> <i  class="fa-brands fa-instagram fa-1x"></i></a>&nbsp;&nbsp;
+                        </div>
                     </div>
 
                 </div>

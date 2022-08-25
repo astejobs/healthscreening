@@ -63,9 +63,15 @@
       background-size:cover;
     }
     .section1-image{
-      width:70%;
+      width:100% !important;
+      box-sizing:border-box;
+      
     }
-  
+    .section1-image:hover{
+      box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+      transform: scale(1.1); 
+      transition: transform .5s ease;
+    }
   </style>
 
 </head>

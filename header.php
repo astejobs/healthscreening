@@ -13,9 +13,10 @@
         <div class="row align-items-center">
 
           <div class="col-6 col-xl-2">
-            <div class="mb-0 site-logo"><img
+            <div class="mb-0 site-logo">
+              <a href="./index.php"><img
                 src="./images/WhatsApp_Image_2022-08-23_at_10.05.55_AM-removebg-preview.png" alt="" height=" 100%"
-                width=" 60%"></div>
+                width=" 60%"></a></div>
           </div>
 
           <div class="col-12 col-md-10 d-none d-xl-block">

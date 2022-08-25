@@ -1,6 +1,9 @@
 
 <?php 
+require 'vendor/autoload.php';
+
 require('config.php');
+require('./contactEmailSender.php');
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -109,30 +112,30 @@ integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b
             <img src="./images/footerImage-removebg-preview.png" id="img" class="mt-4" alt="logo">
       </div>
     </div>
-    <form>
+    <form method="POST">
       <div class="form-row mt-4">
         <div class="form-group col-md-6">
           <label for="inputEmail4">Full Name <b>*</b></label>
-          <input type="text" class="form-control" id="" placeholder="" required="true">
+          <input type="text" name="name" class="form-control" id="" placeholder="" required="true">
         </div>
         <div class="form-group col-md-6">
           <label for="inputEmail4">Email Address <b>*</b></label>
-          <input type="email" class="form-control" id="" placeholder="" required="true">
+          <input type="email" name="email" class="form-control" id="" placeholder="" required="true">
         </div>
         <div class="form-group col-md-6">
           <label for="inputPassword4">Contact Number <b>*</b></label>
-          <input type="tel" class="form-control" id="" placeholder="" required="true">
+          <input type="tel" name="phone" class="form-control" id="" placeholder="" required="true">
         </div>
       
       <div class="form-group col-md-6">
         <label for="inputAddress">Company</label>
-        <input type="text" class="form-control" id="" placeholder="" >
+        <input type="text" name="company" class="form-control" id="" placeholder="" >
       </div>
       
       
         <div class="form-group col-md-6">
           <label for="inputState">Type of Enquiry  <b>*</b></label>
-          <select id="inputState" class="form-control">
+          <select id="inputState" class="form-control" name="enquirytype">
             <option selected>Choose...</option>
             <option>General Inquery/Feedback</option>
             <option>Covid-19 Testing</option>
@@ -144,7 +147,7 @@ integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b
      
       <div class="form-group col-md-6">
         <label for="exampleFormControlTextarea1">How can we help? <b>*</b></label>
-        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" required="true"></textarea>
+        <textarea class="form-control" name="help" id="exampleFormControlTextarea1" rows="3" required="true"></textarea>
       </div>
       <div class="form-group col-md-6">
       <div class="g-recaptcha" data-sitekey="<?php echo $siteKey ?>"></div>
