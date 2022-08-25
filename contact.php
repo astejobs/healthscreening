@@ -137,10 +137,10 @@ integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b
           <label for="inputState">Type of Enquiry  <b>*</b></label>
           <select id="inputState" class="form-control" name="enquirytype">
             <option selected>Choose...</option>
-            <option>General Inquery/Feedback</option>
+            <option>General Enquiry/Feedback</option>
             <option>Covid-19 Testing</option>
             <option> Mobile Health Screening</option>
-            <option> Corporate Mobile Health Screening</option>
+            <option> Corporate Health Screening</option>
             <option>Partnership Opportunities</option>
           </select>
         </div>
