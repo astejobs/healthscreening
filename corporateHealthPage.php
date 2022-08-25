@@ -1,4 +1,14 @@
 <?php 
+
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\SMTP;
+use PHPMailer\PHPMailer\Exception;
+
+//Load Composer's autoloader
+require 'vendor/autoload.php';
+
+//Create an instance; passing `true` enables exceptions
+$mail = new PHPMailer(true);
 include('config.php');
     
 ?>
@@ -130,7 +140,7 @@ include('config.php');
     <div class="col-md-8">
    <p class="text-dark">Fields marked with an <span class="text-danger">*</span> are required</p>
    <h4 class="sent-notification"></h4>
-   <form  id="myForm" method="POST">
+   <form  id="myForm" method="POST" action="corporateHealthPage.php">
 
       <div class="form-row mt-4">
         <div class="form-group col-md-6">
@@ -178,106 +188,43 @@ include('config.php');
   require_once('footer.php');
  ?>
  <?php
- use PHPMailer\PHPMailer\PHPMailer;
- use PHPMailer\PHPMailer\SMTP;
- use PHPMailer\PHPMailer\Exception;
-
- require('PHPMailer/Exception.php');
- require('PHPMailer/SMTP.php');
- require('PHPMailer/PHPMailer.php');
-
  
  
  if(isset($_POST['email'])){
- 
-     $to = "najarsalman4@gmail.com"; // this is your Email address
-     $from = $_POST['email']; // this is the sender's Email address
-     if(isset($_POST['company'])){
-       $company_name = $_POST['company'];
-     } else {
-       $company_name = '';
-     }
-     $first_name = $_POST['name'];
-     if(isset($_POST['phone'])){
-       $contact_number = $_POST['phone'];
-     } else {
-       $contact_number = '';
-     }
-    
-       
-       $message = $_POST['help'];
-       $subject = "You have an email from TheTestingPro domain.";
-       
-       $mail = new PHPMailer\PHPMailer\PHPMailer();
-       //$mail = new PHPMailer();
-       $mail->IsSMTP();
-       $mail->Mailer = "smtp";
- 
-       $mail->SMTPDebug  = 1;  
-       $mail->SMTPAuth   = TRUE;
-       $mail->SMTPSecure = "tls";
-       $mail->Port       = 587;
-       $mail->Host       = "mail.stie.com.sg";
-       $mail->Username   = "info@stie.com.sg";
-       $mail->Password   = "in5#aS135!}";
- 
-       $mail->IsHTML(true);
-       $mail->AddAddress("najarsalman4@gmail.com", "Salman Quadir");
-       $mail->SetFrom("najarsalman4@gmail.com", "HealthScreening");
-       $mail->Subject = $subject;
- 
-       $content  = '<html xmlns="http://www.w3.org/1999/xhtml">
-       <head>
-       <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-       <title>TheTestingPro Mail</title>
-       </head>
-       
-       <body>
-         <table width="100%" border="0" cellspacing="0" cellpadding="0">
-           <tr>
-             <td align="center" valign="top" bgcolor="#f5f8fd;"
-               style="background-color: #f5f8fd;"><br> <br>
-               <table width="600" border="0" cellspacing="0" cellpadding="0">
-                 <tr>
-                   <td align="center" valign="top" bgcolor="#f5f8fd;"
-                     style="background-color: #f5f8fd; font-family: Arial, Helvetica, sans-serif; font-size: 13px; color: #000000; padding: 0px 15px 10px 15px;">
-                     
-                     <img src="cid:logoImage" style="display:block;width:193px;height:150px" alt="TheTestingPro">
-                    
-                     
-                     <br>
-                     <span style="font-size:18px;font-weight:400px;"><b>'.$subject.'</b></span>							
-                     <br>
-                     
-                     <div>
-                       <br>'.$message.'<br>
-                       <br><u>Sender Details</u><br>
-                       <b>'.$first_name.'</b><br>
-                       Company: '.$company_name.'<br>
-                       Contact Number: '.$contact_number.'<br>
-                       Email: '.$from.'<br>
-                       
-                     </div>
-                   </td>
-                 </tr>
-               </table> <br> <br>
-               </td>
-           </tr>
-         </table>
-       </body>
-       </html>';
- 
-       $mail->MsgHTML($content); 
-       if($mail->Send()) {
-           $msg = "OK";          
-           echo $msg; exit;
-           //return;
-       } else {
-           echo "Error while sending Email.";
-           //return; 
-           var_dump($mail); exit;
-       }
-    
+
+  try {
+    //Server settings
+    $mail->SMTPDebug = SMTP::DEBUG_SERVER;                      //Enable verbose debug output
+    $mail->isSMTP();                                            //Send using SMTP
+    $mail->Host       = 'mail.stie.com.sg';                     //Set the SMTP server to send through
+    $mail->SMTPAuth   = true;                                   //Enable SMTP authentication
+    $mail->Username   = 'khalid@stie.com.sg';                     //SMTP username
+    $mail->Password   = 'Kh1234E!#';                               //SMTP password
+    $mail->SMTPSecure = "tls";//PHPMailer::ENCRYPTION_SMTPS;            //Enable implicit TLS encryption
+    $mail->Port       = 587;                                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
+
+    //Recipients
+    $mail->setFrom('info@stie.com.sg', 'Info');
+    $mail->addAddress('khalid@stie.com.sg', 'Khalid');     //Add a recipient
+    $mail->addAddress('najarsalman4@gmail.com');               //Name is optional
+   
+
+    //Attachments
+   // $mail->addAttachment('/var/tmp/file.tar.gz');         //Add attachments
+    //$mail->addAttachment('/tmp/image.jpg', 'new.jpg');    //Optional name
+
+    //Content
+    $mail->isHTML(true);                                  //Set email format to HTML
+    $mail->Subject = 'Here is the subject';
+    $mail->Body    = 'This is the HTML message body <b>in bold!</b>';
+    $mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
+
+    $mail->send();
+    echo "<script> alert('Message has been sent');</script>";
+} catch (Exception $e) {
+    echo "<script> alert('Message could not be sent. Mailer Error: {$mail->ErrorInfo}');</script>";
+}
+   
      }
  ?>
  
