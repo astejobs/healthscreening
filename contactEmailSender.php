@@ -7,7 +7,6 @@ use PHPMailer\PHPMailer\Exception;
    $mail = new PHPMailer(true);
 
   if(isset($_POST['email'])){
-   $to = "najarsalman4@gmail.com"; // this is your Email address
    $from = $_POST['email']; // this is the sender's Email address
    if(isset($_POST['company'])){
      $company_name = $_POST['company'];
@@ -40,7 +39,7 @@ use PHPMailer\PHPMailer\Exception;
      //Recipients
      $mail->setFrom('info@thetestingpro.com', 'Info');
      if($enquiry_type=="Corporate Mobile Health Screening" || $enquiry_type=="Partnership Opportunities"){
-        $mail->addAddress('hs@thetestingpro.com');               //Name is optional
+        $mail->addAddress('hs@thetestingpro.com','TheTestingPro');               //Name is optional
 
       }else{
         $mail->addAddress('concierge@thetestingpro.com'); 

@@ -6,7 +6,6 @@ use PHPMailer\PHPMailer\Exception;
   //Create an instance; passing `true` enables exceptions
    $mail = new PHPMailer(true);
   if(isset($_POST['email'])){
-   $to = "najarsalman4@gmail.com"; // this is your Email address
    $from = $_POST['email']; // this is the sender's Email address
    if(isset($_POST['company'])){
      $company_name = $_POST['company'];
@@ -38,7 +37,6 @@ use PHPMailer\PHPMailer\Exception;
      //Recipients
      $mail->setFrom('info@thetestingpro.com', 'Info');
      $mail->addAddress('hs@thetestingpro.com', 'TheTestingPro');     //Add a recipient
-     $mail->addAddress('najarsalman4@gmail.com');               //Name is optional
     
  
      //Attachments
