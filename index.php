@@ -186,6 +186,7 @@
     <div class="caption">
       <h2>Mobile Health Screening</h2>
       <p class="text-justify">Our Non-Fasting Mobile Health Screening lets you take charge of your health anytime and anywhere,<br> providing flexibility and convenience in the comfort of your preferred location. Our various packages <br>offered are designed to offer comprehensive screening for individuals to take proactive care of their health.</p>
+      <a class="text-white"href="./mobilehealthscreening.php">View More>></a>
     </div>
   </div>
   <div class="tab">
@@ -193,6 +194,8 @@
      <div class="caption">
       <h2>Corporate Health Screening</h2>
       <p class="text-justify">Investing in your employees’ annual health screening proves that you care for their wellbeing. <br> Health screening amongst employees improves productivity, reduces absenteeism, builds trust <br>and loyalty.  Our range of corporate health screening packages provide a unique opportunity to <br>invest in the long-term health of your employees and lets you choose what works best for your <br>company; be it an on-site workplace health screening or even a home-based health screening.</p>
+      <a class="text-white"href="./corporateHealthPage.php">View More>></a>
+
     </div>
   </div>
   <div class="tab">
