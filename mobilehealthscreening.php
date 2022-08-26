@@ -76,9 +76,9 @@
     padding-bottom:20%  !important;
     
   }
-  .dropdown{
-      border-top:2px solid #691C32 !important;
-    }
+  .fas-times{
+    color:green;
+  }
 
   </style>
 
@@ -116,8 +116,8 @@
         <div class="margins"></div>
         <div class="row">
         <div class="col-md-5 mt-5 ">
-               <h3 class="text-dark font-weight-bold">Mobile Health Screening</h3>
-               <p class=""><b>Our Non-Fasting Mobile Health Screening lets you take charge of your health anytime and anywhere,
+               <h3 class="text-dark">Mobile Health Screening</h3>
+               <p class="" style="text-align: justify;"><b>Our Non-Fasting Mobile Health Screening lets you take charge of your health anytime and anywhere,
                  providing flexibility and convenience in the comfort of your preferred location. Our various packages
                   offered are designed to offer comprehensive screening for individuals to take proactive care of their health.</b> </p>
             </div>
@@ -127,1136 +127,460 @@
           </div>
          </div>
         </div>
-
+<br>
        <div class="container-fluid">
-      <div class="row">
-
-
-        <div class=" col-md-2 card bg-light mb-3 mt-4">
-            <div class="card-header text-center" style="vertical-align : middle;height: 180px;"><b>Mobile Health Screening Package</b><br><br>
-                <hr style="height:2px;border-width:0;color:gray;background-color:gray">
-            </div>
-            <div class="card-body">
-              <h5 class="card-title text-center">Pricing</h5>
-              <p class="card-text">
-                <table class="table">
-                  <thead>
-                   <th> Biometric Parameters</th>
-                  </thead>
-                  <tbody>
-                    <tr>
-                     <td>   Coronory Heart Risk Assessment</td>
-                    </tr>
-                    <tr>
-                        <td>   Height & Weight(BMI)</td>
-                       </tr>
-                       <tr>
-                        <td> Blood Pressure </td>
-                       </tr>
-                  </tbody>
-                </table>
-                <br>
-                <table class="table">
-                    <thead>
-                     <th>  Urine & Stool Analysis</th>
-                    </thead>
-                    <tbody>
-                      <tr>
-                       <td>   Urine FEME</td>
-                      </tr>
-                      <tr><br>
-                          <td> Urine Microalbumin</td>
-                         </tr>
-                         <tr>
-                          <td> Urine Creatinine</td><br>
-                         </tr>
-                         <tr>
-                            <td> Urine Microalbumin to Creatinine Ratio</td>
-                           </tr>
-                         
-                         
-                    </tbody>
-                  </table>
-                  <br>
-                  <table class="table">
-                    <thead>
-                     <th> Blood Analysis</th>
-                    </thead>
-                    <tbody>
-                      <tr>
-                       <td>   Blood Glucose</td>
-                      </tr>
-                      <tr>
-                          <td>  Blood Cholesterol</td>
-                         </tr>
-                         <tr>
-                          <td> Full Blood Count </td>
-                         </tr>
-                         <tr>
-                            <td> Kidney Function </td>
-                           </tr>
-                           <tr>
-                            <td> Liver Function </td>
-                           </tr>
-                           <tr>
-                            <td> VDRL</td>
-                           </tr>
-                           <tr>
-                            <td> Bone Disease</td>
-                           </tr>
-                           <tr>
-                            <td> Gout</td>
-                           </tr>
-                           <tr>
-                            <td> Hepatitis A</td>
-                           </tr>
-                           <tr>
-                            <td> Hepatitis B</td>
-                           </tr>
-                           <tr>
-                            <td> Hepatitis C</td>
-                           </tr>
-                           <tr>
-                            <td> Helicobacter Pylori</td>
-                           </tr>
-                           <tr>
-                            <td> Thyroid Function(FT4,TSH)</td>
-                           </tr>
-                           <tr><td>Rheumatoid Factor</td></tr>
-                    </tbody>
-                  </table>
-                  <table class="table">
-                    <thead>
-                     <th>Tumour</th>
-                    </thead>
-                    <tbody>
-                      <tr>
-                       <td> AFP (Liver)</td>
-                      </tr>
-                      <tr>
-                          <td>  CEA (Colon)</td>
-                         </tr>
-                         <tr>
-                          <td> PSA(Prostate)/CA125 (Ovaries) </td>
-                         </tr>
-                         <tr>
-                            <td> CA19.9(Pancreas) </td>
-                           </tr>
-                           <tr>
-                            <td> EBV EA IgA(Nose) </td>
-                           </tr>
-                           
-                    </tbody>
-                  </table>
-                  <table class="table">
-                    <thead>
-                     <th>Heart Screen</th>
-                    </thead>
-                    <tbody>
-                      <tr>
-                       <td> Apolipoprotein A</td>
-                      </tr>
-                      <tr>
-                          <td>   Apolipoprotein B</td>
-                         </tr>
-                         <tr>
-                          <td> Apo B/A1 Ratio </td>
-                         </tr>
-                         
-                           <tr>
-                            <td> HsCRP </td>
-                           </tr>
-                           
-                    </tbody>
-                  </table>
-                  <table class="table">
-                    <thead>
-                     <th>Deficiency Screen</th>
-                    </thead>
-                    <tbody>
-                      <tr>
-                       <td> Vitamin D</td>
-                      </tr>
-                      <tr>
-                          <td>   Vitamin B12</td>
-                         </tr>
-                         <tr>
-                          <td> Folate </td>
-                         </tr>
-                         
-                           <tr>
-                            <td> Iron </td>
-                           </tr>
-                           
-                    </tbody>
-                  </table>
-                  <br>
-                  <table class="table">
-                    <thead>
-                     <th>Medical Report & Review</th>
-                    </thead>
-                    <tbody>
-                      <tr>
-                       <td> Report review with Doctor (Teleconsult)</td>
-                      </tr>
-                    </tbody>
-                  </table>
-              </p>
-            </div>
-          </div>
-        
-        <div class=" col-md-2 card bg-light mb-3 mt-4">
-            <div class="card-header text-center"><b>Focus Mobile 1</b>  <br>Urine
+       <div class="main"><br>
+    <table class="price-table">
+        <tbody>
+           
+            <tr class="price-table-head">
+                
+                <td style="color:#691C32"><br>
+                Mobile Health Screening Package
+                    
+                    <br><br>
+                    <hr style="height:2px;border-width:0;color:gray;background-color:gray">
+                </td>
+                <td style="color:#691C32">
+                Focus Mobile 1
+                    <br><small style="font-size: 12px; font-weight: 400;">Urine
                 Diabetes
                 Cholesterol
-                Blood Test <br><span style="color:#ed281a ;">See more..</span>
+                Blood Test</small>
+                <br><span style="color:691C32;">See more..</span>
                 <hr style="height:2px;border-width:0;color:gray;background-color:gray">
-            </div>
-            <div class="card-body">
-              <h5 class="card-title text-center">$148<sup>*</sup></h5>
-              <p class="card-text">
-                <table class="table">
-                    <thead>
-                     <th style="display:none"> xyz </th> 
-                    </thead>
-                    <tbody>
-                        <tr>
-                        <br>
-                        <br><br>
-                      <td> <i class="fa fa-check-square fa-2x mt-4 ml-4" style="font-size:24px; color:#40E0D0;"></i></td>
-                    </tr>
-                    <tr>
-                    <td> <i class="fa fa-check-square fa-2x mt-4 ml-4" style="font-size:24px; color:#40E0D0;"></i></td>
-                    </tr>
-                    <tr>
-                    <td> <i class="fa fa-check-square fa-2x mt-4 ml-4" style="font-size:24px; color:#40E0D0;"></i></td>
-                </tr>
-                    </tbody>
-                  </table> 
-                  <table class="table">
-                    <thead>
-                     <th style="display:none"> xyz </th> 
-                    </thead>
-                    <tbody>
-                        <tr>
-                        <br>
-                        <br><br><br>
-                      <td> <i class="fa fa-check-square fa-2x mt-4 ml-4" style="font-size:24px; color:#40E0D0;"></i></td>
-                    </tr>
-                    <tr>
-                    <td> <i class="fa fa-check-square fa-2x mt-4 ml-4" style="font-size:24px; color:#40E0D0;"></i></td>
-                    </tr>
-                    <tr>
-                    <td> <i class="fa fa-check-square fa-2x mt-4 ml-4" style="font-size:24px; color:#40E0D0;"></i></td>
-                </tr>
-                <tr>
-                    <td> <i class="fa fa-check-square fa-2x mt-4 ml-4" style="font-size:24px; color:#40E0D0;"></i></td>
-                </tr>
-                    </tbody>
-                  </table>
-                  <br>
-                  <table class="table">
-                    <thead>
-                     <th style="display:none"> xyz </th> 
-                    </thead>
-                    <tbody>
-                        <tr>
-                      <td> <i class="fa fa-check-square fa-2x mt-4 ml-4" style="font-size:24px; color:#40E0D0;"></i></td>
-                    </tr>
-                    <tr>
-                    <td> <i class="fa fa-check-square fa-2x  ml-4" style="font-size:24px; color:#40E0D0;"></i></td>
-                    </tr>
-                    <tr>
-                    <td> <i class="fa fa-check-square fa-2x  ml-4" style="font-size:24px; color:#40E0D0;"></i></td>
-                </tr>
-                <tr>
-                    <td> <i class="fa fa-check-square fa-2x  ml-4" style="font-size:24px; color:#40E0D0;"></i></td>
-                </tr>
-                <tr>
-                    <td> <i class="fa fa-check-square fa-2x  ml-4" style="font-size:24px; color:#40E0D0;"></i></td>
-                </tr>
-                <tr>
-                    <td> <i class="fa fa-check-square fa-2x  ml-4" style="font-size:24px; color:#40E0D0;"></i></td>
-                </tr>
-                <tr>
-                    <td> <i class="fa fa-check-square fa-2x  ml-4" style="font-size:24px; color:#40E0D0;"></i></td>
-                </tr>
-                <tr>
-                    <td> <i class="fa fa-check-square fa-2x  ml-4" style="font-size:24px; color:#40E0D0;"></i></td>
-                </tr>
-                <tr>
-                    <td> <i class="fa fa-check-square fa-2x  ml-4" style="font-size:24px; color:#40E0D0;"></i></td>
-                </tr>
-                <tr>
-                    <td> <i class="fa fa-check-square fa-2x  ml-4" style="font-size:24px; color:#40E0D0;"></i></td>
-                </tr>
-                <tr>
-                    <td> <br></td>
-                </tr>
-                <tr>
-                    <td> <br></td>
-                </tr>
-                <tr>
-                    <td> <i class="fa fa-check-square fa-2x  ml-4" style="font-size:24px; color:#40E0D0;"></i></td>
-                </tr>
-                <tr>
-                    <td> <i class="fa fa-check-square fa-2x mt-4 ml-4" style="font-size:24px; color:#40E0D0;"></i></td>
-                </tr>
-                
-                
-                    </tbody>
-                  </table>
-                  <br>
-                  <table class="table">
-                    <thead>
-                     <th style="display:none"> xyz </th> 
-                    </thead>
-                    <tbody>
-                        <tr>
-                      <td> <i class="fa fa-check-square fa-2x mt-5 ml-4" style="font-size:24px; color:#40E0D0;"></i></td>
-                    </tr>
-                    <tr>
-                    <td> <br></td>
-                    </tr>
-                    <tr>
-                    <td> <br></td>
-                </tr>
-                <tr>
-                    <td><br> </td>
-                </tr>
-                <tr>
-                    <td> <br><br></td>
-                </tr>
-                </tbody>
-                </table>
-                <table class="table">
-                    <thead>
-                     <th style="display:none"> xyz </th> 
-                    </thead>
-                    <tbody>
-                        <tr>
-                      <td> <br></td>
-                    </tr>
-                    <tr>
-                    <td> <br></td>
-                    </tr>
-                    <tr>
-                    <td> <br></td>
-                </tr>
-                <tr>
-                    <td><br> </td>
-                </tr>
-                <tr>
-                    <td> <br><br></td>
-                </tr>
-                </tbody>
-                </table>
-                <table class="table">
-                    <thead>
-                     <th style="display:none"> xyz </th> 
-                    </thead>
-                    <tbody>
-                        <tr>
-                      <td> <br></td>
-                    </tr>
-                    <tr>
-                    <td> <br></td>
-                    </tr>
-                    <tr>
-                    <td> <br></td>
-                </tr>
-                <tr>
-                    <td><br> </td>
-                </tr>
-                <tr>
-                    <td> <br><br></td>
-                </tr>
-                </tbody>
-                </table>
-                <table class="table">
-                    <thead>
-                     <th style="display:none"> xyz </th> 
-                    </thead>
-                    <tbody>
-                        <tr>
-                      <td> <br></td>
-                    </tr>
-                    <tr>
-                    <td> <i class="fa fa-check-square fa-2x mt-5 ml-4" style="font-size:24px; color:#40E0D0;"></i></td>
-                    </tr>
-                    
-                </tbody>
-                </table>
-                <div class="mt-4">
-                    <button type="submit" class="button mt-4" style="border-radius: 100px; width: 150px; height:50px;background-color: darkred;color: aliceblue;font-size: 20px;">BOOK NOW</button>
-                </div>
-              </p>
-            </div>
-          </div>
-        
-        <div class=" col-md-2 card bg-light mb-3 mt-4">
-            <div class="card-header text-center"><b>Focus Mobile 2 </b> <br>Everything
+                </td>
+                <td class="green-width" style="color:#691C32">
+                Focus Mobile 2
+                    <br><small style="font-size: 12px; font-weight: 400;">Everything
                 in Focus
                 Mobile 1,
-                plus;<br> <br> <span style="color:#ed281a ;">See more..</span>
+                plus;</small>
+                <br><br>
                 <hr style="height:2px;border-width:0;color:gray;background-color:gray">
-            </div>
-            <div class="card-body">
-              <h5 class="card-title text-center">$228 <sup>*</sup></h5>
-              <p class="card-text">
-                <table class="table">
-                    <thead>
-                     <th style="display:none"> xyz </th> 
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <br>
-                            <br><br>
-                          <td> <i class="fa fa-check-square fa-2x mt-4 ml-4" style="font-size:24px; color:#40E0D0;"></i></td>
-                        </tr>
-                        <tr>
-                        <td> <i class="fa fa-check-square fa-2x mt-4 ml-4" style="font-size:24px; color:#40E0D0;"></i></td>
-                        </tr>
-                        <tr>
-                        <td> <i class="fa fa-check-square fa-2x mt-4 ml-4" style="font-size:24px; color:#40E0D0;"></i></td>
-                    </tr>
-                    </tbody>
-                  </table>
-                  <table class="table">
-                    <thead>
-                     <th style="display:none"> xyz </th> 
-                    </thead>
-                    <tbody>
-                        <tr>
-                        <br>
-                        <br><br><br>
-                      <td> <i class="fa fa-check-square fa-2x mt-4 ml-4" style="font-size:24px; color:#40E0D0;"></i></td>
-                    </tr>
-                    <tr>
-                    <td> <i class="fa fa-check-square fa-2x mt-4 ml-4" style="font-size:24px; color:#40E0D0;"></i></td>
-                    </tr>
-                    <tr>
-                    <td> <i class="fa fa-check-square fa-2x mt-4 ml-4" style="font-size:24px; color:#40E0D0;"></i></td>
-                </tr>
-                <tr>
-                    <td> <i class="fa fa-check-square fa-2x mt-4 ml-4" style="font-size:24px; color:#40E0D0;"></i></td>
-                </tr>
-                
-                
-                    </tbody>
-                  </table>
-                  <br>
-                  <table class="table">
-                    <thead>
-                     <th style="display:none"> xyz </th> 
-                    </thead>
-                    <tbody>
-                        <tr>
-                      <td> <i class="fa fa-check-square fa-2x mt-4 ml-4" style="font-size:24px; color:#40E0D0;"></i></td>
-                    </tr>
-                    <tr>
-                    <td> <i class="fa fa-check-square fa-2x  ml-4" style="font-size:24px; color:#40E0D0;"></i></td>
-                    </tr>
-                    <tr>
-                    <td> <i class="fa fa-check-square fa-2x  ml-4" style="font-size:24px; color:#40E0D0;"></i></td>
-                </tr>
-                <tr>
-                    <td> <i class="fa fa-check-square fa-2x  ml-4" style="font-size:24px; color:#40E0D0;"></i></td>
-                </tr>
-                <tr>
-                    <td> <i class="fa fa-check-square fa-2x  ml-4" style="font-size:24px; color:#40E0D0;"></i></td>
-                </tr>
-                <tr>
-                    <td> <i class="fa fa-check-square fa-2x  ml-4" style="font-size:24px; color:#40E0D0;"></i></td>
-                </tr>
-                <tr>
-                    <td> <i class="fa fa-check-square fa-2x  ml-4" style="font-size:24px; color:#40E0D0;"></i></td>
-                </tr>
-                <tr>
-                    <td> <i class="fa fa-check-square fa-2x  ml-4" style="font-size:24px; color:#40E0D0;"></i></td>
-                </tr>
-                <tr>
-                    <td> <i class="fa fa-check-square fa-2x  ml-4" style="font-size:24px; color:#40E0D0;"></i></td>
-                </tr>
-                <tr>
-                    <td> <i class="fa fa-check-square fa-2x  ml-4" style="font-size:24px; color:#40E0D0;"></i></td>
-                </tr>
-                <tr>
-                    <td> <br></td>
-                </tr>
-                <tr>
-                    <td> <br></td>
-                </tr>
-                <tr>
-                    <td> <i class="fa fa-check-square fa-2x  ml-4" style="font-size:24px; color:#40E0D0;"></i></td>
-                </tr>
-                <tr>
-                    <td> <i class="fa fa-check-square fa-2x mt-4 ml-4" style="font-size:24px; color:#40E0D0;"></i></td>
-                </tr>
-                
-                
-                    </tbody>
-                  </table>
-                  <br>
-                  <table class="table">
-                    <thead>
-                     <th style="display:none"> xyz </th> 
-                    </thead>
-                    <tbody>
-                        <tr>
-                      <td> <i class="fa fa-check-square fa-2x mt-5 ml-4" style="font-size:24px; color:#40E0D0;"></i></td>
-                    </tr>
-                    <tr>
-                    <td> <i class="fa fa-check-square fa-2x  ml-4" style="font-size:24px; color:#40E0D0;"></i></td>
-                    </tr>
-                    <tr>
-                    <td> <i class="fa fa-check-square fa-2x mt-3 ml-4" style="font-size:24px; color:#40E0D0;"></i></td>
-                </tr>
-                <tr>
-                    <td> <i class="fa fa-check-square fa-2x  ml-4" style="font-size:24px; color:#40E0D0;"></i></td>
-                </tr>
-                <tr>
-                    <td> <i class="fa fa-check-square fa-2x  ml-4" style="font-size:24px; color:#40E0D0;"></i></td>
-                </tr>
-                </tbody>
-                </table> 
-                <table class="table">
-                    <thead>
-                     <th style="display:none"> xyz </th> 
-                    </thead>
-                    <tbody>
-                        <tr>
-                      <td> <br></td>
-                    </tr>
-                    <tr>
-                    <td> <br></td>
-                    </tr>
-                    <tr>
-                    <td> <br></td>
-                </tr>
-                <tr>
-                    <td><br> </td>
-                </tr>
-                <tr>
-                    <td> <br><br></td>
-                </tr>
-                </tbody>
-                </table>
-                <table class="table">
-                    <thead>
-                     <th style="display:none"> xyz </th> 
-                    </thead>
-                    <tbody>
-                        <tr>
-                      <td> <br></td>
-                    </tr>
-                    <tr>
-                    <td> <br></td>
-                    </tr>
-                    <tr>
-                    <td> <br></td>
-                </tr>
-                <tr>
-                    <td><br> </td>
-                </tr>
-                <tr>
-                    <td> <br><br></td>
-                </tr>
-                </tbody>
-                </table>
-                <table class="table">
-                    <thead>
-                     <th style="display:none"> xyz </th> 
-                    </thead>
-                    <tbody>
-                        <tr>
-                      <td> <br></td>
-                    </tr>
-                    <tr>
-                    <td> <i class="fa fa-check-square fa-2x mt-5 ml-4" style="font-size:24px; color:#40E0D0;"></i></td>
-                    </tr>
-                </tbody>
-                </table>
-                <div>
-                    <button type="submit" class="button mt-4" style="border-radius: 100px; width: 150px; height:50px;background-color: darkred;color: aliceblue;font-size: 20px;">BOOK NOW</button>
-                </div>
-              </p>
-            </div>
-          </div>
-        
-        <div class=" col-md-2 card bg-light mb-3 mt-4">
-            <div class="card-header text-center"> <b>Focus Mobile 3 </b><br>Everything
+                </td>
+                <td class="green-width" style="color:#691C32">
+                Focus Mobile 3
+                    <br><small style="font-size: 12px; font-weight: 400;">Everything
                 in Focus
                 Mobile 2,
-                plus;<br> <br> <span style="color:#ed281a ;">See more..</span>
+                plus;</small>
+                <br><br>
                 <hr style="height:2px;border-width:0;color:gray;background-color:gray">
-            </div>
-            <div class="card-body">
-              <h5 class="card-title">$268 <sup>*</sup></h5>
-              <p class="card-text"><table class="table">
-                <thead>
-                 <th style="display:none"> xyz </th> 
-                </thead>
-                <tbody>
-                    <tr>
-                        <br>
-                        <br><br>
-                      <td> <i class="fa fa-check-square fa-2x mt-4 ml-4" style="font-size:24px; color:#40E0D0;"></i></td>
-                    </tr>
-                    <tr>
-                    <td> <i class="fa fa-check-square fa-2x mt-4 ml-4" style="font-size:24px; color:#40E0D0;"></i></td>
-                    </tr>
-                    <tr>
-                    <td> <i class="fa fa-check-square fa-2x mt-4 ml-4" style="font-size:24px; color:#40E0D0;"></i></td>
-                </tr>
-                </tbody>
-              </table>
-              <table class="table">
-                <thead>
-                 <th style="display:none"> xyz </th> 
-                </thead>
-                <tbody>
-                    <tr>
-                    <br>
-                    <br><br> <br>
-                  <td> <i class="fa fa-check-square fa-2x mt-4 ml-4" style="font-size:24px; color:#40E0D0;"></i></td>
-                </tr>
-                <tr>
-                <td> <i class="fa fa-check-square fa-2x mt-4 ml-4" style="font-size:24px; color:#40E0D0;"></i></td>
-                </tr>
-                <tr>
-                <td> <i class="fa fa-check-square fa-2x mt-4 ml-4" style="font-size:24px; color:#40E0D0;"></i></td>
-            </tr>
-            <tr>
-                <td> <i class="fa fa-check-square fa-2x mt-4 ml-4" style="font-size:24px; color:#40E0D0;"></i></td>
-            </tr>
-            
-            
-                </tbody>
-              </table>
-              <br>
-              <table class="table">
-                <thead>
-                 <th style="display:none"> xyz </th> 
-                </thead>
-                <tbody>
-                    <tr>
-                  <td> <i class="fa fa-check-square fa-2x mt-4 ml-4" style="font-size:24px; color:#40E0D0;"></i></td>
-                </tr>
-                <tr>
-                <td> <i class="fa fa-check-square fa-2x  ml-4" style="font-size:24px; color:#40E0D0;"></i></td>
-                </tr>
-                <tr>
-                <td> <i class="fa fa-check-square fa-2x  ml-4" style="font-size:24px; color:#40E0D0;"></i></td>
-            </tr>
-            <tr>
-                <td> <i class="fa fa-check-square fa-2x  ml-4" style="font-size:24px; color:#40E0D0;"></i></td>
-            </tr>
-            <tr>
-                <td> <i class="fa fa-check-square fa-2x  ml-4" style="font-size:24px; color:#40E0D0;"></i></td>
-            </tr>
-            <tr>
-                <td> <i class="fa fa-check-square fa-2x  ml-4" style="font-size:24px; color:#40E0D0;"></i></td>
-            </tr>
-            <tr>
-                <td> <i class="fa fa-check-square fa-2x  ml-4" style="font-size:24px; color:#40E0D0;"></i></td>
-            </tr>
-            <tr>
-                <td> <i class="fa fa-check-square fa-2x  ml-4" style="font-size:24px; color:#40E0D0;"></i></td>
-            </tr>
-            <tr>
-                <td> <i class="fa fa-check-square fa-2x  ml-4" style="font-size:24px; color:#40E0D0;"></i></td>
-            </tr>
-            <tr>
-                <td> <i class="fa fa-check-square fa-2x  ml-4" style="font-size:24px; color:#40E0D0;"></i></td>
-            </tr>
-            <tr>
-                <td> <i class="fa fa-check-square fa-2x  ml-4" style="font-size:24px; color:#40E0D0;"></i></td>
-            </tr>
-            <tr>
-                <td> <i class="fa fa-check-square fa-2x  ml-4" style="font-size:24px; color:#40E0D0;"></i></td>
-            </tr>
-            <tr>
-                <td> <i class="fa fa-check-square fa-2x  ml-4" style="font-size:24px; color:#40E0D0;"></i></td>
-            </tr>
-            <tr>
-                <td> <i class="fa fa-check-square fa-2x mt-4 ml-4" style="font-size:24px; color:#40E0D0;"></i></td>
-            </tr>
-            
-            
-                </tbody>
-              </table>
-              <br>
-              <table class="table">
-                <thead>
-                 <th style="display:none"> xyz </th> 
-                </thead>
-                <tbody>
-                    <tr>
-                  <td> <i class="fa fa-check-square fa-2x mt-5 ml-4" style="font-size:24px; color:#40E0D0;"></i></td>
-                </tr>
-                <tr>
-                <td> <i class="fa fa-check-square fa-2x  ml-4" style="font-size:24px; color:#40E0D0;"></i></td>
-                </tr>
-                <tr>
-                <td> <i class="fa fa-check-square fa-2x mt-3 ml-4" style="font-size:24px; color:#40E0D0;"></i></td>
-            </tr>
-            <tr>
-                <td> <i class="fa fa-check-square fa-2x  ml-4" style="font-size:24px; color:#40E0D0;"></i></td>
-            </tr>
-            <tr>
-                <td> <i class="fa fa-check-square fa-2x  ml-4" style="font-size:24px; color:#40E0D0;"></i></td>
-            </tr>
-            </tbody>
-            </table>
-            <table class="table">
-                <thead>
-                 <th style="display:none"> xyz </th> 
-                </thead>
-                <tbody>
-                    <tr>
-                  <td> <br></td>
-                </tr>
-                <tr>
-                <td> <br></td>
-                </tr>
-                <tr>
-                <td> <br></td>
-            </tr>
-            <tr>
-                <td><br> </td>
-            </tr>
-            <tr>
-                <td> <br><br></td>
-            </tr>
-            </tbody>
-            </table>
-            <table class="table">
-                <thead>
-                 <th style="display:none"> xyz </th> 
-                </thead>
-                <tbody>
-                    <tr>
-                  <td> <br></td>
-                </tr>
-                <tr>
-                <td> <br></td>
-                </tr>
-                <tr>
-                <td> <br></td>
-            </tr>
-            <tr>
-                <td><br> </td>
-            </tr>
-            <tr>
-                <td> <br><br></td>
-            </tr>
-            </tbody>
-            </table>
-            <table class="table">
-                <thead>
-                 <th style="display:none"> xyz </th> 
-                </thead>
-                <tbody>
-                    <tr>
-                  <td> <br></td>
-                </tr>
-                <tr>
-                <td> <i class="fa fa-check-square fa-2x mt-5 ml-4" style="font-size:24px; color:#40E0D0;"></i></td>
-                </tr>
-                
-            </tbody>
-            </table>
-            <div>
-                <button type="submit" class="button mt-4" style="border-radius: 100px; width: 150px; height:50px;background-color: darkred;color: aliceblue;font-size: 20px;">BOOK NOW</button>
-            </div>
-            </p>
-            </div>
-          </div>
-        
-        <div class=" col-md-2 card bg-light mb-3 mt-4">
-            <div class="card-header text-center"><b>Focus Mobile 4 </b><br>Everything
+                </td>
+                <td class="green-width" style="color:#691C32">
+                Focus Mobile 4
+                    <br><small style="font-size: 12px; font-weight: 400;">Everything
                 in Focus
                 Mobile 3,
-                plus; <br> <br> <span style="color:#ed281a ;">See more..</span>
+                plus;</small>
+                <br><br>
                 <hr style="height:2px;border-width:0;color:gray;background-color:gray">
-            </div>
-            <div class="card-body">
-              <h5 class="card-title">$368 <sup>*</sup></h5>
-              <p class="card-text"><table class="table">
-                <thead>
-                 <th style="display:none"> xyz </th> 
-                </thead>
-                <tbody>
-                    <tr>
-                        <br>
-                        <br><br>
-                      <td> <i class="fa fa-check-square fa-2x mt-4 ml-4" style="font-size:24px; color:#40E0D0;"></i></td>
-                    </tr>
-                    <tr>
-                    <td> <i class="fa fa-check-square fa-2x mt-4 ml-4" style="font-size:24px; color:#40E0D0;"></i></td>
-                    </tr>
-                    <tr>
-                    <td> <i class="fa fa-check-square fa-2x mt-4 ml-4" style="font-size:24px; color:#40E0D0;"></i></td>
-                </tr>
-                </tbody>
-              </table>
-              <table class="table">
-                <thead>
-                 <th style="display:none"> xyz </th> 
-                </thead>
-                <tbody>
-                    <tr>
-                    <br>
-                    <br><br><br>
-                  <td> <i class="fa fa-check-square fa-2x mt-4 ml-4" style="font-size:24px; color:#40E0D0;"></i></td>
-                </tr>
-                <tr>
-                <td> <i class="fa fa-check-square fa-2x mt-4 ml-4" style="font-size:24px; color:#40E0D0;"></i></td>
-                </tr>
-                <tr>
-                <td> <i class="fa fa-check-square fa-2x mt-4 ml-4" style="font-size:24px; color:#40E0D0;"></i></td>
-            </tr>
-            <tr>
-                <td> <i class="fa fa-check-square fa-2x mt-4 ml-4" style="font-size:24px; color:#40E0D0;"></i></td>
-            </tr>
-            
-            
-                </tbody>
-              </table>
-              <br>
-              <table class="table">
-                <thead>
-                 <th style="display:none"> xyz </th> 
-                </thead>
-                <tbody>
-                    <tr>
-                  <td> <i class="fa fa-check-square fa-2x mt-4 ml-4" style="font-size:24px; color:#40E0D0;"></i></td>
-                </tr>
-                <tr>
-                <td> <i class="fa fa-check-square fa-2x  ml-4" style="font-size:24px; color:#40E0D0;"></i></td>
-                </tr>
-                <tr>
-                <td> <i class="fa fa-check-square fa-2x  ml-4" style="font-size:24px; color:#40E0D0;"></i></td>
-            </tr>
-            <tr>
-                <td> <i class="fa fa-check-square fa-2x  ml-4" style="font-size:24px; color:#40E0D0;"></i></td>
-            </tr>
-            <tr>
-                <td> <i class="fa fa-check-square fa-2x  ml-4" style="font-size:24px; color:#40E0D0;"></i></td>
-            </tr>
-            <tr>
-                <td> <i class="fa fa-check-square fa-2x  ml-4" style="font-size:24px; color:#40E0D0;"></i></td>
-            </tr>
-            <tr>
-                <td> <i class="fa fa-check-square fa-2x  ml-4" style="font-size:24px; color:#40E0D0;"></i></td>
-            </tr>
-            <tr>
-                <td> <i class="fa fa-check-square fa-2x  ml-4" style="font-size:24px; color:#40E0D0;"></i></td>
-            </tr>
-            <tr>
-                <td> <i class="fa fa-check-square fa-2x  ml-4" style="font-size:24px; color:#40E0D0;"></i></td>
-            </tr>
-            <tr>
-                <td> <i class="fa fa-check-square fa-2x  ml-4" style="font-size:24px; color:#40E0D0;"></i></td>
-            </tr>
-            <tr>
-                <td> <i class="fa fa-check-square fa-2x  ml-4" style="font-size:24px; color:#40E0D0;"></i></td>
-            </tr>
-            <tr>
-                <td> <i class="fa fa-check-square fa-2x  ml-4" style="font-size:24px; color:#40E0D0;"></i></td>
-            </tr>
-            <tr>
-                <td> <i class="fa fa-check-square fa-2x  ml-4" style="font-size:24px; color:#40E0D0;"></i></td>
-            </tr>
-            <tr>
-                <td> <i class="fa fa-check-square fa-2x mt-4 ml-4" style="font-size:24px; color:#40E0D0;"></i></td>
-            </tr>
-            
-            
-                </tbody>
-              </table>
-              <br>
-              <table class="table">
-                <thead>
-                 <th style="display:none"> xyz </th> 
-                </thead>
-                <tbody>
-                    <tr>
-                  <td> <i class="fa fa-check-square fa-2x mt-5 ml-4" style="font-size:24px; color:#40E0D0;"></i></td>
-                </tr>
-                <tr>
-                <td> <i class="fa fa-check-square fa-2x  ml-4" style="font-size:24px; color:#40E0D0;"></i></td>
-                </tr>
-                <tr>
-                <td> <i class="fa fa-check-square fa-2x mt-3 ml-4" style="font-size:24px; color:#40E0D0;"></i></td>
-            </tr>
-            <tr>
-                <td> <i class="fa fa-check-square fa-2x  ml-4" style="font-size:24px; color:#40E0D0;"></i></td>
-            </tr>
-            <tr>
-                <td> <i class="fa fa-check-square fa-2x  ml-4" style="font-size:24px; color:#40E0D0;"></i></td>
-            </tr>
-            </tbody>
-            </table>
-            <table class="table">
-                <thead>
-                 <th style="display:none"> xyz </th> 
-                </thead>
-                <tbody>
-                    <tr>
-                        <td> <br></td>
-                      </tr>
-                      <tr>
-                      <td> <i class="fa fa-check-square fa-2x  ml-4" style="font-size:24px; color:#40E0D0;"></i></td>
-                      </tr>
-                      <tr>
-                      <td> <i class="fa fa-check-square fa-2x  ml-4" style="font-size:24px; color:#40E0D0;"></i></td>
-                  </tr>
-                  <tr>
-                      <td><i class="fa fa-check-square fa-2x  ml-4" style="font-size:24px; color:#40E0D0;"></i> </td>
-                  </tr>
-                  <tr>
-                      <td> <i class="fa fa-check-square fa-2x  ml-4" style="font-size:24px; color:#40E0D0;"></i></td>
-                  </tr>
-            </tbody>
-            </table>
-            <table class="table">
-                <thead>
-                 <th style="display:none"> xyz </th> 
-                </thead>
-                <tbody>
-                    <tr>
-                  <td> <br></td>
-                </tr>
-                <tr>
-                <td> <br></td>
-                </tr>
-                <tr>
-                <td> <br></td>
-            </tr>
-            <tr>
-                <td><br> </td>
-            </tr>
-            <tr>
-                <td> <br><br></td>
-            </tr>
-            </tbody>
-            </table>
-             <br> 
-            <table class="table">
-                <thead>
-                 <th style="display:none"> xyz </th> 
-                </thead>
-                <tbody>
-                    <tr>
-                  <td> <br></td>
-                </tr>
-                
-                <tr>
-                <td> <i class="fa fa-check-square fa-2x mt-4 ml-4" style="font-size:24px; color:#40E0D0;"></i></td>
-                </tr>
-                
-            </tbody>
-            </table>
-            <div>
-                <button type="submit" class="button mt-4" style="border-radius: 100px; width: 150px; height:50px;background-color: darkred;color: aliceblue;font-size: 20px;">BOOK NOW</button>
-            </div>
-            </p>
-            </div>
-          </div>
-          <div class=" col-md-2 card bg-light mb-3 mt-4">
-            <div class="card-header"><b>Focus Mobile 5 </b> <br>Everything
+                </td>
+                <td class="green-width" style="color:#691C32">
+                Focus Mobile 5
+                    <br><small style="font-size: 12px; font-weight: 400;">Everything
                 in Focus
                 Mobile 4,
-                plus;<br> <br> <span style="color:#ed281a ;">See more..</span>
+                plus;</small>
+                <br><br>
                 <hr style="height:2px;border-width:0;color:gray;background-color:gray">
-            </div>
-            <div class="card-body">
-              <h5 class="card-title">$468 <sup>*</sup></h5>
-              <p class="card-text">
-                <table class="table">
-                    <thead>
-                     <th style="display:none"> xyz </th> 
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <br>
-                            <br><br>
-                          <td> <i class="fa fa-check-square fa-2x mt-4 ml-4" style="font-size:24px; color:#40E0D0;"></i></td>
-                        </tr>
-                        <tr>
-                        <td> <i class="fa fa-check-square fa-2x mt-4 ml-4" style="font-size:24px; color:#40E0D0;"></i></td>
-                        </tr>
-                        <tr>
-                        <td> <i class="fa fa-check-square fa-2x mt-4 ml-4" style="font-size:24px; color:#40E0D0;"></i></td>
-                    </tr>
-                    </tbody>
-                  </table>
-                  <table class="table">
-                    <thead>
-                     <th style="display:none"> xyz </th> 
-                    </thead>
-                    <tbody>
-                        <tr>
-                        <br>
-                        <br><br><br>
-                      <td> <i class="fa fa-check-square fa-2x mt-4 ml-4" style="font-size:24px; color:#40E0D0;"></i></td>
-                    </tr>
-                    <tr>
-                    <td> <i class="fa fa-check-square fa-2x mt-4 ml-4" style="font-size:24px; color:#40E0D0;"></i></td>
-                    </tr>
-                    <tr>
-                    <td> <i class="fa fa-check-square fa-2x mt-4 ml-4" style="font-size:24px; color:#40E0D0;"></i></td>
-                </tr>
-                <tr>
-                    <td> <i class="fa fa-check-square fa-2x mt-4 ml-4" style="font-size:24px; color:#40E0D0;"></i></td>
-                </tr>
-                
-                
-                    </tbody>
-                  </table>
-                  <br>
-                  <table class="table">
-                    <thead>
-                     <th style="display:none"> xyz </th> 
-                    </thead>
-                    <tbody>
-                        <tr>
-                      <td> <i class="fa fa-check-square fa-2x mt-4 ml-4" style="font-size:24px; color:#40E0D0;"></i></td>
-                    </tr>
-                    <tr>
-                    <td> <i class="fa fa-check-square fa-2x  ml-4" style="font-size:24px; color:#40E0D0;"></i></td>
-                    </tr>
-                    <tr>
-                    <td> <i class="fa fa-check-square fa-2x  ml-4" style="font-size:24px; color:#40E0D0;"></i></td>
-                </tr>
-                <tr>
-                    <td> <i class="fa fa-check-square fa-2x  ml-4" style="font-size:24px; color:#40E0D0;"></i></td>
-                </tr>
-                <tr>
-                    <td> <i class="fa fa-check-square fa-2x  ml-4" style="font-size:24px; color:#40E0D0;"></i></td>
-                </tr>
-                <tr>
-                    <td> <i class="fa fa-check-square fa-2x  ml-4" style="font-size:24px; color:#40E0D0;"></i></td>
-                </tr>
-                <tr>
-                    <td> <i class="fa fa-check-square fa-2x  ml-4" style="font-size:24px; color:#40E0D0;"></i></td>
-                </tr>
-                <tr>
-                    <td> <i class="fa fa-check-square fa-2x  ml-4" style="font-size:24px; color:#40E0D0;"></i></td>
-                </tr>
-                <tr>
-                    <td> <i class="fa fa-check-square fa-2x  ml-4" style="font-size:24px; color:#40E0D0;"></i></td>
-                </tr>
-                <tr>
-                    <td> <i class="fa fa-check-square fa-2x  ml-4" style="font-size:24px; color:#40E0D0;"></i></td>
-                </tr>
-                <tr>
-                    <td> <i class="fa fa-check-square fa-2x  ml-4" style="font-size:24px; color:#40E0D0;"></i></td>
-                </tr>
-                <tr>
-                    <td> <i class="fa fa-check-square fa-2x  ml-4" style="font-size:24px; color:#40E0D0;"></i></td>
-                </tr>
-                <tr>
-                    <td> <i class="fa fa-check-square fa-2x  ml-4" style="font-size:24px; color:#40E0D0;"></i></td>
-                </tr>
-                <tr>
-                    <td> <i class="fa fa-check-square fa-2x mt-4 ml-4" style="font-size:24px; color:#40E0D0;"></i></td>
-                </tr>
-                
-                
-                    </tbody>
-                  </table>
-                  <br>
-                  <table class="table">
-                    <thead>
-                     <th style="display:none"> xyz </th> 
-                    </thead>
-                    <tbody>
-                        <tr>
-                      <td> <i class="fa fa-check-square fa-2x mt-5 ml-4" style="font-size:24px; color:#40E0D0;"></i></td>
-                    </tr>
-                    <tr>
-                    <td> <i class="fa fa-check-square fa-2x  ml-4" style="font-size:24px; color:#40E0D0;"></i></td>
-                    </tr>
-                    <tr>
-                    <td> <i class="fa fa-check-square fa-2x mt-3 ml-4" style="font-size:24px; color:#40E0D0;"></i></td>
-                </tr>
-                <tr>
-                    <td> <i class="fa fa-check-square fa-2x  ml-4" style="font-size:24px; color:#40E0D0;"></i></td>
-                </tr>
-                <tr>
-                    <td> <i class="fa fa-check-square fa-2x  ml-4" style="font-size:24px; color:#40E0D0;"></i></td>
-                </tr>
-                </tbody>
-                </table>
-                <table class="table">
-                    <thead>
-                     <th style="display:none"> xyz </th> 
-                    </thead>
-                    <tbody>
-                        <tr>
-                      <td> <br></td>
-                    </tr>
-                    <tr>
-                    <td> <i class="fa fa-check-square fa-2x  ml-4" style="font-size:24px; color:#40E0D0;"></i></td>
-                    </tr>
-                    <tr>
-                    <td> <i class="fa fa-check-square fa-2x  ml-4" style="font-size:24px; color:#40E0D0;"></i></td>
-                </tr>
-                <tr>
-                    <td><i class="fa fa-check-square fa-2x  ml-4" style="font-size:24px; color:#40E0D0;"></i> </td>
-                </tr>
-                <tr>
-                    <td> <i class="fa fa-check-square fa-2x  ml-4" style="font-size:24px; color:#40E0D0;"></i></td>
-                </tr>
-                </tbody>
-                </table>
-                <table class="table">
-                    <thead>
-                     <th style="display:none"> xyz </th> 
-                    </thead>
-                    <tbody>
-                        <tr>
-                      <td> <br></td>
-                    </tr>
-                    <tr>
-                    <td> <i class="fa fa-check-square fa-2x  ml-4" style="font-size:24px; color:#40E0D0;"></i></td>
-                    </tr>
-                    <tr>
-                    <td> <i class="fa fa-check-square fa-2x  ml-4" style="font-size:24px; color:#40E0D0;"></i></td>
-                </tr>
-                <tr>
-                    <td><i class="fa fa-check-square fa-2x  ml-4" style="font-size:24px; color:#40E0D0;"></i> </td>
-                </tr>
-                <tr>
-                    <td> <i class="fa fa-check-square fa-2x  ml-4" style="font-size:24px; color:#40E0D0;"></i></td>
-                </tr>
-                </tbody>
-                </table>
-                  <br>
-                <table class="table">
-                    <thead>
-                     <th style="display:none"> xyz </th> 
-                    </thead>
-                    <tbody>
-                        <tr>
-                      <td> <br></td>
-                    </tr>
-                    <tr>
-                    <td> <i class="fa fa-check-square fa-2x mt-5 ml-4" style="font-size:24px; color:#40E0D0;"></i></td>
-                    </tr>
-                    
-                </tbody>
-                </table>
-                <div>
-                    <button type="submit" class="button mt-3" style="border-radius: 100px; width: 150px; height:50px;background-color: darkred;color: aliceblue;font-size: 20px;">BOOK NOW</button>
-                </div>
-              </p>
-            </div>
-          </div>
-        </div>
+                </td>
+            </tr>
+            <tr>
+            <td class="price price1">
+            Pricing
+            </td>
+                                <td class="price text-center">
+                                   $148 <sup>*</sup> 
+                                </td>
+                                <td class="price text-center">
+                                $228 <sup>*</sup> 
+                                </td>
+                                <td class="price text-center">
+                                $268 <sup>*</sup> 
+                                </td>
+                                <td class="price text-center">
+                                $368 <sup>*</sup> 
+                                </td>
+                                <td class="price text-center">
+                                $468 <sup>*</sup> 
+                                </td>
+            </tr>
+            <tr>
+                <td class="price1"> <b>Biometric Parameters</b></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            
+            <tr>
+                <td class="price1"> Coronory Heart Risk Assessment</td>
+                <td><i class="fas fa-check text-center"></i></td>
+                <td><i class="fas fa-check"></i></td>
+                <td><i class="fas fa-check"></i></td>
+                <td><i class="fas fa-check"></i></td>
+                <td><i class="fas fa-check"></i></td>
+            </tr>
+            <tr>
+                <td class="price1"> Height &  Weight(BMI)</td>
+                <td><i class="fas fa-check text-center"></i></td>
+                <td><i class="fas fa-check"></i></td>
+                <td><i class="fas fa-check"></i></td>
+                <td><i class="fas fa-check"></i></td>
+                <td><i class="fas fa-check"></i></td>
+            </tr>
+            <tr>
+                <td class="price1"> Blood Pressure</td>
+                <td><i class="fas fa-check text-center"></i></td>
+                <td><i class="fas fa-check"></i></td>
+                <td><i class="fas fa-check"></i></td>
+                <td><i class="fas fa-check"></i></td>
+                <td><i class="fas fa-check"></i></td>
+            </tr>
+           
+            <tr>
+                <td class="price1""> <b>Urine & Stool  Analysis</b></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="price1"> Urine FEME</td>
+                <td><i class="fas fa-check text-center"></i></td>
+                <td><i class="fas fa-check"></i></td>
+                <td><i class="fas fa-check"></i></td>
+                <td><i class="fas fa-check"></i></td>
+                <td><i class="fas fa-check"></i></td>
+            </tr>
+
+            <tr>
+                <td class="price1"> Urine Microalbumin</td>
+                <td><i class="fas fa-check"></i></td>
+                <td><i class="fas fa-check"></i></td>
+                <td><i class="fas fa-check"></i></td>
+                <td><i class="fas fa-check"></i></td>
+                <td><i class="fas fa-check"></i></td>
+            </tr>
+            <tr>
+                <td class="price1"> Urine Creatinine</td>
+                <td><i class="fas fa-check text-center"></i></td>
+                <td><i class="fas fa-check"></i></td>
+                <td><i class="fas fa-check"></i></td>
+                <td><i class="fas fa-check"></i></td>
+                <td><i class="fas fa-check"></i></td>
+            </tr>
+            <tr>
+                <td class="price1"> Urine Microalbumin to<br> Creatinine Ratio</td>
+                <td><i class="fas fa-check text-center"></i></td>
+                <td><i class="fas fa-check"></i></td>
+                <td><i class="fas fa-check"></i></td>
+                <td><i class="fas fa-check"></i></td>
+                <td><i class="fas fa-check"></i></td>
+            </tr>
+           
+            <tr>
+                <td class="price1"> <b>Blood Analysis</b></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="price1">  Blood Glucose</td>
+                <td><i class="fas fa-check text-center"></i></td>
+                <td><i class="fas fa-check"></i></td>
+                <td><i class="fas fa-check"></i></td>
+                <td><i class="fas fa-check"></i></td>
+                <td><i class="fas fa-check"></i></td>
+            </tr>
+            <tr>
+                <td class="price1">  Blood Cholesterol</td>
+                <td><i class="fas fa-check text-center"></i></td>
+                <td><i class="fas fa-check"></i></td>
+                <td><i class="fas fa-check"></i></td>
+                <td><i class="fas fa-check"></i></td>
+                <td><i class="fas fa-check"></i></td>
+            </tr>
+            <tr>
+                <td class="price1">  Full Blood Count</td>
+                <td><i class="fas fa-check text-center"></i></td>
+                <td><i class="fas fa-check"></i></td>
+                <td><i class="fas fa-check"></i></td>
+                <td><i class="fas fa-check"></i></td>
+                <td><i class="fas fa-check"></i></td>
+            </tr>
+            <tr>
+                <td class="price1">  Kidney Function</td>
+                <td><i class="fas fa-check text-center"></i></td>
+                <td><i class="fas fa-check"></i></td>
+                <td><i class="fas fa-check"></i></td>
+                <td><i class="fas fa-check"></i></td>
+                <td><i class="fas fa-check"></i></td>
+            </tr>
+            <tr>
+                <td class="price1">  Liver Function</td>
+                <td><i class="fas fa-check text-center"></i></td>
+                <td><i class="fas fa-check"></i></td>
+                <td><i class="fas fa-check"></i></td>
+                <td><i class="fas fa-check"></i></td>
+                <td><i class="fas fa-check"></i></td>
+            </tr>
+            <tr>
+                <td class="price1">  VDRL</td>
+                <td><i class="fas fa-check text-center"></i></td>
+                <td><i class="fas fa-check"></i></td>
+                <td><i class="fas fa-check"></i></td>
+                <td><i class="fas fa-check"></i></td>
+                <td><i class="fas fa-check"></i></td>
+            </tr>
+            <tr>
+                <td class="price1">  Bone Disease</td>
+                <td><i class="fas fa-check text-center"></i></td>
+                <td><i class="fas fa-check"></i></td>
+                <td><i class="fas fa-check"></i></td>
+                <td><i class="fas fa-check"></i></td>
+                <td><i class="fas fa-check"></i></td>
+            </tr>
+            <tr>
+                <td class="price1"> Gout</td>
+                <td><i class="fas fa-check text-center"></i></td>
+                <td><i class="fas fa-check"></i></td>
+                <td><i class="fas fa-check"></i></td>
+                <td><i class="fas fa-check"></i></td>
+                <td><i class="fas fa-check"></i></td>
+            </tr>
+            <tr>
+                <td class="price1"> Hepatitis A</td>
+                <td><i class="fas fa-check text-center"></i></td>
+                <td><i class="fas fa-check"></i></td>
+                <td><i class="fas fa-check"></i></td>
+                <td><i class="fas fa-check"></i></td>
+                <td><i class="fas fa-check"></i></td>
+            </tr>
+            <tr>
+                <td class="price1"> Hepatitis B</td>
+                <td><i class="fas fa-check text-center"></i></td>
+                <td><i class="fas fa-check"></i></td>
+                <td><i class="fas fa-check"></i></td>
+                <td><i class="fas fa-check"></i></td>
+                <td><i class="fas fa-check"></i></td>
+            </tr>
+            <tr>
+                <td class="price1"> Hepatitis C</td>
+                <td > <i class="fas fa-times " style="font-size:17px; color:gray;"></i></td>
+                <td> <i class="fas fa-times " style="font-size:17px; color:gray;"></i></td>
+                <td><i class="fas fa-check"></i></td>
+                <td><i class="fas fa-check"></i></td>
+                <td><i class="fas fa-check"></i></td>
+            </tr>
+            <tr>
+                <td class="price1"> Helicobacter Pylori</td>
+                <td><i class="fas fa-times " style="font-size:17px; color:gray;"></i></td>
+                <td><i class="fas fa-times " style="font-size:17px; color:gray;"></i></td>
+                <td><i class="fas fa-check"></i></td>
+                <td><i class="fas fa-check"></i></td>
+                <td><i class="fas fa-check"></i></td>
+            </tr>
+            <tr>
+                <td class="price1"> Thyroid Function(FT4,TSH)</td>
+                <td><i class="fas fa-check"></i></td>
+                <td><i class="fas fa-check"></i></td>
+                <td><i class="fas fa-check"></i></td>
+                <td><i class="fas fa-check"></i></td>
+                <td><i class="fas fa-check"></i></td>
+            </tr>
+            <tr>
+                <td class="price1"> Rheumatoid Factor</td>
+                <td><i class="fas fa-check"></i></td>
+                <td><i class="fas fa-check"></i></td>
+                <td><i class="fas fa-check"></i></td>
+                <td><i class="fas fa-check"></i></td>
+                <td><i class="fas fa-check"></i></td>
+            </tr>
+            <tr>
+                <td class="price1"> <b>Tumour</b></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+
+            <tr>
+                <td class="price1">AFP (Liver)</td>
+                <td><i class="fas fa-check"></i></td>
+                <td><i class="fas fa-check"></i></td>
+                <td><i class="fas fa-check"></i></td>
+                <td><i class="fas fa-check"></i></td>
+                <td><i class="fas fa-check"></i></td>
+            </tr>
+            <tr>
+                <td class="price1">CEA (Colon)</td>
+                <td> <i class="fas fa-times " style="font-size:17px; color:gray;"></i></td>
+                <td><i class="fas fa-check"></i></td>
+                <td><i class="fas fa-check"></i></td>
+                <td><i class="fas fa-check"></i></td>
+                <td><i class="fas fa-check"></i></td>
+            </tr>
+            <tr>
+                <td class="price1">PSA(Prostate)/CA125 (Ovaries)</td>
+                <td> <i class="fas fa-times " style="font-size:17px; color:gray;"></i></td>
+                <td><i class="fas fa-check"></i></td>
+                <td><i class="fas fa-check"></i></td>
+                <td><i class="fas fa-check"></i></td>
+                <td><i class="fas fa-check"></i></td>
+            </tr>
+            <tr>
+                <td class="price1">CA19.9(Pancreas)</td>
+                <td> <i class="fas fa-times " style="font-size:17px; color:gray;"></i></td>
+                <td><i class="fas fa-check"></i></td>
+                <td><i class="fas fa-check"></i></td>
+                <td><i class="fas fa-check"></i></td>
+                <td><i class="fas fa-check"></i></td>
+            </tr>
+            <tr>
+                <td class="price1">EBV EA IgA(Nose)</td>
+                <td> <i class="fas fa-times " style="font-size:17px; color:gray;"></i></td>
+                <td><i class="fas fa-check"></i></td>
+                <td><i class="fas fa-check"></i></td>
+                <td><i class="fas fa-check"></i></td>
+                <td><i class="fas fa-check"></i></td>
+            </tr>
+            <tr>
+                <td class="price1"> <b>Heart Screen</b></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="price1">Apolipoprotein A</td>
+                <td><i class="fas fa-times " style="font-size:17px; color:gray;"></i></td>
+                <td> <i class="fas fa-times " style="font-size:17px; color:gray;"></i></td>
+                <td> <i class="fas fa-times " style="font-size:17px; color:gray;"></i></td>
+                <td><i class="fas fa-check"></i></td>
+                <td><i class="fas fa-check"></i></td>
+            </tr>
+            <tr>
+                <td class="price1">Apolipoprotein B</td>
+                <td><<i class="fas fa-times " style="font-size:17px; color:gray;"></i></td>
+                <td><i class="fas fa-times " style="font-size:17px; color:gray;"></i></td>
+                <td><i class="fas fa-times " style="font-size:17px; color:gray;"></i></td>
+                <td><i class="fas fa-check"></i></td>
+                <td><i class="fas fa-check"></i></td>
+            </tr>
+            <tr>
+                <td class="price1">Apo B/A1 Ratio</td>
+                <td><i class="fas fa-times " style="font-size:17px; color:gray;"></i></td>
+                <td><i class="fas fa-times " style="font-size:17px; color:gray;"></i></td>
+                <td><i class="fas fa-times " style="font-size:17px; color:gray;"></i></td>
+                <td><i class="fas fa-check"></i></td>
+                <td><i class="fas fa-check"></i></td>
+            </tr>
+            <tr>
+                <td class="price1">HsCRP</td>
+                <td><i class="fas fa-times " style="font-size:17px; color:gray;"></i></td>
+                <td><i class="fas fa-times " style="font-size:17px; color:gray;"></i></td>
+                <td><i class="fas fa-times " style="font-size:17px; color:gray;"></i></td>
+                <td><i class="fas fa-check"></i></td>
+                <td><i class="fas fa-check"></i></td>
+            </tr>
+            <tr>
+                <td class="price1"> <b>Deficiency Screen</b></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+
+            <tr>
+                <td class="price1">Vitamin D</td>
+                <td><i class="fas fa-times " style="font-size:17px; color:gray;"></i></td>
+                <td><i class="fas fa-times " style="font-size:17px; color:gray;"></i></td>
+                <td><i class="fas fa-times " style="font-size:17px; color:gray;"></i></td>
+                <td><i class="fas fa-times " style="font-size:17px; color:gray;"></i></td>
+                <td><i class="fas fa-check"></i></td>
+            </tr>
+            <tr>
+                <td class="price1">Vitamin B12</td>
+                <td><i class="fas fa-times " style="font-size:17px; color:gray;"></i></td>
+                <td><i class="fas fa-times " style="font-size:17px; color:gray;"></i></td>
+                <td><i class="fas fa-times " style="font-size:17px; color:gray;"></i></td>
+                <td><i class="fas fa-times " style="font-size:17px; color:gray;"></i></td>
+                <td><i class="fas fa-check"></i></td>
+            </tr>
+            <tr>
+                <td class="price1">Folate</td>
+                <td><i class="fas fa-times " style="font-size:17px; color:gray;"></i></td>
+                <td><i class="fas fa-times " style="font-size:17px; color:gray;"></i></td>
+                <td><i class="fas fa-times " style="font-size:17px; color:gray;"></i></td>
+                <td><i class="fas fa-times " style="font-size:17px; color:gray;"></i></td>
+                <td><i class="fas fa-check"></i></td>
+            </tr>
+            <tr>
+                <td class="price1">Iron</td>
+                <td><i class="fas fa-times " style="font-size:17px; color:gray;"></i></td>
+                <td><i class="fas fa-times " style="font-size:17px; color:gray;"></i></td>
+                <td><i class="fas fa-times " style="font-size:17px; color:gray;"></i></td>
+                <td><i class="fas fa-times " style="font-size:17px; color:gray;"></i></td>
+                <td><i class="fas fa-check"></i></td>
+            </tr>
+
+
+
+            <tr>
+                <td class="price1"> <b>Medical Report & Review</b></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="price1">Report review with Doctor (Teleconsult)</td>
+                <td><i class="fas fa-check " style="text-align: center;"></i></td>
+                <td><i class="fas fa-check"></i></td>
+                <td><i class="fas fa-check"></i></td>
+                <td><i class="fas fa-check"></i></td>
+                <td><i class="fas fa-check"></i></td>
+            </tr>
+            
+            <tr class="">
+              <div class="mb-4">
+              <td></td>
+                <td class="price text-center">
+                <a href="#">BOOK NOW</a>
+                </td>
+                <td class="price text-center">
+                    <a href="#">BOOK NOW</a>
+                </td>
+                <td class="price text-center">
+                    <a href="#">BOOK NOW</a>
+                </td>
+                <td class="price text-center">
+                    <a href="#">BOOK NOW</a>
+                </td>
+                <td class="price text-center">
+                    <a href="#">BOOK NOW</a>
+                </td>
+</div>
+            </tr>
+            
+        </tbody>
+    </table>
+</div>
+
+<br><br>
+
+                     <div class="">
                       <h5 class="text-center">Please click <a href="beforebookingapp.html" class="addColor font-weight-bold" style="text-decoration:none ;"> here</a> for important information to take note of before booking appointment.</h5>
                       <h5 class="text-center">Focus Lite is also available. Please click <a href="./focustable.php" style="text-decoration:none ;" class="addColor font-weight-bold"> here</a> to know more.</h5>
                         <h5 class="text-center mb-5"> Please<a href="contact.php" style="text-decoration:none ;" class="addColor font-weight-bold"> Contact Us</a> if you require fasting options.</h5>
@@ -1264,7 +588,7 @@
                     </div>       
         
     </div>
-</div>
+     
 
 
 
