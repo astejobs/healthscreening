@@ -77,6 +77,10 @@
     .dropdown{
       border-top:2px solid #691C32 !important;
     }
+    .addColorr{
+      color:#691C32 !important;
+    }
+    
   </style>
 
 </head>
@@ -122,7 +126,7 @@
     </div>
 
    <div class="container mb-4 ">
-    <p class="text-center display-4 mb-5">Our Focus, Your Wellbeing</p>
+    <p class="text-center addColor display-4 mb-5">Our Focus, Your Wellbeing</p>
     <div class="row">
      
         <div class="col-md-6">
@@ -134,8 +138,8 @@
           
             <div class="row">
               <div class="col-md-12">
-                <h5 class="text-dark fs-5">About Us</h5>
-                        <p class="text-justify"> TheTestingPro™ was created to provide an extensive range of COVID-19 testing services to individuals and companies across Singapore since the pandemic started. Equipped with a wealth of testing operations experience and extensive knowledge of the requirements and systems, we simplify the processes, thus enabling us to conduct efficient testing and provide timely results.
+                <h5 class="text-dark text-center addColorr font-weight-bold">About Us</h5>
+                        <p class="text-justify "> TheTestingPro™ was created to provide an extensive range of COVID-19 testing services to individuals and companies across Singapore since the pandemic started. Equipped with a wealth of testing operations experience and extensive knowledge of the requirements and systems, we simplify the processes, thus enabling us to conduct efficient testing and provide timely results.
 
                         As we continue to grow, TheTestingPro™ expanded into providing health screening services with comprehensive packages that are tailored to corporate and individual needs whilst providing convenience and unparalleled flexibility.
                         </p>
@@ -146,7 +150,7 @@
              <div class="row">
      
      <div class="col-md-12">
-       <h5 class="text-dark fs-5 ">Fast and Without Fasting</h5>
+       <h5 class="text-dark fs-5 text-center addColorr font-weight-bold">Fast and Without Fasting</h5>
          <p class="text-justify">We put an end to the dreaded overnight fast that is typically required with TheTestingPro™ Non-Fasting Mobile Health Screening. Removing the need for fasting will mitigate the discomfort and potential adverse effects, such as low blood sugar and dehydration. Several studies have shown fasting is unnecessary due to insignificant differences between fasting and non-fasting lipid levels. </p>
      </div>
  </div>

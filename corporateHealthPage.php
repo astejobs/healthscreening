@@ -93,6 +93,9 @@ include('./corporateEmailSender.php');
       transform: scale(1.1); 
       transition: transform .5s ease;
     }
+    .dropdown{
+      border-top:2px solid #691C32 !important;
+    }
  
   
   </style>

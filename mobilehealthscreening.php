@@ -76,6 +76,9 @@
     padding-bottom:20%  !important;
     
   }
+  .dropdown{
+      border-top:2px solid #691C32 !important;
+    }
 
   </style>
 
