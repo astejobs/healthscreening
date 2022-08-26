@@ -19,6 +19,9 @@
   <link rel="stylesheet" href="css/owl.theme.default.min.css">
 
   <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+  
+  <link rel="stylesheet" href="./scss/customcss.css">
+
 
   <link rel="stylesheet" href="css/bootstrap-datepicker.css">
 
@@ -1251,9 +1254,9 @@
             </div>
           </div>
         </div>
-                      <h5 class="text-center">Please click <a href="beforebookingapp.html" style="text-decoration:none ;"> here</a> for important information to take note of before booking appointment.</h5>
-                      <h5 class="text-center">Focus Lite is also available. Please click <a href="./focustable.php" style="text-decoration:none ;"> here</a> to know more.</h5>
-                        <h5 class="text-center mb-5"> Please<a href="contact.html" style="text-decoration:none ;"> Contact Us</a> if you require fasting options.</h5>
+                      <h5 class="text-center">Please click <a href="beforebookingapp.html" class="addColor font-weight-bold" style="text-decoration:none ;"> here</a> for important information to take note of before booking appointment.</h5>
+                      <h5 class="text-center">Focus Lite is also available. Please click <a href="./focustable.php" style="text-decoration:none ;" class="addColor font-weight-bold"> here</a> to know more.</h5>
+                        <h5 class="text-center mb-5"> Please<a href="contact.php" style="text-decoration:none ;" class="addColor font-weight-bold"> Contact Us</a> if you require fasting options.</h5>
                     
                     </div>       
         

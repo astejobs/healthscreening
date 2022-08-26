@@ -103,7 +103,8 @@ use PHPMailer\PHPMailer\Exception;
         $mail->MsgHTML($content); 
  
      $mail->send();
-     echo "<script> alert('Message has been sent');</script>";
+     $_SESSION['status']="Message has Been Sent!";
+    //  echo "<script> alert('Message has been sent');</script>";
      if($mail->Send()) {
        $autoRespond = new PHPMailer();
        $autoRespond->IsSMTP();
@@ -154,10 +155,11 @@ use PHPMailer\PHPMailer\Exception;
        $autoRespond->MsgHTML($Message); 
  
        $autoRespond->Send();
-       echo "<script> alert('Auto Response sent!')</script>"; 
+       echo "<script> alert('AutoResponse sent Successfully ')</script>";
+
        }
  } catch (Exception $e) {
-     echo "<script> alert('Message could not be sent. Mailer Error: {$mail->ErrorInfo}');</script>";
+     echo "<script> alert('AutoResponse could not be sent. Mailer Error: {$mail->ErrorInfo}');</script>";
  }
  
       }

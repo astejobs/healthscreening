@@ -1,10 +1,14 @@
 
 <?php 
+
 require 'vendor/autoload.php';
 
 require('config.php');
 require('./contactEmailSender.php');
+
+
 ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -31,6 +35,7 @@ require('./contactEmailSender.php');
   <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
 
   <link rel="stylesheet" href="css/aos.css">
+  <link rel="stylesheet" href="./scss/customcss.css">
 
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" 
@@ -42,6 +47,9 @@ integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
  integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
  <!-- Google captcha -->
+ <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit"
+    async defer>
+</script>
  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 <style>
   #img {
@@ -84,6 +92,7 @@ integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b
     background-color:#691C32;
     color:white;
   }
+
 </style>
 
 
@@ -98,12 +107,12 @@ integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b
     <div class="row margin ">
      
       <div class="col-md-7 ">
-        <h2 class="mt-5">Contact Us</h2>
-        <p style="font-size:16px;"><b><b> Do you have an enquiry? </b><br>
+        <h2 class="mt-5 addColor" >Contact Us</h2>
+        <p style="font-size:16px;" class="addColor "><b> Do you have an enquiry? </b><br>
         <b> Please complete the form and we will get back to you as soon as we can.</b>
         </p>
         <div class="">
-          <h4>Email</h2>
+          <h4 class="addColor ">Email</h2>
         <a href="mailto:concierge@thetestingpro.com" style="text-decoration:none ;">concierge@thetestingpro.com</a>
       </div>
     </div>
@@ -112,29 +121,44 @@ integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b
             <img src="./images/footerImage-removebg-preview.png" id="img" class="mt-4" alt="logo">
       </div>
     </div>
+    <?php
+if(isset($_SESSION['status']))
+{
+
+
+    ?>
+        <div class="alert alert-success alert-dismissible fade show"role="alert">
+             <strong>Hey!<strong><?php echo $_SESSION['status'];?>
+             
+        </div>
+
+    <?php
+    unset($_SESSION['status']);
+}
+?>
     <form method="POST">
       <div class="form-row mt-4">
         <div class="form-group col-md-6">
-          <label for="inputEmail4">Full Name <b>*</b></label>
+          <label for="inputEmail4">Full Name<span class="text-danger" >*</span></label>
           <input type="text" name="name" class="form-control" id="" placeholder="" required="true">
         </div>
         <div class="form-group col-md-6">
-          <label for="inputEmail4">Email Address <b>*</b></label>
+          <label for="inputEmail4">Email Address <span class="text-danger" >*</span></label>
           <input type="email" name="email" class="form-control" id="" placeholder="" required="true">
         </div>
         <div class="form-group col-md-6">
-          <label for="inputPassword4">Contact Number <b>*</b></label>
+          <label for="inputPassword4">Contact Number<span class="text-danger" >*</span></label>
           <input type="tel" name="phone" class="form-control" id="" placeholder="" required="true">
         </div>
       
       <div class="form-group col-md-6">
-        <label for="inputAddress">Company</label>
+        <label for="inputAddress">Company<span class="text-danger" >*</span></label>
         <input type="text" name="company" class="form-control" id="" placeholder="" >
       </div>
       
       
         <div class="form-group col-md-6">
-          <label for="inputState">Type of Enquiry  <b>*</b></label>
+          <label for="inputState">Type of Enquiry  <span class="text-danger" >*</span></label>
           <select id="inputState" class="form-control" name="enquirytype">
             <option selected>Choose...</option>
             <option>General Enquiry/Feedback</option>
@@ -146,19 +170,28 @@ integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b
         </div>
      
       <div class="form-group col-md-6">
-        <label for="exampleFormControlTextarea1">How can we help? <b>*</b></label>
+        <label for="exampleFormControlTextarea1">How can we help?<span class="text-danger" >*</span></label>
         <textarea class="form-control" name="help" id="exampleFormControlTextarea1" rows="3" required="true"></textarea>
       </div>
       <div class="form-group col-md-6">
-      <div class="g-recaptcha" data-sitekey="<?php echo $siteKey ?>"></div>
+      <div class="g-recaptcha" data-callback="captchaVerified" data-sitekey="<?php echo $siteKey ?>"></div>
 
       </div>
     </div>
-      <button type="submit" class="btn btn-corporate mb-5">submit</button> 
+      <button type="submit" name="submit" id="submit" class="btn btn-corporate mb-5" disabled >submit</button> 
     </form>
   </div>
   <?php
   require_once('footer.php');
  ?>
 
+  <script type="text/javascript">
+  function captchaVerified(){
+    var submitBtn=document.querySelector('#submit');
+    submitBtn.removeAttribute('disabled');
+  }
+</script>
+
+
 </body>
+</html>

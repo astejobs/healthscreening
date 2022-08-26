@@ -173,10 +173,10 @@ include('./corporateEmailSender.php');
       </div>
       <div class="form-group col-md-6">
         <label for="">Complete Captcha</label>
-      <div class="g-recaptcha" data-sitekey="<?php echo $siteKey ?>"></div>
+      <div class="g-recaptcha" data-callback="captchaVerified" data-sitekey="<?php echo $siteKey ?>"></div>
       </div>
     </div>
-      <button type="submit" class="btn btn-corporate mb-5 float-right">submit</button> 
+      <button type="submit"  name="submit" id="submit" class="btn btn-corporate mb-5 float-right" disabled>submit</button> 
     </form>
     </div>
 </div>
@@ -213,7 +213,12 @@ include('./corporateEmailSender.php');
 
 
   <script src="js/main.js"></script>
-<script type="text/javascript">
+  <script type="text/javascript">
+  function captchaVerified(){
+    var submitBtn=document.querySelector('#submit');
+    submitBtn.removeAttribute('disabled');
+  }
+</script>
 
 
 </body>
