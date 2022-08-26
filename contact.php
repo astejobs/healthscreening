@@ -180,7 +180,23 @@ if(isset($_SESSION['status']))
     </div>
       <button type="submit" name="submit" id="submit" class="btn btn-corporate mb-5" disabled >submit</button> 
     </form>
-    <iframe  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.786280060049!2d103.90251271431605!3d1.3032230620875729!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da18727dfbed85%3A0x6d766d19235d9606!2sGrand%20Mercure%20Singapore%20Roxy!5e0!3m2!1sen!2sin!4v1661492321645!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          
+            <div><button id="grand" class="btn btn-corporate mb-2">Grand Mercure Roxy SG</button></div>
+            <div><button id="clarke" class="btn btn-corporate mb-2">Clarke Quay Central</button></div>
+            <div><button id="ibis" class="btn btn-corporate">Ibis Singapore on Bencoolen</button></div>
+          
+        </div>
+        <div class="col-md-6">
+        <iframe id="Grand" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.786280060049!2d103.90251271431605!3d1.3032230620875729!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da18727dfbed85%3A0x6d766d19235d9606!2sGrand%20Mercure%20Singapore%20Roxy!5e0!3m2!1sen!2sin!4v1661492321645!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <iframe id="Clarke" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.8086351905235!2d103.84442111431612!3d1.2890305621279772!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da190a9bbec0d7%3A0x4d829ccbc19a9496!2sClarke%20Quay%20Central!5e0!3m2!1sen!2sin!4v1661494056129!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <iframe id="Ibis" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.7894641242888!2d103.85033011431604!3d1.301211062093321!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da19bba6e345ad%3A0x5860d34bdd937440!2sibis%20Singapore%20on%20Bencoolen!5e0!3m2!1sen!2sin!4v1661494177771!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </div>
+   
   </div>
 
 
@@ -194,6 +210,27 @@ if(isset($_SESSION['status']))
     var submitBtn=document.querySelector('#submit');
     submitBtn.removeAttribute('disabled');
   }
+  $('#Clarke').hide();
+    $('#Ibis').hide();
+  $('#grand').on('click',function(){
+    $('#Grand').show();
+    $('#Clarke').hide();
+    $('#Ibis').hide();
+
+  });
+  $('#clarke').on('click',function(){
+    $('#Clarke').show();
+    $('#Grand').hide();
+    $('#Ibis').hide();
+
+  });
+  $('#ibis').on('click',function(){
+    $('#Clarke').hide();
+    $('#Grand').hide();
+    $('#Ibis').show();
+
+  });
+
 </script>
 
 
