@@ -103,6 +103,9 @@ integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b
   .dropdown{
       border-top:2px solid #691C32 !important;
     }
+    .site-footer {
+    padding: 4% !important;
+}
 
 </style>
 

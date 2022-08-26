@@ -57,7 +57,12 @@
       color: #691C32 !important;
       font-size: 16px !important;
       font-weight: bold !important;
+      line-height:0.9px !important;
       text-decoration: underline;
+
+    }
+    .footer-heading>ul{
+      line-height:0.9 !important;
 
     }
 
@@ -87,6 +92,9 @@
     .dropdown {
       border-top: 2px solid #691C32 !important;
     }
+    .site-footer {
+    padding: 4% !important;
+}
  
   </style>
 

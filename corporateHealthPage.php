@@ -98,6 +98,9 @@ include('./corporateEmailSender.php');
     .dropdown{
       border-top:2px solid #691C32 !important;
     }
+    .site-footer {
+    padding: 4% !important;
+}
  
   
   </style>
