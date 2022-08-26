@@ -69,7 +69,7 @@
 							transform: translate(-50%, -50%);
 						}
 						&:hover {
-							color: $primary;
+							color: black !important;
 						}
 					}
 				}
@@ -135,7 +135,7 @@
 					}
 					.active {
 						// > a {
-							color: $primary!important;
+							color: black !important;
 						// }
 					}
 					> li {

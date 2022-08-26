@@ -133,7 +133,7 @@ include('./corporateEmailSender.php');
    <div class="container mb-5  ">
     <div class="margins"></div>
      <div class="row ">
-      
+         
       <div class="col-md-6 ">
       <h5 class="text-dark font-weight-bold addColor ">Corporate Health Screening</h5>
     <p class="text-justify">Investing in your employees’ annual health screening proves that you care for their wellbeing.  Health screening amongst employees improves productivity, reduces absenteeism, builds trust and loyalty.  Our range of corporate health screening packages provide a unique opportunity to invest in the long-term health of your employees and lets you choose what works best for your company; be it an on-site workplace health screening or even a home-based health screening. </p>  
