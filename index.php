@@ -153,6 +153,7 @@
 
           <div class="row">
             <div class="col-md-12">
+              <div class="card shadow p-4 mb-3">
               <h5 class="text-dark text-center addColor font-weight-bold">About Us</h5>
               <p class="text-justify "> TheTestingPro™ was created to provide an extensive range of COVID-19 testing
                 services to individuals and companies across Singapore since the pandemic started. Equipped with a
@@ -164,12 +165,14 @@
                 and unparalleled flexibility.
               </p>
             </div>
+</div>
 
           </div>
 
           <div class="row">
 
             <div class="col-md-12">
+              <div class="card shadow p-4">
               <h5 class="text-dark fs-5 text-center addColor font-weight-bold">Fast and Without Fasting</h5>
               <p class="text-justify">We put an end to the dreaded overnight fast that is typically required with
                 TheTestingPro™ Non-Fasting Mobile Health Screening. Removing the need for fasting will mitigate the
@@ -177,6 +180,7 @@
                 shown fasting is unnecessary due to insignificant differences between fasting and non-fasting lipid
                 levels. </p>
             </div>
+</div>
 
           </div>
          
