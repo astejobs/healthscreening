@@ -95,6 +95,11 @@ integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b
   .Loc{
     font-size: 25px !important;
   }
+  #grand,#clarke,#ibis{
+    font-family: 'Montserrat' !important;
+    color: #575756 !important;
+    text-transform: capitalize !important;
+  }
 
 </style>
 
@@ -193,9 +198,9 @@ if(isset($_SESSION['status']))
           <div class="col-md-9">
           <p class="addColor font-weight-bold Loc" ><u>Our Locations</u></p>
 
-            <div><button id="grand" class="btn btn-corporate mb-2 ">Grand Mercure Roxy SG</button></div>
-            <div><button id="clarke" class="btn btn-corporate mb-2 ">Clarke Quay Central</button></div>
-            <div><button id="ibis" class="btn btn-corporate mb-2 ">Ibis Singapore on Bencoolen</button></div>
+            <div><button id="grand" class="btn  mb-2 ">Grand Mercure Roxy SG</button></div>
+            <div><button id="clarke" class="btn  mb-2 ">Clarke Quay Central</button></div>
+            <div><button id="ibis" class="btn  mb-2 ">Ibis Singapore on Bencoolen</button></div>
           </div>
           </div>
             
@@ -224,19 +229,31 @@ if(isset($_SESSION['status']))
   }
   $('#Clarke').hide();
     $('#Ibis').hide();
-  $('#grand').on('click',function(){
+    $('#grand').css("border","2px solid #691C32");
+
+ $('#grand').on('click',function(){
+  $('#grand').css("border","2px solid #691C32 ");
+  $('#ibis').css("border","none");
+  $('#clarke').css("border","none");
     $('#Grand').show();
     $('#Clarke').hide();
     $('#Ibis').hide();
 
   });
   $('#clarke').on('click',function(){
+    $('#clarke').css("border","2px solid #691C32");
+    $('#grand').css("border","none");
+    $('#ibis').css("border","none");
     $('#Clarke').show();
     $('#Grand').hide();
     $('#Ibis').hide();
 
   });
   $('#ibis').on('click',function(){
+    $('#ibis').css("border","2px solid #691C32");
+    $('#grand').css("border","none");
+    $('#clarke').css("border","none");
+
     $('#Clarke').hide();
     $('#Grand').hide();
     $('#Ibis').show();
