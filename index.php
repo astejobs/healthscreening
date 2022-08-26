@@ -19,6 +19,8 @@
   <link rel="stylesheet" href="css/owl.theme.default.min.css">
 
   <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+  <link rel="stylesheet" href="./scss/customcss.css">
+
 
   <link rel="stylesheet" href="css/bootstrap-datepicker.css">
 

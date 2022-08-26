@@ -118,7 +118,7 @@ integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b
     </div>
    
     <div class="col-md-5">
-            <img src="./images/footerImage-removebg-preview.png" id="img" class="mt-4" alt="logo">
+            <img src="./images/fihlogo.png" id="img" class="mt-4" alt="logo">
       </div>
     </div>
     <?php
@@ -180,7 +180,11 @@ if(isset($_SESSION['status']))
     </div>
       <button type="submit" name="submit" id="submit" class="btn btn-corporate mb-5" disabled >submit</button> 
     </form>
+    <iframe  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.786280060049!2d103.90251271431605!3d1.3032230620875729!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da18727dfbed85%3A0x6d766d19235d9606!2sGrand%20Mercure%20Singapore%20Roxy!5e0!3m2!1sen!2sin!4v1661492321645!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
   </div>
+
+
+
   <?php
   require_once('footer.php');
  ?>

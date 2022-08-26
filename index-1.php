@@ -17,6 +17,8 @@
   <link rel="stylesheet" href="css/jquery.fancybox.min.css">
 
   <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+  <link rel="stylesheet" href="./scss/customcss.css">
+
 
   <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
 
