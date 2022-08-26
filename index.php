@@ -77,9 +77,7 @@
     .dropdown{
       border-top:2px solid #691C32 !important;
     }
-    .addColorr{
-      color:#691C32 !important;
-    }
+    
     
   </style>
 
@@ -138,7 +136,7 @@
           
             <div class="row">
               <div class="col-md-12">
-                <h5 class="text-dark text-center addColorr font-weight-bold">About Us</h5>
+                <h5 class="text-dark text-center addColor font-weight-bold">About Us</h5>
                         <p class="text-justify "> TheTestingPro™ was created to provide an extensive range of COVID-19 testing services to individuals and companies across Singapore since the pandemic started. Equipped with a wealth of testing operations experience and extensive knowledge of the requirements and systems, we simplify the processes, thus enabling us to conduct efficient testing and provide timely results.
 
                         As we continue to grow, TheTestingPro™ expanded into providing health screening services with comprehensive packages that are tailored to corporate and individual needs whilst providing convenience and unparalleled flexibility.
@@ -150,7 +148,7 @@
              <div class="row">
      
      <div class="col-md-12">
-       <h5 class="text-dark fs-5 text-center addColorr font-weight-bold">Fast and Without Fasting</h5>
+       <h5 class="text-dark fs-5 text-center addColor font-weight-bold">Fast and Without Fasting</h5>
          <p class="text-justify">We put an end to the dreaded overnight fast that is typically required with TheTestingPro™ Non-Fasting Mobile Health Screening. Removing the need for fasting will mitigate the discomfort and potential adverse effects, such as low blood sugar and dehydration. Several studies have shown fasting is unnecessary due to insignificant differences between fasting and non-fasting lipid levels. </p>
      </div>
  </div>
