@@ -145,7 +145,9 @@
       <div class="row">
 
         <div class="col-md-6">
+          <div class="card shadow overflow-hidden">
           <img width="100%" class="section1-image img-responsive" src="./images/hs1.jpeg" alt="image">
+        </div>
         </div>
 
 
