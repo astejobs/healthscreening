@@ -144,8 +144,8 @@ include('./corporateEmailSender.php');
     </div>
     <div class="row mt-4">
     <div class="col-md-4">
-        <h3 class="text-dark font-weight-bold">Enquire Now</h3>
-        <p>Do you have an enquiry?</p>
+        <h3 class="text-dark font-weight-bold addColor">Enquire Now</h3>
+        <p class="addColor font-weight-bold">Do you have an enquiry?</p>
         <p>Please complete the form and we will get back to you as soon as we can.</p>
     </div>
     <div class="col-md-8">
