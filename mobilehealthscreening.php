@@ -247,7 +247,7 @@ p{
      <div class="container">
         <div class="margins"></div>
         <div class="row">
-        <div class="col-md-6 mt-5 ">
+        <div class="col-md-6  ">
                <h3 class="text-dark addColor ">Mobile Health Screening</h3>
                <p class="" style="text-align: justify;">Our Non-Fasting Mobile Health Screening lets you take charge of your health anytime and anywhere,
                  providing flexibility and convenience in the comfort of your preferred location. Our various packages
@@ -255,7 +255,7 @@ p{
             </div>          
 
          <div class="col-md-6">
-            <div class="card shadow overflow-hidden">
+            <div class="card shadow overflow-hidden" data-aos="zoom-in" data-aos-easing="ease-out-cubic" data-aos-duration="3000">
                 <img class="section1-image img-responsive" src="images/h3.jpeg" id="img"  alt="logo">
             </div>
             </div>
