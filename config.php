@@ -12,7 +12,7 @@ if(isset($_POST['submit'])){
     $row=json_decode($data,true);
   
     if($row["success"]==true){
-    // echo"<script>alert('You are not a Robot')</script>";
+    echo"<script>alert('You are not a Robot')</script>";
     
     
     }

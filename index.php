@@ -145,7 +145,7 @@
       <div class="row">
 
         <div class="col-md-6">
-          <div class="card shadow overflow-hidden">
+          <div class="card shadow overflow-hidden" data-aos="fade-right"  data-aos-easing="ease-out-cubic" data-aos-duration="3000">
           <img width="100%" class="section1-image img-responsive" src="./images/hs1.jpeg" alt="image">
         </div>
         </div>
@@ -155,7 +155,7 @@
 
           <div class="row">
             <div class="col-md-12">
-              <div class="card shadow p-4 mb-3">
+              <div class="card shadow p-4 mb-3" data-aos="flip-left"  data-aos-easing="ease-out-cubic" data-aos-duration="3000">
               <h5 class="text-dark text-center addColor font-weight-bold">About Us</h5>
               <p class="text-justify "> TheTestingPro™ was created to provide an extensive range of COVID-19 testing
                 services to individuals and companies across Singapore since the pandemic started. Equipped with a
@@ -174,7 +174,7 @@
           <div class="row">
 
             <div class="col-md-12">
-              <div class="card shadow p-4">
+              <div class="card shadow p-4" data-aos="flip-right" data-aos-easing="ease-out-cubic" data-aos-duration="3000">
               <h5 class="text-dark fs-5 text-center addColor font-weight-bold">Fast and Without Fasting</h5>
               <p class="text-justify">We put an end to the dreaded overnight fast that is typically required with
                 TheTestingPro™ Non-Fasting Mobile Health Screening. Removing the need for fasting will mitigate the
@@ -193,7 +193,7 @@
       </div>
     </div>
 <h2 class="text-center addColor fs-5 font-weight-bold">Our Services</h2>
-<div class="accordion rounded">
+<div class="accordion rounded" data-aos="fade-right"  data-aos-easing="ease-out-cubic" data-aos-duration="3000">
 
   <div class="tab">
     <img src="./images/hs1.jpeg" alt="">

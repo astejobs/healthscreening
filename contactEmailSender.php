@@ -32,8 +32,8 @@ use PHPMailer\PHPMailer\Exception;
      $mail->Host       = 'mail.stie.com.sg';                     //Set the SMTP server to send through
      $mail->SMTPAuth   = true;                                   //Enable SMTP authentication
      $mail->Username   = 'info@stie.com.sg';                     //SMTP username
-     $mail->Password   = 'in5#aS135!}#$';                               //SMTP password
-     $mail->SMTPSecure = "tls";//PHPMailer::ENCRYPTION_SMTPS;            //Enable implicit TLS encryption
+     $mail->Password   = 'in5#aS135!}#$';                         //SMTP password
+     $mail->SMTPSecure = "tls";//PHPMailer::ENCRYPTION_SMTPS;         //Enable implicit TLS encryption
      $mail->Port       = 587;                                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
  
      //Recipients
@@ -137,10 +137,10 @@ use PHPMailer\PHPMailer\Exception;
                      
                      
                      <div>
-                       <b>Dear &nbsp;'.$first_name.'<br>
-                       Thank you for your time to write to us. We will review it and get back to you within <br>three (3) working days.<br>
-                       
-                       Best Regards,<br>
+                       <b>Dear &nbsp;'.$first_name.'<br><br>' . "\r\n" . 
+                       'Thank you for your time to write to us. We will review it and get back to you within <br>three (3) working days.<br>
+                       ' . " \r\n" . '
+                       <br><br> Best Regards,<br>
                       TheTestingPro™ <br>
                        
                      </div>

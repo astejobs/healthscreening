@@ -15,7 +15,7 @@ include('./corporateEmailSender.php');
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>Corporate Health Screening</title>
+  <title>Book Appointment</title>
   <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;700;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
     integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
@@ -149,8 +149,8 @@ include('./corporateEmailSender.php');
     <div class="row ">
 
 
-      <div class="col-md-6 ">
-        <div class="card shadow overflow-hidden">
+      <div class="col-md-6 " data-aos="fade-right">
+        <div class="card shadow overflow-hidden " >
 
           <img width="100%" class="section1-image img-responsive" src="./images/hs2.jpeg" alt="image">
           
