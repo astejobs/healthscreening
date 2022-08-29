@@ -142,7 +142,7 @@ include('./corporateEmailSender.php');
       <p class="text-justify">Investing in your employees’ annual health screening proves that you care for their wellbeing.  Health screening amongst employees improves productivity, reduces absenteeism, builds trust and loyalty.  Our range of corporate health screening packages provide a unique opportunity to invest in the long-term health of your employees and lets you choose what works best for your company; be it an on-site workplace health screening or even a home-based health screening. </p> 
     </div>
       <div class="col-md-6 ">
-      <div class="card shadow overflow-hidden" data-aos="fade-up" data-aos-easing="ease-out-cubic" data-aos-duration="3000">
+      <div class="card shadow overflow-hidden" data-aos="fade-left" data-aos-easing="ease-out-cubic" data-aos-duration="3000">
 
        <img  width="100%" class="section1-image img-responsive" src="./images/hs2.jpeg" alt="image">
       </div>
