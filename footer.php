@@ -18,8 +18,8 @@
                     <div class="col-lg-3">
                         <h2 class="footer-heading mb-4">Health Screening</h2>
                         <ul class="list-unstyled" style="line-height:0.9">
-                            <li><a class="Footer-links" href="#">Mobile Health Screening</a></li>
-                            <li><a class="Footer-links" href="#">Corporate Health Screening</a></li>
+                            <li><a class="Footer-links" href="./mobilehealthscreening.php">Mobile Health Screening</a></li>
+                            <li><a class="Footer-links" href="./corporateHealthPage.php">Corporate Health Screening</a></li>
 
                         </ul>
                     </div>
@@ -35,8 +35,8 @@
                     <div class="col-lg-3">
                         <h2 class="footer-heading mb-4">Contact Us</h2>
                         <ul class="list-unstyled" style="line-height:0.9">
-                            <li><a class="Footer-links" href="#">Book An Appointment</a></li>
-                            <li><a class="Footer-links" href="#">Contact Us</a></li>
+                            <li><a class="Footer-links" href="./bookAppointment.php">Book An Appointment</a></li>
+                            <li><a class="Footer-links" href="./contact.php">Contact Us</a></li>
                             <li><a class="Footer-links" href="#">Terms & Conditions</a></li>
                             <li><a class="Footer-links" href="#">Privacy Policy</a></li>
                         </ul>
