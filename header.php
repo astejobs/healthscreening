@@ -1,4 +1,4 @@
-<header class="site-navbar light js-sticky-header site-navbar-target bg-white" role="banner">
+<header class="site-navbar light js-sticky-header site-navbar-target bg-white " role="banner">
       <div class="header1" style="background-color: #691C32; height: 30%;">
         <div class=" container Header-icons p-2 text-white">
         <a href="https://www.facebook.com/thetestingpro " class="float-right" style="margin-right:10px"><i class="fa-brands fa-facebook-f"></i></a>&nbsp;&nbsp;
@@ -50,14 +50,14 @@
                 </li> -->
 
                 <li><a href="contact.php" class="nav-link">Contact Us</a></li> &nbsp;&nbsp;
-                <li><button class="btn text-white roundedd fs-3"  style="background-color: #691C32; text-transform: capitalize;">Book Appointment </button></li>
+                <li><button class="btn text-white roundedd fs-3"  style="background-color: #691C32; text-transform: capitalize;"><a href="./bookAppointment.php" class="text-white">Book Appointment</a> </button></li>
               </ul>
             </nav>
           </div>
 
 
-          <div class="col-6 d-inline-block d-xl-none ml-md-0 py-3" style="position: relative; top: 3px;"><a href="#"
-              class="site-menu-toggle js-menu-toggle float-right"><span class="icon-menu h3 text-black"></span></a>
+          <div class="col-6 d-inline-block d-xl-none ml-md-0 py-3 " style="position: relative; top: 3px;"><a href="#"
+              class="site-menu-toggle js-menu-toggle float-right "><span class="icon-menu h3 text-black"></span></a>
           </div>
 
         </div>
