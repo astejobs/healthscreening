@@ -282,7 +282,19 @@ p{
                 Diabetes
                 Cholesterol
                 Blood Test</small>
-                <br><span style="color:691C32;"><a></a>See more..</span>
+                <br><span style="color:691C32;"> <button style="font-size:12px;border:none;" class="addColor">See more..</button></span>
+                <div class="card bg-white m-3" style="display:none;" id="lit">
+                    <ul>
+                      <li class="text-left" style="font-size:11px; list-style: none" class="addColor">Urine Test</li>  
+                      <li class="text-left" style="font-size:11px;list-style: none" class="addColor" >Diabetes</li> 
+                      <li class="text-left" style="font-size:11px;list-style: none" class="addColor">Cholesterol</li> 
+                      <li class="text-left" style="font-size:11px;list-style: none" class="addColor">Blood Test</li> 
+                    </ul>
+       
+         </div>
+                
+               
+
                 <hr style="height:2px;border-width:0;color:gray;background-color:gray">
                 </td>
                 <td class="green-width" style="color:#691C32">
@@ -1287,6 +1299,16 @@ p{
    
     
 });
+</script>
+<script>
+    $(document).ready(function(){
+   $("button").click(function(){
+  $("#lit").toggle();
+//   $("button").hide();
+   });
+});
+</script>
+
 </script>
 </body>
 
