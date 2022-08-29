@@ -125,14 +125,14 @@
      <div class="container">
         <div class="margins"></div>
         <div class="row">
-        <div class="col-md-5 mt-5 ">
-               <h3 class="text-dark ">Mobile Health Screening</h3>
+        <div class="col-md-6 mt-5 ">
+               <h3 class="text-dark addColor ">Mobile Health Screening</h3>
                <p class="" style="text-align: justify;">Our Non-Fasting Mobile Health Screening lets you take charge of your health anytime and anywhere,
                  providing flexibility and convenience in the comfort of your preferred location. Our various packages
                   offered are designed to offer comprehensive screening for individuals to take proactive care of their health.</p>
             </div>
 
-         <div class="col-md-7">
+         <div class="col-md-6">
             <div class="card shadow overflow-hidden">
                 <img class="section1-image img-responsive" src="images/h3.jpeg" id="img"  alt="logo">
             </div>
