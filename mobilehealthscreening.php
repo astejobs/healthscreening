@@ -377,7 +377,7 @@ p{
             </tr>
            
             <tr>
-                <td class="price1""> <b>Urine & Stool  Analysis</b></td>
+                <td class="price1"> <b>Urine & Stool  Analysis</b></td>
                 <td></td>
                 <td></td>
                 <td></td>
@@ -692,19 +692,19 @@ p{
               <div class="mb-4">
               <td></td>
                 <td class="price text-center">
-                <a href="./bookAppointment.php">BOOK NOW</a>
+                <a href="https://clinic.platomedical.com/book/dGhldGVzdGluZ3Bybw==/3a15474421d84593b830f623ecee4538/LRacOHE">BOOK NOW</a>
                 </td>
                 <td class="price text-center">
-                    <a href="./bookAppointment.php">BOOK NOW</a>
+                    <a href="https://clinic.platomedical.com/book/dGhldGVzdGluZ3Bybw==/3a15474421d84593b830f623ecee4538/LRacOHE">BOOK NOW</a>
                 </td>
                 <td class="price text-center">
-                    <a href="./bookAppointment.php">BOOK NOW</a>
+                    <a href="https://clinic.platomedical.com/book/dGhldGVzdGluZ3Bybw==/3a15474421d84593b830f623ecee4538/LRacOHE">BOOK NOW</a>
                 </td>
                 <td class="price text-center">
-                    <a href="./bookAppointment.php">BOOK NOW</a>
+                    <a href="https://clinic.platomedical.com/book/dGhldGVzdGluZ3Bybw==/3a15474421d84593b830f623ecee4538/LRacOHE">BOOK NOW</a>
                 </td>
                 <td class="price text-center">
-                    <a href="./bookAppointment.php">BOOK NOW</a>
+                    <a href="https://clinic.platomedical.com/book/dGhldGVzdGluZ3Bybw==/3a15474421d84593b830f623ecee4538/LRacOHE">BOOK NOW</a>
                 </td>
 </div>
             </tr>
@@ -959,7 +959,7 @@ p{
 
                         </div>
                     </div>
-                <
+                
                   </div>
                 </div>
                  </section>   
