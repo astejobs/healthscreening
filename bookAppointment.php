@@ -1,3 +1,13 @@
+<?php 
+
+
+//Load Composer's autoloader
+require 'vendor/autoload.php';
+
+include('config.php');
+include('./corporateEmailSender.php');
+    
+?>
 <!doctype html>
 <html lang="en">
 
@@ -5,7 +15,7 @@
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>TheTestingPro™ | Appointment</title>
+  <title>Corporate Health Screening</title>
   <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;700;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
     integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
@@ -19,10 +29,6 @@
   <link rel="stylesheet" href="css/owl.theme.default.min.css">
 
   <link rel="stylesheet" href="css/jquery.fancybox.min.css">
-  <link rel="stylesheet" href="./scss/customcss.css">
-  <link rel="stylesheet" href="./scss/custom.css">
-
-
 
   <link rel="stylesheet" href="css/bootstrap-datepicker.css">
 
@@ -31,15 +37,20 @@
 
   <link rel="stylesheet" href="css/aos.css">
 
+  <link rel="stylesheet" href="./scss/customcss.css">
+
   <link rel="stylesheet" href="css/style.css">
+  <!-- Google captcha -->
+  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
   <style>
     .Header-icons>a {
       justify-content: center;
       color: white !important;
-
     }
 
-    
+    .roundedd {
+      border-radius: 30px !important;
+    }
 
     .site-footer {
       background-color: #CCC3BC;
@@ -55,12 +66,7 @@
       color: #691C32 !important;
       font-size: 16px !important;
       font-weight: bold !important;
-      line-height:0.9px !important;
       text-decoration: underline;
-
-    }
-    .footer-heading>ul{
-      line-height:0.9 !important;
 
     }
 
@@ -73,6 +79,20 @@
       width: 100%;
       height: 70vh;
       background-size: cover;
+    }
+
+    .section1-image {
+      width: 70%;
+    }
+
+    .margins {
+      padding-bottom: 20% !important;
+
+    }
+
+    .btn-corporate {
+      background-color: #691C32;
+      color: white;
     }
 
     .section1-image {
@@ -90,10 +110,10 @@
     .dropdown {
       border-top: 2px solid #691C32 !important;
     }
+
     .site-footer {
-    padding: 4% !important;
-}
- 
+      padding: 4% !important;
+    }
   </style>
 
 </head>
@@ -108,7 +128,7 @@
   </div>
 
 
-  <div class="site-wrap">
+  <!-- <div class="site-wrap">
 
     <div class="site-mobile-menu site-navbar-target">
       <div class="site-mobile-menu-header">
@@ -117,41 +137,52 @@
         </div>
       </div>
       <div class="site-mobile-menu-body"></div>
-    </div>
+    </div> -->
 
-    <?php
+  <?php
   require_once('header.php');
  ?>
 
-    
-    <div class="container">
 
-        <div class="row ">
-            <div class="col-md-6 ">
-        <div class="card">
-         <img src="./images/h3.jpeg" alt="">
-        </div>
-            </div>
-            <div class="col-md-6 ">
-        <div class="card shadow overlay">
-         <img src="./images/hs2.jpeg" alt="">
+  <div class="container mb-5  ">
+    <div class="margins"></div>
+    <div class="row ">
 
-        </div>
-            </div>
 
+      <div class="col-md-6 ">
+        <div class="card shadow overflow-hidden">
+
+          <img width="100%" class="section1-image img-responsive" src="./images/hs2.jpeg" alt="image">
+          
         </div>
+        <h4 class="addColor text-center mt-2"> <a href="HealthScreening.php"><u> Health Screening</u></a></h4>
+      </div>
+      <div class="col-md-6 ">
+        <div class="card shadow overflow-hidden">
+
+          <img width="100%" class="section1-image img-responsive" src="./images/h3.jpeg" alt="image">
+        </div>
+        <h4 class="addColor text-center mt-2"><u>Covid-19</u></h4>
+      </div>
+
     </div>
 
-
-
-        
-
+  </div>
 
 
 
-    <?php
+
+
+
+
+
+
+
+
+  <?php
   require_once('footer.php');
  ?>
+
 
   </div>
 
@@ -171,8 +202,14 @@
 
 
   <script src="js/main.js"></script>
+  <script type="text/javascript">
+    function captchaVerified() {
+      var submitBtn = document.querySelector('#submit');
+      submitBtn.removeAttribute('disabled');
+    }
+  </script>
 
- 
+
 </body>
 
 </html>
