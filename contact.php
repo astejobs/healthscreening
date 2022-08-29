@@ -1,12 +1,7 @@
-
 <?php 
-
-require 'vendor/autoload.php';
-
+require ('vendor/autoload.php');
 require('config.php');
 require('./contactEmailSender.php');
-
-
 ?>
 
 <!DOCTYPE html>
@@ -50,7 +45,7 @@ integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b
  <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit"
     async defer>
 </script>
- <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+ <script src="https://www.google.com/recaptcha/api.js" async defer></script> 
 <style>
   #img {
  width: 300px !important;
