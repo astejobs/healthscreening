@@ -56,6 +56,16 @@
       text-decoration: underline;
       
     }
+    .section1-image{
+      width:100% !important;
+      box-sizing:border-box;
+      
+    }
+    .section1-image:hover{
+      box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+      transform: scale(1.1); 
+      transition: transform .5s ease;
+    }
     .owl-carousel{
       width:100%;
       height: 70vh;
@@ -69,7 +79,7 @@
       width:70%;
     }
     #img {
-    width: 600px !important;
+    /* width: 600px !important; */
      height:280px; 
       }
       .margins{
@@ -116,14 +126,17 @@
         <div class="margins"></div>
         <div class="row">
         <div class="col-md-5 mt-5 ">
-               <h3 class="text-dark">Mobile Health Screening</h3>
-               <p class="" style="text-align: justify;"><b>Our Non-Fasting Mobile Health Screening lets you take charge of your health anytime and anywhere,
+               <h3 class="text-dark ">Mobile Health Screening</h3>
+               <p class="" style="text-align: justify;">Our Non-Fasting Mobile Health Screening lets you take charge of your health anytime and anywhere,
                  providing flexibility and convenience in the comfort of your preferred location. Our various packages
-                  offered are designed to offer comprehensive screening for individuals to take proactive care of their health.</b> </p>
+                  offered are designed to offer comprehensive screening for individuals to take proactive care of their health.</p>
             </div>
 
          <div class="col-md-7">
-                <img src="images/h3.jpeg" id="img" class="mt-5 align-center" alt="logo">
+            <div class="card shadow overflow-hidden">
+                <img class="section1-image img-responsive" src="images/h3.jpeg" id="img"  alt="logo">
+            </div>
+            </div>
           </div>
          </div>
         </div>
