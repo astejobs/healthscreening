@@ -27,17 +27,22 @@
 
   <link rel="stylesheet" href="css/aos.css">
 
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style.css"> 
   <style>
    
-    .Header-icons>a{
-  justify-content: center;
-  color:white !important;
+    /* .Header-icons>a{
+    justify-content: center;
+    color:white !important;
  
     }
     .roundedd{
       border-radius: 30px !important;
-    }
+    } */
+    td:hover::after,
+th:hover::after {
+   /* background: #eff1f5; */
+    box-shadow: none !important;
+}
     .site-footer{
       background-color: #CCC3BC;
     }
@@ -53,7 +58,7 @@
       text-decoration: underline;
       
     }
-    .owl-carousel{
+    /* .owl-carousel{
       width:100%;
       height: 70vh;
     }
@@ -61,7 +66,7 @@
       width:100%;
       height:70vh;
       background-size:cover;
-    }
+    } */
     .section1-image{
       width:70%;
     }
@@ -75,16 +80,16 @@
         color: #575756;
         font-size:20px;
     }
-    .margins{
+     .margins{
     padding-bottom:15%  !important;
     
-  }
+  }/*
   .dropdown{
       border-top:2px solid #691C32 !important;
     }
     .site-footer {
     padding: 4% !important;
-}
+} */
   
   </style>
 
