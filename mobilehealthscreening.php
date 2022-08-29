@@ -130,7 +130,7 @@
                <p class="" style="text-align: justify;">Our Non-Fasting Mobile Health Screening lets you take charge of your health anytime and anywhere,
                  providing flexibility and convenience in the comfort of your preferred location. Our various packages
                   offered are designed to offer comprehensive screening for individuals to take proactive care of their health.</p>
-            </div>
+            </div>          
 
          <div class="col-md-6">
             <div class="card shadow overflow-hidden">
