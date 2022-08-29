@@ -32,7 +32,7 @@
                   </ul>
                 </li>-->
                 <li class="has-children">
-                  <a href="#" class="nav-link">Health Screening</a>
+                  <a href="./HealthScreening.php" class="nav-link">Health Screening</a>
                   <ul class="dropdown">
                     <li><a href="./mobilehealthscreening.php" class="nav-link">Mobile Health Screening</a></li>
                     <li><a href="./corporateHealthPage.php" class="nav-link">Corporate Health Screening</a></li>
