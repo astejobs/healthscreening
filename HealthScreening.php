@@ -155,14 +155,14 @@ include('./corporateEmailSender.php');
           <img width="100%" class="section1-image img-responsive" src="./images/hs2.jpeg" alt="image">
           
         </div>
-        <h4 class="addColor text-center"><u>Mobile Health Screening</u></h4>
+        <h4 class="addColor text-center mt-2"><u>Mobile Health Screening</u></h4>
       </div>
       <div class="col-md-6 ">
         <div class="card shadow overflow-hidden">
 
           <img width="100%" class="section1-image img-responsive" src="./images/h3.jpeg" alt="image">
         </div>
-        <h4 class="addColor text-center"><u>Corporate Health Screening</u></h4>
+        <h4 class="addColor text-center mt-2"><u>Corporate Health Screening</u></h4>
       </div>
 
     </div>
