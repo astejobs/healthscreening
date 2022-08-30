@@ -118,6 +118,32 @@ h2.owl-title {
   margin-bottom: 20px;
   
 }
+@media (max-width:599px) {
+  
+  .owl-text-overlay {
+  position: absolute;
+  text-align: center;
+  width: 60%;
+  top: 35%;
+  transform: translateY(-50%);
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  color: #fff;
+  /* background-color: rgba(0, 0, 0, 0.4); */
+  /* background: rgba(0, 0, 0, 0.4); */
+  /* padding-bottom: 20px; */
+  font-family: "Open Sans", sans-serif;
+  /* border-radius: 15px 50px 30px 5px; */
+}
+h2.owl-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  
+}
+}
 
 
   
