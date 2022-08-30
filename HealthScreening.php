@@ -157,7 +157,7 @@ include('./corporateEmailSender.php');
       <div class="col-md-6 ">
         <div class="card shadow overflow-hidden">
 
-          <img width="100%" class="section1-image img-responsive" src="./images/hs1.jpeg" alt="image">
+          <img width="100%" class="section1-image img-responsive" src="./images/helimg.jpeg" alt="image">
           
         </div>
         <h4 class="addColor text-center mt-2"><u><a href="./mobilehealthscreening.php">Mobile Health Screening</u></h4>
