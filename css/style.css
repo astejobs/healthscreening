@@ -1224,12 +1224,12 @@ figure figcaption {
     /* width: 1170px;
     margin: 0 auto; */
 }
-.price-table {
+/* .price-table {
     width: 100%;
     border-collapse: collapse;
     border: 0 none;
     margin-bottom: 4px;
-}
+} */
 .price-table tr:not(:last-child) {
     border-bottom: 1px solid rgba(0, 0, 0, 0.03);
 }

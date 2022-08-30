@@ -210,6 +210,21 @@
 p{
     text-align: justify !important;  
 }
+
+
+@media (max-width:499px) {
+    .dsktable{
+        display:none !important;
+    }
+    .mbstable{
+        display:flex !important;
+        
+    }
+    .mg{
+        padding-top:100px !important;
+    }
+    
+}
   
 
   </style>
@@ -226,7 +241,7 @@ p{
   </div>
 
 
-  <div class="site-wrap">
+   <div class="site-wrap">
 
     <div class="site-mobile-menu site-navbar-target">
       <div class="site-mobile-menu-header">
@@ -240,15 +255,16 @@ p{
     <?php
   require_once('header.php');
  ?>
-  
-    
+    </div> 
+   
+      <!--  <========================site wrap=============================>  ---> 
 
   
      <div class="container">
         <div class="margins"></div>
         <div class="row">
         <div class="col-md-6  ">
-               <h3 class="text-dark addColor ">Mobile Health Screening</h3>
+               <h3 class="text-dark addColor mg ">Mobile Health Screening</h3>
                <p class="" style="text-align: justify;">Our Non-Fasting Mobile Health Screening lets you take charge of your health anytime and anywhere,
                  providing flexibility and convenience in the comfort of your preferred location. Our various packages
                   offered are designed to offer comprehensive screening for individuals to take proactive care of their health.</p>
@@ -256,16 +272,16 @@ p{
 
          <div class="col-md-6">
             <div class="card shadow overflow-hidden" data-aos="zoom-in" data-aos-easing="ease-out-cubic" data-aos-duration="3000">
-                <img class="section1-image img-responsive" src="images/h3.jpeg" id="img"  alt="logo">
+                <img class="section1-image img-responsive" src="images/mtimage.jpg" id="img"  alt="logo">
             </div>
             </div>
           </div>
          </div>
-        </div>
-<br>
-       <div class="container-fluid">
-       <div class="main"><br>
-    <table class="price-table">
+    <br> 
+       <div class="container-fluid dsktable">
+         <div class="row"> 
+       <div class="main col-md-12">
+    <table class="price-table table-responsive ">
         <tbody>
            
             <tr class="price-table-head">
@@ -278,10 +294,7 @@ p{
                 </td>
                 <td style="color:#691C32">
                 Focus Mobile 1
-                    <br><small style="font-size: 12px; font-weight: 400;">Urine
-                Diabetes
-                Cholesterol
-                Blood Test</small>
+                <br><small style="font-size: 12px; font-weight: 400;">Urine Diabetes Cholesterol Blood Test</small>
                 <br><span style="color:691C32;"> <button style="font-size:12px;border:none;" class="addColor">See more..</button></span>
                 <div class="card bg-white m-3" style="display:none;" id="lit">
                     <ul>
@@ -290,54 +303,63 @@ p{
                       <li class="text-left" style="font-size:11px;list-style: none" class="addColor">Cholesterol</li> 
                       <li class="text-left" style="font-size:11px;list-style: none" class="addColor">Blood Test</li> 
                     </ul>
-       
-         </div>
-                
-               
-
+                </div>
                 <hr style="height:2px;border-width:0;color:gray;background-color:gray">
                 </td>
                 <td class="green-width" style="color:#691C32">
+                <br><br><br>
                 Focus Mobile 2
-                    <br><small style="font-size: 12px; font-weight: 400;">Everything
-                in Focus
-                Mobile 1,
-                plus;</small>
-                <br><br>
+                    <br><small style="font-size: 12px; font-weight: 400;color:#ea6852">Everything in Focus Mobile 1, plus;</small>
+                <br>
+                <div class="card bg-gray" style="" id="">
+                    <ul>
+                      <li class="text-left" style="font-size:11px; list-style: none" class="addColor">Intestines</li>  
+                      <li class="text-left" style="font-size:11px;list-style: none" class="addColor" >Ovaries</li> 
+                      <li class="text-left" style="font-size:11px;list-style: none" class="addColor">Prostate</li> 
+                      <li class="text-left" style="font-size:11px;list-style: none" class="addColor">Pancreas</li>
+                      <li class="text-left" style="font-size:11px;list-style: none" class="addColor">Nose</li> 
+                    </ul>
+               </div>
                 <hr style="height:2px;border-width:0;color:gray;background-color:gray">
                 </td>
                 <td class="green-width" style="color:#691C32">
+                <br>
                 Focus Mobile 3
-                    <br><small style="font-size: 12px; font-weight: 400;">Everything
-                in Focus
-                Mobile 2,
-                plus;</small>
-                <br><br>
+                    <br><small style="font-size: 12px; font-weight: 400; color:#ea6852">Everything in Focus Mobile 2, plus;</small>
+                <br>
+                <div class="card bg-gray" style="" id="">
+                    <ul>
+                      <li class="text-left" style="font-size:11px; list-style: none" class="addColor">Hepatitis C</li>  
+                      <li class="text-left" style="font-size:11px;list-style: none" class="addColor" >Gastric/Stomach</li> 
+                    </ul>
+                </div>
                 <hr style="height:2px;border-width:0;color:gray;background-color:gray">
                 </td>
                 <td class="green-width" style="color:#691C32">
                 Focus Mobile 4
-                    <br><small style="font-size: 12px; font-weight: 400;">Everything
-                in Focus
-                Mobile 3,
-                plus;</small>
-                <br><br>
+                    <br><small style="font-size: 12px; font-weight: 400;color:#ea6852">Everything in Focus Mobile 3, plus;</small>
+                <br>
+                <div class="card bg-gray" style="" id="lit">
+                    <ul>
+                      <li class="text-left" style="font-size:11px; list-style: none" class="addColor">Heart</li> 
+                    </ul>
+                </div>
                 <hr style="height:2px;border-width:0;color:gray;background-color:gray">
                 </td>
                 <td class="green-width" style="color:#691C32">
                 Focus Mobile 5
-                    <br><small style="font-size: 12px; font-weight: 400;">Everything
-                in Focus
-                Mobile 4,
-                plus;</small>
-                <br><br>
+                    <br><small style="font-size: 12px; font-weight: 400;color:#ea6852">Everything in Focus Mobile 4, plus;</small>
+                <br>
+                <div class="card bg-gray" style="" id="lit">
+                    <ul>
+                      <li class="text-left" style="font-size:11px; list-style: none" class="addColor">Blood Deficiency</li> 
+                    </ul>
+                </div>
                 <hr style="height:2px;border-width:0;color:gray;background-color:gray">
                 </td>
             </tr>
             <tr>
-            <td class="price price1">
-            Pricing
-            </td>
+            <td class="price price1">Pricing</td>
                                 <td class="price text-center">
                                    $148 <sup>*</sup> 
                                 </td>
@@ -352,6 +374,24 @@ p{
                                 </td>
                                 <td class="price text-center">
                                 $468 <sup>*</sup> 
+                                </td>
+            </tr>
+            <tr>
+            <td class="price price1"></td>
+                                <td class="price text-center">
+                                U.P $168
+                                </td>
+                                <td class="price text-center">
+                                U.P $248
+                                </td>
+                                <td class="price text-center">
+                                U.P $288
+                                </td>
+                                <td class="price text-center">
+                                U.P $388 
+                                </td>
+                                <td class="price text-center">
+                                U.P $478 
                                 </td>
             </tr>
             <tr>
@@ -701,7 +741,7 @@ p{
             </tr>
             
             <tr class="">
-              <div class="mb-4">
+              <!-- <div class="mb-4"> -->
               <td></td>
                 <td class="price text-center">
                 <a href="https://clinic.platomedical.com/book/dGhldGVzdGluZ3Bybw==/3a15474421d84593b830f623ecee4538/LRacOHE">BOOK NOW</a>
@@ -718,7 +758,7 @@ p{
                 <td class="price text-center">
                     <a href="https://clinic.platomedical.com/book/dGhldGVzdGluZ3Bybw==/3a15474421d84593b830f623ecee4538/LRacOHE">BOOK NOW</a>
                 </td>
-</div>
+<!-- </div> -->
             </tr>
             
         </tbody>
@@ -726,29 +766,146 @@ p{
 </div>
 
 <br><br>
-
-                     <div class="">
+                     <div class=" col-md-12 text-center mt-4">
                       <h5 class="text-center">Please click <a href="./beforebooking.php" class="addColor font-weight-bold" style="text-decoration:none ;"> here</a> for important information to take note of before booking appointment.</h5>
                       <h5 class="text-center">Focus Lite is also available. Please click <a href="./focustable.php" style="text-decoration:none ;" class="addColor font-weight-bold"> here</a> to know more.</h5>
                         <h5 class="text-center mb-5"> Please<a href="contact.php" style="text-decoration:none ;" class="addColor font-weight-bold"> Contact Us</a> if you require fasting options.</h5>
                     
                     </div>  
                     </div>  
-                    <br>
-                    <section class="faq-section">
-<div class="container">
-  <div class="row">
-  
-                    <!-- ***** FAQ Start ***** -->
-                    <div class="col-md-6 offset-md-3">
+                </div>                            <!-- table container end      -->
 
-                        <div class="faq-title text-center pb-3">
-                            <h3>FAQ</h3>
+            <br> 
+                   <div class="container mbstable" style="display:none;">
+                     <div class="row"> 
+                   <div class=" col-md-12 table-responsive">
+                <table class="table  price-table ">
+                    <tbody>
+                       
+                        <tr class="price-table-head">
+                            
+                            <td style="color:#691C32"><br>
+                            Mobile Health<br> Screening Package
+                                
+                                <br><br>
+                                <hr style="height:2px;border-width:0;color:gray;background-color:gray">
+                            </td>
+                            <td style="color:#691C32">
+                            Focus Mobile 1
+                            <br><small style="font-size: 12px; font-weight: 400;">Urine Diabetes Cholesterol Blood Test</small>
+                            <br><span style="color:691C32;"> <button style="font-size:12px;border:none;" class="addColor">See more..</button></span>
+                            <div class="card bg-white m-3" style="display:none;" id="lit">
+                                <ul>
+                                  <li class="text-left" style="font-size:11px; list-style: none" class="addColor">Urine Test</li>  
+                                  <li class="text-left" style="font-size:11px;list-style: none" class="addColor" >Diabetes</li> 
+                                  <li class="text-left" style="font-size:11px;list-style: none" class="addColor">Cholesterol</li> 
+                                  <li class="text-left" style="font-size:11px;list-style: none" class="addColor">Blood Test</li> 
+                                </ul>
+                            </div>
+                            <hr style="height:2px;border-width:0;color:gray;background-color:gray">
+                            </td>
+                            <td class="" style="color:#691C32">
+                            Focus Mobile 2
+                                <br><small style="font-size: 12px; font-weight: 400;color:#ea6852">Everything in Focus Mobile 1, plus;</small>
+                            <br>
+                            <div class="card bg-gray" style="" id="">
+                                <ul>
+                                  <li class="text-left" style="font-size:11px; list-style: none" class="addColor">Intestines</li>  
+                                  <li class="text-left" style="font-size:11px;list-style: none" class="addColor" >Ovaries</li> 
+                                  <li class="text-left" style="font-size:11px;list-style: none" class="addColor">Prostate</li> 
+                                  <li class="text-left" style="font-size:11px;list-style: none" class="addColor">Pancreas</li>
+                                  <li class="text-left" style="font-size:11px;list-style: none" class="addColor">Nose</li> 
+                                </ul>
+                           </div>
+                            <hr style="height:2px;border-width:0;color:gray;background-color:gray">
+                            </td>
+                            <td class="" style="color:#691C32">
+                            <br><br>
+                            Focus Mobile 3
+                                <br><small style="font-size: 12px; font-weight: 400; color:#ea6852">Everything in Focus Mobile 2, plus;</small>
+                            
+                            <div class="card bg-info  mt-4" style="" id="">
+                                <ul>
+                                  <li class="text-left" style="font-size:11px; list-style: none" class="addColor">Hepatitis C</li>  
+                                  <li class="text-left" style="font-size:11px;list-style: none" class="addColor" >Gastric/Stomach</li> 
+                                </ul>
+                            </div>
+                            <hr style="height:2px;border-width:0;color:gray;background-color:gray">
+                            </td>
+                            <td class="" style="color:#691C32">
+                            Focus Mobile 4
+                                <br><small style="font-size: 12px; font-weight: 400;color:#ea6852">Everything in Focus Mobile 3, plus;</small>
+                            <br>
+                            <div class="card bg-gray" style="" id="lit">
+                                <ul>
+                                  <li class="text-left" style="font-size:11px; list-style: none" class="addColor">Heart</li> 
+                                </ul>
+                            </div>
+                            <br>
+                            <hr style="height:2px;border-width:0;color:gray;background-color:gray">
+                            </td>
+                            <td class="mt-3" style="color:#691C32">
+                            Focus Mobile 5
+                                <br><small style="font-size: 12px; font-weight: 400;color:#ea6852">Everything in Focus Mobile 4, plus;</small>
+                            <br>
+                            <div class="card bg-gray" style="" id="lit">
+                                <ul>
+                                  <li class="text-left" style="font-size:11px; list-style: none" class="addColor">Blood Deficiency</li> 
+                                </ul>
+                            </div><br>
+                            <hr  class="mt-5" style="height:2px;border-width:0;color:gray;background-color:gray">
+                            </td>
+                        </tr>
+                        <tr class="">
+                          
+                          <td></td>
+                            <td class="price text-center">
+                            <a href="https://clinic.platomedical.com/book/dGhldGVzdGluZ3Bybw==/3a15474421d84593b830f623ecee4538/LRacOHE">BOOK NOW</a>
+                            </td>
+                            <td class="price text-center">
+                                <a href="https://clinic.platomedical.com/book/dGhldGVzdGluZ3Bybw==/3a15474421d84593b830f623ecee4538/LRacOHE">BOOK NOW</a>
+                            </td>
+                            <td class="price text-center">
+                                <a href="https://clinic.platomedical.com/book/dGhldGVzdGluZ3Bybw==/3a15474421d84593b830f623ecee4538/LRacOHE">BOOK NOW</a>
+                            </td>
+                            <td class="price text-center">
+                                <a href="https://clinic.platomedical.com/book/dGhldGVzdGluZ3Bybw==/3a15474421d84593b830f623ecee4538/LRacOHE">BOOK NOW</a>
+                            </td>
+                            <td class="price text-center">
+                                <a href="https://clinic.platomedical.com/book/dGhldGVzdGluZ3Bybw==/3a15474421d84593b830f623ecee4538/LRacOHE">BOOK NOW</a>
+                            </td>
+            
+                        </tr>
+                        
+                    </tbody>
+                </table>
+            </div>
+            <br><br>
+                             <div class=" col-md-12 text-center mt-4">
+                                  <h5 class="text-center">Please click <a href="./beforebooking.php" class="addColor font-weight-bold" style="text-decoration:none ;"> here</a> for important information to take note of before booking appointment.</h5>
+                                  <h5 class="text-center">Focus Lite is also available. Please click <a href="./focustable.php" style="text-decoration:none ;" class="addColor font-weight-bold"> here</a> to know more.</h5>
+                                    <h5 class="text-center mb-5"> Please<a href="contact.php" style="text-decoration:none ;" class="addColor font-weight-bold"> Contact Us</a> if you require fasting options.</h5>
+                                
+                                </div>  
+                                </div>  
+                            </div>                            <!-- table container end      -->
+
+
+                   
+                    <section class="faq-section">
+                <div class="container">
+            <div class="row"> 
+                    <!-- ***** FAQ Start ***** -->
+                    <div class="col-md-12">
+                        <div class="faq-title text-center pb-2">
+                            <h4>Frequently Asked Questions(FAQ)</h4>
                         </div>
                     </div>
-                    <div class="col-md-6 text-center ml-5"><h4>GENERAL</h4></div>
-                    <div class="col-md-6 offset-md-3">
+                    <!-- <div class="col-md-6 text-center ml-5"><h4>GENERAL</h4></div> -->
+                    <div class="col-md-12">
+                    <div class="col-md-12"><h5><u>GENERAL</u></h5></div>
                         <div class="faq" id="accordion">
+                        
                             <div class="card">
                                 <div class="card-header" id="faqHeading-1">
                                     <div class="mb-0">
@@ -759,8 +916,10 @@ p{
                                 </div>
                                 <div id="faqCollapse-1" class="collapse" aria-labelledby="faqHeading-1" data-parent="#accordion">
                                     <div class="card-body">
-                                        <p>We conduct Health Screening at the comfort of your preferred location. However, please note that we are only able to conduct<b> only within </b> the compounds of private residences, offices with rooms or private areas and hotel rooms or function rooms. We <b>do not</b> conduct at public areas such as void decks, carparks, public walkways, etc. 
- </p>
+                                        <p>We conduct Health Screening at the comfort of your preferred location. However, please note that we are only able to conduct
+                                            <b> only within </b> the compounds of private residences, offices with rooms or private areas and hotel rooms or function rooms. 
+                                            We <b>do not</b> conduct at public areas such as void decks, carparks, public walkways, etc. 
+                                        </p>
                                     </div>
                                 </div>
                             </div>
@@ -776,7 +935,7 @@ p{
                                 <div id="faqCollapse-2" class="collapse" aria-labelledby="faqHeading-2" data-parent="#accordion">
                                     <div class="card-body">
                                         <p>We are able to conduct Mobile Health Screening for individuals aged 18 years and above. 
-</p>
+                                     </p>
                                     </div>
                                 </div>
                             </div>
@@ -792,7 +951,7 @@ p{
                                 <div id="faqCollapse-3" class="collapse" aria-labelledby="faqHeading-3" data-parent="#accordion">
                                     <div class="card-body">
                                         <p>Booking an appointment would allow us to prepare in advance for tests. This allows you to have a smooth and seamless experience. 
-</p>
+                                   </p>
                                     </div>
                                 </div>
                             </div>
@@ -823,7 +982,7 @@ p{
                                 <div id="faqCollapse-5" class="collapse" aria-labelledby="faqHeading-5" data-parent="#accordion">
                                     <div class="card-body">
                                         <p> There will be a <b>surcharge</b> of <b>$48</b> for appointment booking made <b>less than one (1) working day.</b></p>
-</p>
+                                       </p>
                                     </div>
                                 </div>
                             </div>
@@ -838,9 +997,10 @@ p{
                                 </div>
                                 <div id="faqCollapse-6" class="collapse" aria-labelledby="faqHeading-6" data-parent="#accordion">
                                     <div class="card-body">
-                                        <p>There will be a<b> surcharge</b> of<b> $48</b> for long-haul locations such as Changi Airfreight Centre, Changi Airport, Jurong Island, Sentosa and Tuas.  
+                                        <p>There will be a<b> surcharge</b> of<b> $48</b> for long-haul locations such as Changi Airfreight Centre, Changi Airport,
+                                         Jurong Island, Sentosa and Tuas.  
 
-</p>
+                                      </p>
                                     </div>
                                 </div>
                             </div>
@@ -860,11 +1020,6 @@ p{
                                     </div>
                                 </div>
                             </div>
-
-
-
-
-
                             <div class="card">
                                 <div class="card-header" id="faqHeading-7">
                                     <div class="mb-0">
@@ -881,7 +1036,7 @@ p{
                                          There will be a surcharge of<b> $48 </b>(per booking) for all rescheduling. For example, if your confirmed booking appointment is on 31 August, you<b> must</b>
                                           email us latest by 29 August<b> before 6pm</b> to reschedule your appointment. 
 
-</p>
+                                      </p>
                                     </div>
                                 </div>
                             </div>
@@ -897,7 +1052,7 @@ p{
                                 <div id="faqCollapse-7" class="collapse" aria-labelledby="faqHeading-7" data-parent="#accordion">
                                     <div class="card-body">
                                         <p>We require your NRIC / Work Permit / Passport / Driving Licence for verification.
-</p>
+                                      </p>
                                     </div>
                                 </div>
                             </div>
@@ -913,7 +1068,7 @@ p{
                                 <div id="faqCollapse-7" class="collapse" aria-labelledby="faqHeading-7" data-parent="#accordion">
                                     <div class="card-body">
                                         <p>We only accept credit card for pre-payment. Details of pre-payment will be sent to you after you have booked your appointment. 
-</p>
+                                        </p>
                                     </div>
                                 </div>
                             </div>
@@ -922,14 +1077,14 @@ p{
                                     <div class="mb-0">
                                         <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-7" data-aria-expanded="false" data-aria-controls="faqCollapse-7">
                                             <span class="badge">+</span> <a href=""><b>Can I request for a Time Chit or Medical Certificate for Health Screening?</a></b>
-</a>
+                                            </a>
                                         </h5>
                                     </div>
                                 </div>
                                 <div id="faqCollapse-7" class="collapse" aria-labelledby="faqHeading-7" data-parent="#accordion">
                                     <div class="card-body">
                                         <p>As Health Screening is arranged at your preferred timing and location and when you are well, we are unable to provide any medical certificate or time chit.
-</p>
+                                     </p>
                                     </div>
                                 </div>
                             </div>
@@ -965,27 +1120,7 @@ p{
                                 </div>
                             </div>
 
-
-
-
-
-                        </div>
-                    </div>
-                
-                  </div>
-                </div>
-                 </section>   
-        
-                 <section class="faq-section">
-<div class="container">
-  <div class="row">
-  
-                    <!-- ***** FAQ Start ***** -->
-                    <div class="col-md-6 offset-md-3">
-                    </div>
-                    <div class="col-md-6 text-center ml-5"><h4 >HEALTH CONDITIONS</h4></div>
-                    <div class="col-md-6 offset-md-3">
-                        <div class="faq" id="accordion">
+                    <div class="col-md-6 "><h5><u>HEALTH CONDITIONS</u></h5></div>
                             <div class="card">
                                 <div class="card-header" id="faqHeading-1">
                                     <div class="mb-0">
@@ -999,7 +1134,7 @@ p{
                                         <p>If you are feeling unwell, we advise that you postpone your health screening as it is an elective procedure. 
                                             You may email us at concierge@thetestingpro.com to reschedule your appointment.
  
- </p>
+                                        </p>
                                     </div>
                                 </div>
                             </div>
@@ -1007,18 +1142,14 @@ p{
                                 <div class="card-header" id="faqHeading-2">
                                     <div class="mb-0">
                                         <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-2" data-aria-expanded="false" data-aria-controls="faqCollapse-2">
-                                            <span class="badge">+</span><b> Can I proceed with Mobile Health Screening if I have recently recovered from COVID-19?
-</b>
+                                            <span class="badge">+</span><b> Can I proceed with Mobile Health Screening if I have recently recovered from COVID-19?</b>
 
                                         </h5>
                                     </div>
                                 </div>
                                 <div id="faqCollapse-2" class="collapse" aria-labelledby="faqHeading-2" data-parent="#accordion">
                                     <div class="card-body">
-                                        <p>We advise that you wait for a month after recovery. 
-
- 
-</p>
+                                        <p>We advise that you wait for a month after recovery. </p>
                                     </div>
                                 </div>
                             </div> 
@@ -1026,9 +1157,7 @@ p{
                                 <div class="card-header" id="faqHeading-3">
                                     <div class="mb-0">
                                         <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-3" data-aria-expanded="false" data-aria-controls="faqCollapse-3">
-                                            <span class="badge">+</span> <b>Can I proceed with Health Screening after Vaccination?
-</b>
-
+                                            <span class="badge">+</span> <b>Can I proceed with Health Screening after Vaccination?</b>
                                         </h5>
                                     </div>
                                 </div>
@@ -1036,7 +1165,7 @@ p{
                                     <div class="card-body">
                                         <p>We advise that you conduct your health screening two (2) weeks after any vaccination. 
 
-</p>
+                                          </p>
                                     </div>
                                 </div>
                             </div>
@@ -1045,16 +1174,17 @@ p{
                                     <div class="mb-0">
                                         <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-4" data-aria-expanded="false" data-aria-controls="faqCollapse-4">
                                             <span class="badge">+</span> <b>Can I proceed with Mobile Health Screening when I am pregnant or breastfeeding?
-</b>
+                                         </b>
 
                                         </h5>
                                     </div>
                                 </div>
                                 <div id="faqCollapse-4" class="collapse" aria-labelledby="faqHeading-4" data-parent="#accordion">
                                     <div class="card-body">
-                                        <p>Generally, you will have regular follow-up and antenatal care with your obstetrician for regular antenatal care and follow-up. It is thus recommended that you check with your obstetrician before booking an appointment.  
+                                        <p>Generally, you will have regular follow-up and antenatal care with your obstetrician for regular antenatal care and follow-up. 
+                                            It is thus recommended that you check with your obstetrician before booking an appointment.  
 
-</p>
+                                          </p>
                                     </div>
                                 </div>
                             </div>
@@ -1063,37 +1193,25 @@ p{
                                     <div class="mb-0">
                                         <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-5" data-aria-expanded="false" data-aria-controls="faqCollapse-5">
                                             <span class="badge">+</span><b>Can I proceed with Mobile Health Screening when I am having my menses?
-</b>
+                                           </b>
 
                                         </h5>
                                     </div>
                                 </div>
                                 <div id="faqCollapse-5" class="collapse" aria-labelledby="faqHeading-5" data-parent="#accordion">
                                     <div class="card-body">
-                                        <p> You may proceed for Mobile Health Screening when you are having your menses since it only involves blood tests.  However, if you are selecting the package that includes the Ovarian Tumour Market (CA 125), It is advisable to conduct Mobile Health Screening a week before or after your menses. 
+                                        <p> You may proceed for Mobile Health Screening when you are having your menses since it only involves blood tests.
+                                              However, if you are selecting the package that includes the Ovarian Tumour Market (CA 125), It is advisable
+                                               to conduct Mobile Health Screening a week before or after your menses. 
 
-</p>
-</p>
+                                          </p>
+
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                    </div>
-                
-                  </div>
-                </div>
-                 </section> 
-        
-                 <section class="faq-section">
-<div class="container">
-  <div class="row">
-  
-                    <!-- ***** FAQ Start ***** -->
-                    <div class="col-md-6 offset-md-3">
-                    </div>
-                    <div class="col-md-6 text-center ml-5"><h4 >Non-Fasting</h4></div>
-                    <div class="col-md-6 offset-md-3">
-                        <div class="faq" id="accordion">
+                  
+                    <div class="col-md-6"><h5><u>NON-FASTING</u></h5></div>
+                    
                             <div class="card">
                                 <div class="card-header" id="faqHeading-1">
                                     <div class="mb-0">
@@ -1106,7 +1224,7 @@ p{
                                     <div class="card-body">
                                         <p>You need not restrict yourself to health screening to be conducted in the morning after a night of fasting. You have the flexibility to arrange for your health screening at any time of the day. This will benefit those with diabetes as it reduces the risk of hypoglycaemia. 
  
- </p>
+                                  </p>
                                     </div>
                                 </div>
                             </div>
@@ -1114,19 +1232,17 @@ p{
                                 <div class="card-header" id="faqHeading-2">
                                     <div class="mb-0">
                                         <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-2" data-aria-expanded="false" data-aria-controls="faqCollapse-2">
-                                            <span class="badge">+</span><b> Will Non-Fasting Health Screening affect my cholesterol test?
-
-</b>
+                                            <span class="badge">+</span><b> Will Non-Fasting Health Screening affect my cholesterol test?</b>
 
                                         </h5>
                                     </div>
                                 </div>
                                 <div id="faqCollapse-2" class="collapse" aria-labelledby="faqHeading-2" data-parent="#accordion">
                                     <div class="card-body">
-                                        <p>Local studies have shown that there are no significant differences for cholesterol levels between fasted and non-fasted blood samples. If your result is abnormal, you should seek advice whether you should do a fasted cholesterol test during your Post Medical Review which can be arranged via tele-consultation. 
-
- 
-</p>
+                                        <p>Local studies have shown that there are no significant differences for cholesterol levels between fasted and non-fasted blood samples.
+                                             If your result is abnormal, you should seek advice whether you should do a fasted cholesterol test during your Post Medical Review 
+                                             which can be arranged via tele-consultation. 
+                                 </p>
                                     </div>
                                 </div>
                             </div> 
@@ -1134,19 +1250,19 @@ p{
                                 <div class="card-header" id="faqHeading-3">
                                     <div class="mb-0">
                                         <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-3" data-aria-expanded="false" data-aria-controls="faqCollapse-3">
-                                            <span class="badge">+</span> <b>Will Non-Fasting Health Screening affect my glucose test?
-
-</b>
+                                            <span class="badge">+</span> <b>Will Non-Fasting Health Screening affect my glucose test?</b>
 
                                         </h5>
                                     </div>
                                 </div>
                                 <div id="faqCollapse-3" class="collapse" aria-labelledby="faqHeading-3" data-parent="#accordion">
                                     <div class="card-body">
-                                        <p>Screening for diabetes is to ascertain your blood glucose control over the last three (3) months by measuring your sugar molecules attached to your red blood cells. If your random blood glucose result is abnormal, you should seek advice whether you should do a fasted blood glucose test to confirm your diagnosis of diabetes or prediabetes during your Post Medical Review which is arranged via tele-consultation.
-
-
-</p>
+                                        <p>Screening for diabetes is to ascertain your blood glucose control over the last three (3) months
+                                             by measuring your sugar molecules attached to your red blood cells. If your random blood glucose
+                                              result is abnormal, you should seek advice whether you should do a fasted blood glucose test to
+                                               confirm your diagnosis of diabetes or prediabetes during your Post Medical Review which is arranged
+                                                via tele-consultation.
+                                      </p>
                                     </div>
                                 </div>
                             </div>
@@ -1154,8 +1270,7 @@ p{
                                 <div class="card-header" id="faqHeading-4">
                                     <div class="mb-0">
                                         <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-4" data-aria-expanded="false" data-aria-controls="faqCollapse-4">
-                                            <span class="badge">+</span> <b>Is there anything that I should avoid before my Non-Fasting Health Screening?
-</b>
+                                            <span class="badge">+</span> <b>Is there anything that I should avoid before my Non-Fasting Health Screening?</b>
 
                                         </h5>
                                     </div>
@@ -1163,7 +1278,7 @@ p{
                                 <div id="faqCollapse-4" class="collapse" aria-labelledby="faqHeading-4" data-parent="#accordion">
                                     <div class="card-body">
                                         <p>We will advise that you avoid alcohol or a heavy meal.
-</p>
+                                      </p>
                                     </div>
                                 </div>
                             </div>
@@ -1171,8 +1286,7 @@ p{
                                 <div class="card-header" id="faqHeading-5">
                                     <div class="mb-0">
                                         <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-5" data-aria-expanded="false" data-aria-controls="faqCollapse-5">
-                                            <span class="badge">+</span><b>Who is suitable for Non-Fasting Health Screening? 
-</b>
+                                            <span class="badge">+</span><b>Who is suitable for Non-Fasting Health Screening? </b>
 
                                         </h5>
                                     </div>
@@ -1180,9 +1294,8 @@ p{
                                 <div id="faqCollapse-5" class="collapse" aria-labelledby="faqHeading-5" data-parent="#accordion">
                                     <div class="card-body">
                                         <p> Non-fasting Health Screening is suitable for the majority.
+                                   </p>
 
-</p>
-</p>
                                     </div>
                                 </div>
                             </div>
@@ -1190,9 +1303,7 @@ p{
                                 <div class="card-header" id="faqHeading-6">
                                     <div class="mb-0">
                                         <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-5" data-aria-expanded="false" data-aria-controls="faqCollapse-5">
-                                            <span class="badge">+</span><b>Who is unsuitable for Non-Fasting Health Screening? 
- 
-</b>
+                                            <span class="badge">+</span><b>Who is unsuitable for Non-Fasting Health Screening? </b>
 
                                         </h5>
                                     </div>
@@ -1200,10 +1311,7 @@ p{
                                 <div id="faqCollapse-5" class="collapse" aria-labelledby="faqHeading-5" data-parent="#accordion">
                                     <div class="card-body">
                                         <p>It is advisable that if you are anaemic, you are unsuitable for the blood glucose test due to its measurement of the degree of sugar bonding with red blood cells.
-
-
-</p>
-</p>
+                                     </p>
                                     </div>
                                 </div>
                             </div>
@@ -1212,9 +1320,7 @@ p{
                                 <div class="card-header" id="faqHeading-7">
                                     <div class="mb-0">
                                         <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-5" data-aria-expanded="false" data-aria-controls="faqCollapse-5">
-                                            <span class="badge">+</span><b>What if I require Fasting Health Screening?
-
-</b>
+                                            <span class="badge">+</span><b>What if I require Fasting Health Screening?</b>
 
                                         </h5>
                                     </div>
@@ -1222,9 +1328,8 @@ p{
                                 <div id="faqCollapse-5" class="collapse" aria-labelledby="faqHeading-5" data-parent="#accordion">
                                     <div class="card-body">
                                         <p>You may email us at <b>concierge@thetestingpro.com </b>for arrangements.
+                                       </p>
 
-</p>
-</p>
                                     </div>
                                 </div>
                             </div>
@@ -1232,10 +1337,7 @@ p{
                                 <div class="card-header" id="faqHeading-7">
                                     <div class="mb-0">
                                         <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-5" data-aria-expanded="false" data-aria-controls="faqCollapse-5">
-                                            <span class="badge">+</span><b>If I require Fasting Health Screening, how many hours of fasting should I observe before my confirmed booking appointment?
-
-
-</b>
+                                            <span class="badge">+</span><b>If I require Fasting Health Screening, how many hours of fasting should I observe before my confirmed booking appointment?</b>
 
                                         </h5>
                                     </div>
@@ -1243,30 +1345,17 @@ p{
                                 <div id="faqCollapse-5" class="collapse" aria-labelledby="faqHeading-5" data-parent="#accordion">
                                     <div class="card-body">
                                         <p>Generally, fasting for at least eight (8) hours is necessary for tests involving cholesterol and blood glucose. You may continue to consume your regular medication for chronic disease (for example, hypertension, cholesterol). You are to omit your diabetic medication until you have taken your breakfast.  If you are taking thyroid medications that have recommended timings, it is advisable that you check with your doctor who prescribed you with the medication.  Drinking plain water is encouraged.
+                                    </p>
 
-
-</p>
-</p>
                                     </div>
                                 </div>
                             </div>
-
-
-
-
                         </div>
                     </div>
                 
                   </div>
                 </div>
                  </section> <br>   
-
-
-
-    
-
-   
-
     <?php
   require_once('footer.php');
  ?>
@@ -1296,8 +1385,6 @@ p{
     loop:true,
     autoplay:true,
     autospeed:1000,
-   
-    
 });
 </script>
 <script>
@@ -1307,8 +1394,6 @@ p{
 //   $("button").hide();
    });
 });
-</script>
-
 </script>
 </body>
 
