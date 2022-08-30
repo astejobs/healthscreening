@@ -123,7 +123,7 @@ include('./corporateEmailSender.php');
   </div>
 
 
-  <!-- <div class="site-wrap">
+  <div class="site-wrap">
 
     <div class="site-mobile-menu site-navbar-target">
       <div class="site-mobile-menu-header">
@@ -132,7 +132,7 @@ include('./corporateEmailSender.php');
         </div>
       </div>
       <div class="site-mobile-menu-body"></div>
-    </div> -->
+    </div> 
 
     <?php
   require_once('header.php');
