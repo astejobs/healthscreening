@@ -101,7 +101,7 @@ require('./contactEmailSender.php');
     .site-footer {
     padding: 4% !important;
 }
-@media (max-width:499px) {
+@media (max-width:599px) {
   .mbsc{
     margin-top:80px !important;
 

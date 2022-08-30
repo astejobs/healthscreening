@@ -212,7 +212,7 @@ p{
 }
 
 
-@media (max-width:499px) {
+@media (max-width:599px) {
     .dsktable{
         display:none !important;
     }
