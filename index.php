@@ -161,22 +161,22 @@ h2.owl-title {
           </div>
           <div class="item">
           <div class="owl-text-overlay ">
-        <h2 class="owl-title">We Personalised Health Screening </h2>
-        <p class="text-center">Take proactive care of your health with our various health screening packages that are designed to offer comprehensive screening for you.</p>
+        <h2 class="owl-title addColor">We Personalised Health Screening </h2>
+        <p class="text-center addColor">Take proactive care of your health with our various health screening packages that are designed to offer comprehensive screening for you.</p>
         </div>
             <img src="./images/carouselimage2.jpg" alt="image">
           </div>
           <div class="item">
           <div class="owl-text-overlay ">
-        <h2 class="owl-title">Fast and Without Fasting   </h2>
-        <p class="text-center">We put an end to the dreaded overnight fast and reduce hunger pangs with our Non-Fasting Mobile Health Screening.</p>
+        <h2 class="owl-title addColor">Fast and Without Fasting   </h2>
+        <p class="text-center addColor">We put an end to the dreaded overnight fast and reduce hunger pangs with our Non-Fasting Mobile Health Screening.</p>
         </div>
             <img src="./images/hs1.jpeg" alt="image">
           </div>
           <div class="item">
           <div class="owl-text-overlay ">
-        <h2 class="owl-title">Flexibility Through Mobility</h2>
-        <p class="text-center">We conduct health screening in the comfort of your preferred location, providing you convenience and flexibility without the need to make a trip.</p>
+        <h2 class="owl-title addColor">Flexibility Through Mobility</h2>
+        <p class="text-center addColor">We conduct health screening in the comfort of your preferred location, providing you convenience and flexibility without the need to make a trip.</p>
         </div>
             <img src="./images/hs2.jpeg" alt="image">
           </div>
