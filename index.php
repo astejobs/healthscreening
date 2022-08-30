@@ -68,13 +68,13 @@
 
     .owl-carousel {
       width: 100%;
-      height: 75vh;
+      height: 100vh;
     }
 
     .item {
       width: 100%;
-      height: 75vh;
-       background-size: cover; 
+      height: 100vh;
+      background-size: cover; 
     }
 
     .section1-image {
@@ -95,6 +95,10 @@
     .site-footer {
     padding: 4% !important;
 }
+
+  
+
+
  
   </style>
 
@@ -132,6 +136,9 @@
             <img src="./images/carousel.jpg" alt="image">
           </div>
           <div class="item">
+            <img src="./images/carouselimage2.jpg" alt="image">
+          </div>
+          <div class="item">
             <img src="./images/hs1.jpeg" alt="image">
           </div>
           <div class="item">
@@ -143,7 +150,7 @@
       </div>
     </div>
 
-    <div class="container mb-4 ">
+    <div class="container mb-4  cont2">
       <p class="text-center addColor display-4 mb-5">Our Focus, Your Wellbeing</p>
       <div class="row">
 
