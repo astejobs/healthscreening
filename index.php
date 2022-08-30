@@ -68,13 +68,13 @@
 
     .owl-carousel {
       width: 100%;
-      height: 70vh;
+      height: 100vh;
     }
 
     .item {
       width: 100%;
-      height: 70vh;
-      background-size: cover;
+      height: 100vh;
+      background-size: cover; 
     }
 
     .section1-image {
@@ -95,6 +95,60 @@
     .site-footer {
     padding: 4% !important;
 }
+.owl-text-overlay {
+  position: absolute;
+  text-align: center;
+  width: 60%;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  color: #fff;
+  /* background-color: rgba(0, 0, 0, 0.4); */
+  /* background: rgba(0, 0, 0, 0.4); */
+  /* padding-bottom: 20px; */
+  font-family: "Open Sans", sans-serif;
+  /* border-radius: 15px 50px 30px 5px; */
+}
+h2.owl-title {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  
+}
+@media (max-width:599px) {
+  
+  .owl-text-overlay {
+  position: absolute;
+  text-align: center;
+  width: 60%;
+  top: 35%;
+  transform: translateY(-50%);
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  color: #fff;
+  /* background-color: rgba(0, 0, 0, 0.4); */
+  /* background: rgba(0, 0, 0, 0.4); */
+  /* padding-bottom: 20px; */
+  font-family: "Open Sans", sans-serif;
+  /* border-radius: 15px 50px 30px 5px; */
+}
+h2.owl-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  
+}
+}
+
+
+  
+
+
  
   </style>
 
@@ -128,10 +182,28 @@
     <div class="site-section ">
       <div class=" mt-5">
         <div class="owl-carousel owl-theme mt-5">
+        <div class="item">
+            <img src="./images/carousel.jpg" alt="image">
+          </div>
           <div class="item">
+          <div class="owl-text-overlay ">
+        <h2 class="owl-title addColor">We Personalised Health Screening </h2>
+        <p class="text-center text-dark">Take proactive care of your health with our various health screening packages that are designed to offer comprehensive screening for you.</p>
+        </div>
+            <img src="./images/carouselimage2.jpg" alt="image">
+          </div>
+          <div class="item">
+          <div class="owl-text-overlay ">
+        <h2 class="owl-title addColor">Fast and Without Fasting   </h2>
+        <p class="text-center text-dark">We put an end to the dreaded overnight fast and reduce hunger pangs with our Non-Fasting Mobile Health Screening.</p>
+        </div>
             <img src="./images/hs1.jpeg" alt="image">
           </div>
           <div class="item">
+          <div class="owl-text-overlay ">
+        <h2 class="owl-title addColor">Flexibility Through Mobility</h2>
+        <p class="text-center text-dark">We conduct health screening in the comfort of your preferred location, providing you convenience and flexibility without the need to make a trip.</p>
+        </div>
             <img src="./images/hs2.jpeg" alt="image">
           </div>
 
@@ -140,7 +212,7 @@
       </div>
     </div>
 
-    <div class="container mb-4 ">
+    <div class="container mb-4  cont2">
       <p class="text-center addColor display-4 mb-5">Our Focus, Your Wellbeing</p>
       <div class="row">
 
@@ -196,7 +268,7 @@
 <div class="accordion rounded" data-aos="fade-right"  data-aos-easing="ease-out-cubic" data-aos-duration="3000">
 
   <div class="tab">
-    <img src="./images/hs1.jpeg" alt="">
+    <img src="./images/mobilehealth.jpg" alt="">
     <div class="caption">
       <h2>Mobile Health Screening</h2>
       <p class="text-justify">Our Non-Fasting Mobile Health Screening lets you take charge of your health anytime and anywhere,<br> providing flexibility and convenience in the comfort of your preferred location. Our various packages <br>offered are designed to offer comprehensive screening for individuals to take proactive care of their health.</p>

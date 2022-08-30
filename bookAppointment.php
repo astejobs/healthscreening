@@ -114,6 +114,11 @@ include('./corporateEmailSender.php');
     .site-footer {
       padding: 4% !important;
     }
+    @media (max-width:499px) {
+      .mbs{
+        margin-top:100px !important;
+      }
+    }
   </style>
 
 </head>
@@ -128,7 +133,7 @@ include('./corporateEmailSender.php');
   </div>
 
 
-  <!-- <div class="site-wrap">
+   <div class="site-wrap">
 
     <div class="site-mobile-menu site-navbar-target">
       <div class="site-mobile-menu-header">
@@ -137,7 +142,8 @@ include('./corporateEmailSender.php');
         </div>
       </div>
       <div class="site-mobile-menu-body"></div>
-    </div> -->
+    </div> 
+
 
   <?php
   require_once('header.php');
@@ -146,7 +152,7 @@ include('./corporateEmailSender.php');
 
   <div class="container mb-5  ">
     <div class="margins"></div>
-    <div class="row ">
+    <div class="row  mbs">
 
 
       <div class="col-md-6 " data-aos="fade-right">

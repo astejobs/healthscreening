@@ -90,6 +90,12 @@ th:hover::after {
     .site-footer {
     padding: 4% !important;
 } */
+@media (max-width:499px) {
+  .mg{
+    margin-top:100px !important;
+  }
+  
+}
   
   </style>
 
@@ -125,7 +131,7 @@ th:hover::after {
         <div class="margins"></div>
         <div class="row">
             <div class="col-md-12">
-                <h2 class="mt-4 text-dark font-weight-bold">Focus Lite</h2>
+                <h2 class="mt-4 text-dark font-weight-bold mg">Focus Lite</h2>
                 <p style="font-size:16px;"> With just less than $50, a basic one-health screening package to check your diabetes
                      and cholesterol level lets you detect your risk for cardiovascular diseases such as heart disease and stroke 
                      at the comfort of your preferred location. 
