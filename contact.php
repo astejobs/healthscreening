@@ -54,6 +54,7 @@ require('./contactEmailSender.php');
 
    .roundedd {
     border-radius: 30px !important;
+    font-size:12px !important;
     font-weight:bold !important;
   }
   .roundedd:hover{
