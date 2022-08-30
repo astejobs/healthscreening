@@ -95,6 +95,30 @@
     .site-footer {
     padding: 4% !important;
 }
+.owl-text-overlay {
+  position: absolute;
+  text-align: center;
+  width: 60%;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  color: #fff;
+  /* background-color: rgba(0, 0, 0, 0.4); */
+  /* background: rgba(0, 0, 0, 0.4); */
+  /* padding-bottom: 20px; */
+  font-family: "Open Sans", sans-serif;
+  /* border-radius: 15px 50px 30px 5px; */
+}
+h2.owl-title {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  
+}
+
 
   
 
@@ -136,12 +160,24 @@
             <img src="./images/carousel.jpg" alt="image">
           </div>
           <div class="item">
+          <div class="owl-text-overlay ">
+        <h2 class="owl-title">We Personalised Health Screening </h2>
+        <p class="text-center">Take proactive care of your health with our various health screening packages that are designed to offer comprehensive screening for you.</p>
+        </div>
             <img src="./images/carouselimage2.jpg" alt="image">
           </div>
           <div class="item">
+          <div class="owl-text-overlay ">
+        <h2 class="owl-title">Fast and Without Fasting   </h2>
+        <p class="text-center">We put an end to the dreaded overnight fast and reduce hunger pangs with our Non-Fasting Mobile Health Screening.</p>
+        </div>
             <img src="./images/hs1.jpeg" alt="image">
           </div>
           <div class="item">
+          <div class="owl-text-overlay ">
+        <h2 class="owl-title">Flexibility Through Mobility</h2>
+        <p class="text-center">We conduct health screening in the comfort of your preferred location, providing you convenience and flexibility without the need to make a trip.</p>
+        </div>
             <img src="./images/hs2.jpeg" alt="image">
           </div>
 
