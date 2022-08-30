@@ -151,6 +151,7 @@ include('./corporateEmailSender.php');
   <div class="container mb-5  ">
     <div class="margins"></div>
     <h3 class="text-center mb-4 addColor font-weight-bold">Health Screening</h3>
+    <p class="addColor text-center"> Our extensive range of health screening packages offer incredible value, convenience and flexibility tailored to your needs.</p>
     <div class="row ">
 
 
