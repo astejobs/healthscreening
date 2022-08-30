@@ -256,7 +256,7 @@ p{
 
          <div class="col-md-6">
             <div class="card shadow overflow-hidden" data-aos="zoom-in" data-aos-easing="ease-out-cubic" data-aos-duration="3000">
-                <img class="section1-image img-responsive" src="images/h3.jpeg" id="img"  alt="logo">
+                <img class="section1-image img-responsive" src="images/mobilehealth.jpg" id="img"  alt="logo">
             </div>
             </div>
           </div>

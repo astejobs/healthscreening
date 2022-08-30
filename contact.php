@@ -101,6 +101,17 @@ integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b
     .site-footer {
     padding: 4% !important;
 }
+@media (max-width:499px) {
+  .mbsc{
+    margin-top:80px !important;
+
+  }
+ 
+  iframe{
+    width:300px !important;
+  }
+  
+}
 
 </style>
 
@@ -116,7 +127,7 @@ integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b
     <div class="row margin ">
      
       <div class="col-md-7 ">
-        <h2 class="mt-5 addColor" >Contact Us</h2>
+        <h2 class="mt-5 addColor mbsc" >Contact Us</h2>
         <p style="font-size:16px;" class="addColor "><b> Do you have an enquiry? </b><br>
         <b> Please complete the form and we will get back to you as soon as we can.</b>
         </p>

@@ -196,7 +196,7 @@
 <div class="accordion rounded" data-aos="fade-right"  data-aos-easing="ease-out-cubic" data-aos-duration="3000">
 
   <div class="tab">
-    <img src="./images/hs1.jpeg" alt="">
+    <img src="./images/mobilehealth.jpg" alt="">
     <div class="caption">
       <h2>Mobile Health Screening</h2>
       <p class="text-justify">Our Non-Fasting Mobile Health Screening lets you take charge of your health anytime and anywhere,<br> providing flexibility and convenience in the comfort of your preferred location. Our various packages <br>offered are designed to offer comprehensive screening for individuals to take proactive care of their health.</p>
