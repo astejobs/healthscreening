@@ -156,7 +156,7 @@ include('./corporateEmailSender.php');
 
 
       <div class="col-md-6 ">
-        <div class="card shadow overflow-hidden">
+        <div class="card shadow overflow-hidden" data-aos="flip-right" data-aos-easing="ease-out-cubic" data-aos-duration="3000">
 
           <img width="100%" class="section1-image img-responsive" src="./images/helimg.jpeg" alt="image">
           
@@ -164,7 +164,7 @@ include('./corporateEmailSender.php');
         <h4 class="addColor text-center mt-2"><u><a href="./mobilehealthscreening.php">Mobile Health Screening</u></h4>
       </div>
       <div class="col-md-6 ">
-        <div class="card shadow overflow-hidden">
+        <div class="card shadow overflow-hidden" data-aos="flip-right" data-aos-easing="ease-out-cubic" data-aos-duration="3000">
 
           <img width="100%" class="section1-image img-responsive" src="./images/corporate.jpeg" alt="image">
         </div>

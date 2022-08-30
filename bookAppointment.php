@@ -159,19 +159,20 @@ include('./corporateEmailSender.php');
 
   <div class="container mb-5  ">
     <div class="margins"></div>
+    <h3 class="text-center mb-4 addColor font-weight-bold">Our Services</h3>
     <div class="row  mbs">
 
 
       <div class="col-md-6 " data-aos="fade-right">
-        <div class="card shadow overflow-hidden " >
+        <div class="card shadow overflow-hidden " data-aos="flip-right" data-aos-easing="ease-out-cubic" data-aos-duration="3000" >
 
-          <img width="100%" class="section1-image img-responsive" src="./images/hs2.jpeg" alt="image">
+          <img width="100%" class="section1-image img-responsive" src="./images/corporate.jpeg" alt="image">
           
         </div>
         <h4 class="addColor text-center mt-2"> <a href="HealthScreening.php"><u> Health Screening</u></a></h4>
       </div>
       <div class="col-md-6 ">
-        <div class="card shadow overflow-hidden">
+        <div class="card shadow overflow-hidden" data-aos="flip-right" data-aos-easing="ease-out-cubic" data-aos-duration="3000">
 
           <img width="100%" class="section1-image img-responsive" src="./images/h3.jpeg" alt="image">
         </div>
