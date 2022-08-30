@@ -114,6 +114,12 @@ include('./corporateEmailSender.php');
     .site-footer {
       padding: 4% !important;
     }
+    @media (max-width:499px) {
+  .mg{
+    margin-top:100px !important;
+  }
+  
+}
   </style>
 
 </head>
@@ -148,7 +154,7 @@ include('./corporateEmailSender.php');
     <div class="margins"></div>
     <!-- <div class="row "> -->
     <div>
-        <h3 style=" color:#691C32;font-family: 'Montserrat';" claass="addColor">Mobile Health Screening Important information</h3>
+        <h3 style=" color:#691C32;font-family: 'Montserrat';" class="addColor mg text-justify">Mobile Health Screening Important information</h3>
         <ol class="text-justify">
             <li> Please note that <b>appointment booking  </b>must be made at least <b> one (1) working day in advance. </b></li> 
              <li>Please note that our <b> operation hours </b>to conduct Mobile Health Screening  Serviceare from <b>Monday to Sunday, 9.30am to 9.30pm.</b> </li> 
