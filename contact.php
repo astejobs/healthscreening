@@ -51,9 +51,14 @@ require('./contactEmailSender.php');
   justify-content: center;
   color:white !important;
     }
-   .roundedd{
-     border-radius: 30px !important;
-   }
+
+   .roundedd {
+    border-radius: 30px !important;
+    font-weight:bold !important;
+  }
+  .roundedd:hover{
+    background-color:#9C6167 !important;
+  }
    .site-footer{
      background-color: #CCC3BC;
    }

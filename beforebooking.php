@@ -120,6 +120,13 @@ include('./corporateEmailSender.php');
   }
   
 }
+.roundedd {
+    border-radius: 30px !important;
+    font-weight:bold !important;
+  }
+  .roundedd:hover{
+    background-color:#9C6167 !important;
+  }
   </style>
 
 </head>

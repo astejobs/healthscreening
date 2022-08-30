@@ -83,6 +83,13 @@ th:hover::after {
      .margins{
     padding-bottom:15%  !important;
     
+  }
+  .roundedd {
+    border-radius: 30px !important;
+    font-weight:bold !important;
+  }
+  .roundedd:hover{
+    background-color:#9C6167 !important;
   }/*
   .dropdown{
       border-top:2px solid #691C32 !important;

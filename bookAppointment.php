@@ -94,6 +94,13 @@ include('./corporateEmailSender.php');
       background-color: #691C32;
       color: white;
     }
+    .roundedd {
+    border-radius: 30px !important;
+    font-weight:bold !important;
+  }
+  .roundedd:hover{
+    background-color:#9C6167 !important;
+  }
 
     .section1-image {
       width: 100% !important;

@@ -1351,4 +1351,5 @@ th:hover::after {
 }
 .roundedd {
   border-radius: 30px !important;
+  font-weight: bold !important;
 }
