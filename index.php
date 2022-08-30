@@ -68,13 +68,13 @@
 
     .owl-carousel {
       width: 100%;
-      height: 70vh;
+      height: 75vh;
     }
 
     .item {
       width: 100%;
-      height: 70vh;
-      background-size: cover;
+      height: 75vh;
+       background-size: cover; 
     }
 
     .section1-image {
@@ -128,6 +128,9 @@
     <div class="site-section ">
       <div class=" mt-5">
         <div class="owl-carousel owl-theme mt-5">
+        <div class="item">
+            <img src="./images/carousel.jpg" alt="image">
+          </div>
           <div class="item">
             <img src="./images/hs1.jpeg" alt="image">
           </div>
