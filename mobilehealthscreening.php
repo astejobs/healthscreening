@@ -249,7 +249,9 @@ p{
   .roundedd:hover{
     background-color:#9C6167 !important;
   }
-  
+  .tbl1 td ,th{
+    width:250px!important;
+  }
 
   </style>
 
@@ -308,80 +310,130 @@ p{
        <div class="container-fluid dsktable">
          <div class="row"> 
        <div class="main col-md-12">
-    <table class="price-table table-responsive ">
+    <table class="price-table table-responsive tbl1">
         <tbody>
            
-            <tr class="price-table-head">
-                
-                <td style="color:#691C32"><br>
-                Mobile Health Screening Package
+            <tr class="price-table-head ">
+                <td  class="col-md-2">
+                <div class="card text-capitalize mb-3" style="max-width: 18rem; height:17rem;color:#691C32;background-color:#F8F8F8;border:none;">
                     
-                    <br><br>
+                    <div class="card-body">
+                        <p class="card-text text-center mt-4">Mobile Health <br>Screening Package</p>
+                    </div>
+                         </div>
                     <hr style="height:2px;border-width:0;color:gray;background-color:gray">
                 </td>
-                <td style="color:#691C32">
-                Focus Mobile 1
-                <br><small style="font-size: 12px; font-weight: 400;">Urine Diabetes Cholesterol Blood Test</small>
-                <br><span style="color:691C32;"> <button style="font-size:12px;border:none;" class="addColor">See more..</button></span>
-                <div class="card m-3" style="display:none; background-color:lightgray;" id="lit">
-                    <ul>
-                      <li class="text-left" style="font-size:11px; list-style: none" class="addColor">Urine Test</li>  
-                      <li class="text-left" style="font-size:11px;list-style: none" class="addColor" >Diabetes</li> 
-                      <li class="text-left" style="font-size:11px;list-style: none" class="addColor">Cholesterol</li> 
-                      <li class="text-left" style="font-size:11px;list-style: none" class="addColor">Blood Test</li> 
+
+                <td  class="col-md-2" style="color:#691C32">
+                <div class="card text-capitalize mb-3" style="max-width: 18rem; height:17rem;color:#691C32;background-color:#F8F8F8;border:none;">
+                    
+                    <div class="card-body">
+                         <p class=""> Focus Mobile 1 </p>
+                        <p class="card-text text-center">
+                        <small style="font-size: 12px; font-weight: 400;">Urine Diabetes Cholesterol Blood Test</small>
+                        <br><span style="color:691C32;"> <button style="font-size:12px;border:none;" class="addColor">See more..</button></span>
+                <div class="lit" style="display:none; ">
+                    <ul class="list-group">
+                      <li class="addColor " style="font-size:11px; list-style: none">Urine Test</li>  
+                      <li class="addColor " style="font-size:11px;list-style: none"  >Diabetes</li> 
+                      <li class="addColor " style="font-size:11px;list-style: none" >Cholesterol</li> 
+                      <li class="addColor " style="font-size:11px;list-style: none" >Blood Test</li> 
                     </ul>
-                </div>
+                </div>   
+                <!-- <div class="container">
+  <h2>Basic List Group</h2>
+  <ul class="list-group">
+    <li class="list-group-item">First item</li>
+    <li class="list-group-item">Second item</li>
+    <li class="list-group-item">Third item</li>
+  </ul>
+</div> -->
+                        </p>
+                    </div>
+                    </div>
                 <hr style="height:2px;border-width:0;color:gray;background-color:gray">
                 </td>
-                <td class="green-width" style="color:#691C32">
-                <br><br><br>
-                Focus Mobile 2
-                    <br><small style="font-size: 12px; font-weight: 400;color:#ea6852">Everything in Focus Mobile 1, plus;</small>
+
+                <td class="col-md-2" style="color:#691C32">
+                <div class="card text-capitalize mb-3" style="max-width: 18rem;height:17rem;color:#691C32;background-color:#F8F8F8;border:none;">
+                    
+                    <div class="card-body">
+                         <p class="text-center"> Focus Mobile 2 </p>
+                        <p class="card-text text-center">
+                        <small style="font-size: 12px; font-weight: 400;color:#ea6852">Everything in Focus Mobile 1, plus;</small>
                 <br>
-                <div class="card m-3" style="background-color:lightgray;" id="">
-                    <ul>
-                      <li class="text-left" style="font-size:11px; list-style: none" class="addColor">Intestines</li>  
-                      <li class="text-left" style="font-size:11px;list-style: none" class="addColor" >Ovaries</li> 
-                      <li class="text-left" style="font-size:11px;list-style: none" class="addColor">Prostate</li> 
-                      <li class="text-left" style="font-size:11px;list-style: none" class="addColor">Pancreas</li>
-                      <li class="text-left" style="font-size:11px;list-style: none" class="addColor">Nose</li> 
+                <div class="" style="" id="">
+                    <ul class="list-group">
+                      <li class="addColor" style="font-size:11px; list-style: none" >Intestines</li>  
+                      <li class="addColor" style="font-size:11px;list-style: none" >Ovaries</li> 
+                      <li class="addColor" style="font-size:11px;list-style: none" >Prostate</li> 
+                      <li class="addColor" style="font-size:11px;list-style: none" >Pancreas</li>
+                      <li class="addColor" style="font-size:11px;list-style: none" >Nose</li> 
                     </ul>
                </div>
+                        </p>
+                    </div>
+                    </div>
+
                 <hr style="height:2px;border-width:0;color:gray;background-color:gray">
                 </td>
-                <td class="green-width" style="color:#691C32">
+
+                <td class="col-md-2" style="color:#691C32">
+
+                <div class="card text-capitalize mb-3" style="max-width: 18rem;height:17rem;color:#691C32;background-color:#F8F8F8;border:none;">
+                    
+                    <div class="card-body">
+                         <p class="text-center"> Focus Mobile 3 </p>
+                        <p class="card-text text-center">
+                        <small style="font-size: 12px; font-weight: 400; color:#ea6852">Everything in Focus Mobile 2, plus;</small>
                 <br>
-                Focus Mobile 3
-                    <br><small style="font-size: 12px; font-weight: 400; color:#ea6852">Everything in Focus Mobile 2, plus;</small>
-                <br>
-                <div class="card m-3" style="background-color:lightgray;" id="">
-                    <ul>
-                      <li class="text-left" style="font-size:11px; list-style: none" class="addColor">Hepatitis C</li>  
-                      <li class="text-left" style="font-size:11px;list-style: none" class="addColor" >Gastric/Stomach</li> 
+                <div class="" style="" id="">
+                    <ul class="list-group">
+                      <li class="addColor"  style="font-size:11px; list-style: none">Hepatitis C</li>  
+                      <li class="addColor"  style="font-size:11px;list-style: none" >Gastric/Stomach</li> 
                     </ul>
                 </div>
+                        </p>
+                    </div>
+                    </div>
                 <hr style="height:2px;border-width:0;color:gray;background-color:gray">
                 </td>
-                <td class="green-width" style="color:#691C32">
-                Focus Mobile 4
-                    <br><small style="font-size: 12px; font-weight: 400;color:#ea6852">Everything in Focus Mobile 3, plus;</small>
+                
+                <td class="col-md-2" style="color:#691C32">
+                <div class="card text-capitalize mb-3" style="max-width: 18rem;height:17rem;color:#691C32;background-color:#F8F8F8;border:none;">
+                    
+                    <div class="card-body">
+                         <p class="text-center">Focus Mobile 4 </p>
+                        <p class="card-text text-center">
+                        <small style="font-size: 12px; font-weight: 400;color:#ea6852">Everything in Focus Mobile 3, plus;</small>
                 <br>
-                <div class="card m-3" style="background-color:lightgray;" id="lit">
-                    <ul>
-                      <li class="text-left" style="font-size:11px; list-style: none" class="addColor">Heart</li> 
+                <div class="" style="" id="lit">
+                    <ul class="list-group">
+                      <li class="addColor" style="font-size:11px; list-style: none" class="addColor">Heart</li> 
                     </ul>
                 </div>
+                        </p>
+                    </div>
+                    </div>
                 <hr style="height:2px;border-width:0;color:gray;background-color:gray">
                 </td>
-                <td class="green-width" style="color:#691C32">
-                Focus Mobile 5
-                    <br><small style="font-size: 12px; font-weight: 400;color:#ea6852">Everything in Focus Mobile 4, plus;</small>
+
+                <td class="col-md-2" style="color:#691C32">
+                <div class="card text-capitalize mb-3" style="max-width: 18rem;height:17rem;color:#691C32;background-color:#F8F8F8;border:none;">
+                    
+                    <div class="card-body">
+                         <p class="text-center">Focus Mobile 5 </p>
+                        <p class="card-text text-center">
+                        <small style="font-size: 12px; font-weight: 400;color:#ea6852">Everything in Focus Mobile 4, plus;</small>
                 <br>
-                <div class="card m-3" style="background-color:lightgray;" id="lit">
-                    <ul>
+                <div class="" style="" id="lit">
+                    <ul class="list-group">
                       <li class="text-left" style="font-size:11px; list-style: none" class="addColor">Blood Deficiency</li> 
                     </ul>
                 </div>
+                        </p>
+                    </div>
+                    </div>
                 <hr style="height:2px;border-width:0;color:gray;background-color:gray">
                 </td>
             </tr>
@@ -793,96 +845,140 @@ p{
 </div>
 
 <br><br>
-                     <div class=" col-md-12 text-center mt-4">
+                     <!-- <div class=" col-md-12 text-center mt-4">
                       <h5 class="text-center">Please click <a href="./beforebooking.php" class="addColor font-weight-bold" style="text-decoration:none ;"> here</a> for important information to take note of before booking appointment.</h5>
                       <h5 class="text-center">Focus Lite is also available. Please click <a href="./focustable.php" style="text-decoration:none ;" class="addColor font-weight-bold"> here</a> to know more.</h5>
                         <h5 class="text-center mb-5"> Please<a href="contact.php" style="text-decoration:none ;" class="addColor font-weight-bold"> Contact Us</a> if you require fasting options.</h5>
                     
+                    </div>   -->
                     </div>  
-                    </div>  
-                </div>                            <!-- table container end      -->
+                </div>               
+                             <!-- table container end      -->
 
             <br> 
                    <div class="container mbstable" style="display:none;">
-                     <div class="row"> 
-                   <div class=" col-md-12 table-responsive">
-                <table class="table  price-table ">
-                    <tbody>
-                       
-                        <tr class="price-table-head">
-                            
-                            <td style="color:#691C32"><br>
-                            Mobile Health<br> Screening Package
-                                
-                                <br><br>
-                                <hr style="height:2px;border-width:0;color:gray;background-color:gray">
-                            </td>
-                            <td style="color:#691C32">
-                            Focus Mobile 1
-                            <br><small style="font-size: 12px; font-weight: 400;">Urine Diabetes Cholesterol Blood Test</small>
-                            <br><span style="color:691C32;"> <button style="font-size:12px;border:none;" class="addColor">See more..</button></span>
-                            <div class="card bg-white m-3" style="display:none;" id="lit">
-                                <ul>
-                                  <li class="text-left" style="font-size:11px; list-style: none" class="addColor">Urine Test</li>  
-                                  <li class="text-left" style="font-size:11px;list-style: none" class="addColor" >Diabetes</li> 
-                                  <li class="text-left" style="font-size:11px;list-style: none" class="addColor">Cholesterol</li> 
-                                  <li class="text-left" style="font-size:11px;list-style: none" class="addColor">Blood Test</li> 
-                                </ul>
-                            </div>
-                            <hr style="height:2px;border-width:0;color:gray;background-color:gray">
-                            </td>
-                            <td class="" style="color:#691C32">
-                            Focus Mobile 2
-                                <br><small style="font-size: 12px; font-weight: 400;color:#ea6852">Everything in Focus Mobile 1, plus;</small>
-                            <br>
-                            <div class="card bg-white m-3" style="" id="">
-                                <ul>
-                                  <li class="text-left" style="font-size:11px; list-style: none" class="addColor">Intestines</li>  
-                                  <li class="text-left" style="font-size:11px;list-style: none" class="addColor" >Ovaries</li> 
-                                  <li class="text-left" style="font-size:11px;list-style: none" class="addColor">Prostate</li> 
-                                  <li class="text-left" style="font-size:11px;list-style: none" class="addColor">Pancreas</li>
-                                  <li class="text-left" style="font-size:11px;list-style: none" class="addColor">Nose</li> 
-                                </ul>
-                           </div>
-                            <hr style="height:2px;border-width:0;color:gray;background-color:gray">
-                            </td>
-                            <td class="" style="color:#691C32">
-                        
-                            Focus Mobile 3
-                                <br><small style="font-size: 12px; font-weight: 400; color:#ea6852">Everything in Focus Mobile 2, plus;</small>
-                            
-                            <div class="card bg-white  m-3" style="" id="">
-                                <ul>
-                                  <li class="text-left" style="font-size:11px; list-style: none" class="addColor">Hepatitis C</li>  
-                                  <li class="text-left" style="font-size:11px;list-style: none" class="addColor" >Gastric/Stomach</li> 
-                                </ul>
-                            </div>
-                            <hr style="height:2px;border-width:0;color:gray;background-color:gray">
-                            </td>
-                            <td class="" style="color:#691C32">
-                            Focus Mobile 4
-                                <br><small style="font-size: 12px; font-weight: 400;color:#ea6852">Everything in Focus Mobile 3, plus;</small>
-                            <br>
-                            <div class="card bg-white m-3" style="" id="lit">
-                                <ul>
-                                  <li class="text-left" style="font-size:11px; list-style: none" class="addColor">Heart</li> 
-                                </ul>
-                            </div>
-                            <br>
-                            <hr style="height:2px;border-width:0;color:gray;background-color:gray">
-                            </td>
-                            <td class="mt-3" style="color:#691C32">
-                            Focus Mobile 5
-                                <br><small style="font-size: 12px; font-weight: 400;color:#ea6852">Everything in Focus Mobile 4, plus;</small>
-                            <br>
-                            <div class="card bg-white m-3" style="" id="lit">
-                                <ul>
-                                  <li class="text-left" style="font-size:11px; list-style: none" class="addColor">Blood Deficiency</li> 
-                                </ul>
-                            </div><br>
-                            <hr  class="mt-5" style="height:2px;border-width:0;color:gray;background-color:gray">
-                            </td>
-                        </tr>
+                   <div class="row"> 
+       <div class="main col-md-12">
+    <table class="price-table table-responsive tbl1">
+        <tbody>
+           
+            <tr class="price-table-head ">
+                <td  class="col-md-2">
+                <div class="card text-capitalize mb-3" style="max-width: 18rem; height:17rem;color:#691C32;background-color:#F8F8F8;border:none;">
+                    
+                    <div class="card-body">
+                        <p class="card-text text-center mt-4">Mobile Health <br>Screening Package</p>
+                    </div>
+                         </div>
+                    
+                    <hr style="height:2px;border-width:0;color:gray;background-color:gray">
+                </td>
+
+                <td  class="col-md-2" style="color:#691C32">
+                <div class="card text-capitalize mb-3" style="max-width: 18rem; height:17rem;color:#691C32;background-color:#F8F8F8;border:none;">
+                    
+                    <div class="card-body">
+                         <p class=""> Focus Mobile 1 </p>
+                        <p class="card-text text-center">
+                        <small style="font-size: 12px; font-weight: 400;">Urine Diabetes Cholesterol Blood Test</small>
+                        <br><span style="color:691C32;"> <button style="font-size:12px;border:none;" class="addColor">See more..</button></span>
+                        <div class="lit" style="display:none; ">
+                    <ul class="list-group">
+                      <li class="addColor " style="font-size:11px; list-style: none">Urine Test</li>  
+                      <li class="addColor " style="font-size:11px;list-style: none"  >Diabetes</li> 
+                      <li class="addColor " style="font-size:11px;list-style: none" >Cholesterol</li> 
+                      <li class="addColor " style="font-size:11px;list-style: none" >Blood Test</li> 
+                    </ul>
+                </div>   
+                        </p>
+                    </div>
+                    </div>
+                <hr style="height:2px;border-width:0;color:gray;background-color:gray">
+                </td>
+
+                <td class="col-md-2" style="color:#691C32">
+                <div class="card text-capitalize mb-3" style="max-width: 18rem;height:17rem;color:#691C32;background-color:#F8F8F8;border:none;">
+                    
+                    <div class="card-body">
+                         <p class="text-center"> Focus Mobile 2 </p>
+                        <p class="card-text text-center">
+                        <small style="font-size: 12px; font-weight: 400;color:#ea6852">Everything in Focus Mobile 1, plus;</small>
+                <br>
+                <div class="" style="" id="">
+                    <ul class="list-group">
+                      <li class="addColor" style="font-size:11px; list-style: none" >Intestines</li>  
+                      <li class="addColor" style="font-size:11px;list-style: none" >Ovaries</li> 
+                      <li class="addColor" style="font-size:11px;list-style: none" >Prostate</li> 
+                      <li class="addColor" style="font-size:11px;list-style: none" >Pancreas</li>
+                      <li class="addColor" style="font-size:11px;list-style: none" >Nose</li> 
+                    </ul>
+               </div>
+                        </p>
+                    </div>
+                    </div>
+
+                <hr style="height:2px;border-width:0;color:gray;background-color:gray">
+                </td>
+
+                <td class="col-md-2" style="color:#691C32">
+
+                <div class="card text-capitalize mb-3" style="max-width: 18rem;height:17rem;color:#691C32;background-color:#F8F8F8;border:none;">
+                    
+                    <div class="card-body">
+                         <p class="text-center"> Focus Mobile 3 </p>
+                        <p class="card-text text-center">
+                        <small style="font-size: 12px; font-weight: 400; color:#ea6852">Everything in Focus Mobile 2, plus;</small>
+                <br>
+                <div class="" style="" id="">
+                    <ul class="list-group">
+                      <li class="addColor"  style="font-size:11px; list-style: none">Hepatitis C</li>  
+                      <li class="addColor"  style="font-size:11px;list-style: none" >Gastric/Stomach</li> 
+                    </ul>
+                </div>
+                        </p>
+                    </div>
+                    </div>
+                <hr style="height:2px;border-width:0;color:gray;background-color:gray">
+                </td>
+                
+                <td class="col-md-2" style="color:#691C32">
+                <div class="card text-capitalize mb-3" style="max-width: 18rem;height:17rem;color:#691C32;background-color:#F8F8F8;border:none;">
+                    
+                    <div class="card-body">
+                         <p class="text-center">Focus Mobile 4 </p>
+                        <p class="card-text text-center">
+                        <small style="font-size: 12px; font-weight: 400;color:#ea6852">Everything in Focus Mobile 3, plus;</small>
+                <br>
+                <div class="" style="" id="lit">
+                    <ul class="list-group">
+                      <li class="addColor" style="font-size:11px; list-style: none" class="addColor">Heart</li> 
+                    </ul>
+                </div>
+                        </p>
+                    </div>
+                    </div>
+                <hr style="height:2px;border-width:0;color:gray;background-color:gray">
+                </td>
+
+                <td class="col-md-2" style="color:#691C32">
+                <div class="card text-capitalize mb-3" style="max-width: 18rem;height:17rem;color:#691C32;background-color:#F8F8F8;border:none;">
+                    
+                    <div class="card-body">
+                         <p class="text-center">Focus Mobile 5 </p>
+                        <p class="card-text text-center">
+                        <small style="font-size: 12px; font-weight: 400;color:#ea6852">Everything in Focus Mobile 4, plus;</small>
+                <br>
+                <div class="" style="" id="lit">
+                    <ul class="list-group">
+                      <li class="text-left" style="font-size:11px; list-style: none" class="addColor">Blood Deficiency</li> 
+                    </ul>
+                </div>
+                        </p>
+                    </div>
+                    </div>
+                <hr style="height:2px;border-width:0;color:gray;background-color:gray">
+                </td>
+            </tr>
                         <tr class="">
                           
                           <td></td>
@@ -908,16 +1004,20 @@ p{
                 </table>
             </div>
             <br><br>
-                             <div class=" col-md-12 text-center mt-4">
-                                  <h5 class="text-center">Please click <a href="./beforebooking.php" class="addColor font-weight-bold" style="text-decoration:none ;"> here</a> for important information to take note of before booking appointment.</h5>
-                                  <h5 class="text-center">Focus Lite is also available. Please click <a href="./focustable.php" style="text-decoration:none ;" class="addColor font-weight-bold"> here</a> to know more.</h5>
-                                    <h5 class="text-center mb-5"> Please<a href="contact.php" style="text-decoration:none ;" class="addColor font-weight-bold"> Contact Us</a> if you require fasting options.</h5>
-                                
-                                </div>  
+                             
                                 </div>  
                             </div>                            <!-- table container end      -->
 
-
+                     <div class="container">
+                        <div class="row">
+                           <div class=" col-md-12 text-center mt-4">
+                            <h5 class="text-center">Please click <a href="./beforebooking.php" class="addColor font-weight-bold" style="text-decoration:none ;"> here</a> for important information to take note of before booking appointment.</h5>
+                            <h5 class="text-center">Focus Lite is also available. Please click <a href="./focustable.php" style="text-decoration:none ;" class="addColor font-weight-bold"> here</a> to know more.</h5>
+                            <h5 class="text-center mb-5"> Please<a href="contact.php" style="text-decoration:none ;" class="addColor font-weight-bold"> Contact Us</a> if you require fasting options.</h5>
+                    
+                             </div>  
+                        </div>
+                     </div>
                    
                     <section class="faq-section">
                 <div class="container">
@@ -1417,7 +1517,7 @@ p{
 <script>
     $(document).ready(function(){
    $("button").click(function(){
-  $("#lit").toggle();
+  $(".lit").toggle();
 //   $("button").hide();
    });
 });
