@@ -128,7 +128,7 @@ h2.owl-title {
   position: absolute;
   text-align: center;
   width: 60%;
-  top: 35%;
+  top: 20% !important;
   transform: translateY(-50%);
   left: 0;
   right: 0;
