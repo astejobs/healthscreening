@@ -114,7 +114,7 @@ include('./corporateEmailSender.php');
     .site-footer {
       padding: 4% !important;
     }
-    @media (max-width:499px) {
+    @media (max-width:599px) {
   .mg{
     margin-top:100px !important;
   }
