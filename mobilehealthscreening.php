@@ -212,12 +212,14 @@ p{
 }
 
 
-@media (max-width:599px) {
+@media screen and (min-device-width:100px) and (max-device-width: 480px) {   
     .dsktable{
         display:none !important;
     }
     .mbstable{
         display:flex !important;
+        width:360px !important;
+        overflow:scroll !important;
         
     }
     .mg{
@@ -225,6 +227,21 @@ p{
     }
     
 }
+@media screen and (min-device-width:481px) and (max-device-width: 768px) {   
+    .dsktable{
+        display:none !important;
+    }
+    .mbstable{
+        display:flex !important;
+        width:670px !important;
+        overflow:scroll !important;
+        
+    }
+    .mg{
+        padding-top:100px !important;
+    }
+}
+
 .roundedd {
     border-radius: 30px !important;
     font-weight:bold !important;
