@@ -306,7 +306,7 @@ p{
                 Focus Mobile 1
                 <br><small style="font-size: 12px; font-weight: 400;">Urine Diabetes Cholesterol Blood Test</small>
                 <br><span style="color:691C32;"> <button style="font-size:12px;border:none;" class="addColor">See more..</button></span>
-                <div class="card bg-white m-3" style="display:none;" id="lit">
+                <div class="card m-3" style="display:none; background-color:lightgray;" id="lit">
                     <ul>
                       <li class="text-left" style="font-size:11px; list-style: none" class="addColor">Urine Test</li>  
                       <li class="text-left" style="font-size:11px;list-style: none" class="addColor" >Diabetes</li> 
@@ -321,7 +321,7 @@ p{
                 Focus Mobile 2
                     <br><small style="font-size: 12px; font-weight: 400;color:#ea6852">Everything in Focus Mobile 1, plus;</small>
                 <br>
-                <div class="card bg-gray" style="" id="">
+                <div class="card m-3" style="background-color:lightgray;" id="">
                     <ul>
                       <li class="text-left" style="font-size:11px; list-style: none" class="addColor">Intestines</li>  
                       <li class="text-left" style="font-size:11px;list-style: none" class="addColor" >Ovaries</li> 
@@ -337,7 +337,7 @@ p{
                 Focus Mobile 3
                     <br><small style="font-size: 12px; font-weight: 400; color:#ea6852">Everything in Focus Mobile 2, plus;</small>
                 <br>
-                <div class="card bg-gray" style="" id="">
+                <div class="card m-3" style="background-color:lightgray;" id="">
                     <ul>
                       <li class="text-left" style="font-size:11px; list-style: none" class="addColor">Hepatitis C</li>  
                       <li class="text-left" style="font-size:11px;list-style: none" class="addColor" >Gastric/Stomach</li> 
@@ -349,7 +349,7 @@ p{
                 Focus Mobile 4
                     <br><small style="font-size: 12px; font-weight: 400;color:#ea6852">Everything in Focus Mobile 3, plus;</small>
                 <br>
-                <div class="card bg-gray" style="" id="lit">
+                <div class="card m-3" style="background-color:lightgray;" id="lit">
                     <ul>
                       <li class="text-left" style="font-size:11px; list-style: none" class="addColor">Heart</li> 
                     </ul>
@@ -360,7 +360,7 @@ p{
                 Focus Mobile 5
                     <br><small style="font-size: 12px; font-weight: 400;color:#ea6852">Everything in Focus Mobile 4, plus;</small>
                 <br>
-                <div class="card bg-gray" style="" id="lit">
+                <div class="card m-3" style="background-color:lightgray;" id="lit">
                     <ul>
                       <li class="text-left" style="font-size:11px; list-style: none" class="addColor">Blood Deficiency</li> 
                     </ul>
