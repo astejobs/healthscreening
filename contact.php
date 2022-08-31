@@ -112,6 +112,17 @@ require('./contactEmailSender.php');
   }
   
 }
+@media (min-width:600px) {
+  .mbsc{
+    margin-top:130px !important;
+
+  }
+ 
+  iframe{
+    width:300px !important;
+  }
+  
+}
 
 </style>
 
@@ -158,8 +169,8 @@ require('./contactEmailSender.php');
       </div>
     </div>
    
-    <div class="col-md-5">
-            <img src="./images/fihlogo.png" id="img" class="mt-4" alt="logo">
+    <div class="col-md-5 ">
+            <img src="./images/fihlogo.png" id="img" class="mt-4 mbsc" alt="logo">
       </div>
     </div>
     <?php
