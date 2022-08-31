@@ -118,6 +118,12 @@ include('./corporateEmailSender.php');
     .site-footer {
       padding: 4% !important;
     }
+    @media screen and (min-device-width:100px) and (max-device-width: 1080px) {   
+      .mbsc{
+    margin-top:100px;
+  }
+
+}
   </style>
 
 </head>
@@ -150,7 +156,7 @@ include('./corporateEmailSender.php');
 
   <div class="container mb-5  ">
     <div class="margins"></div>
-    <h3 class="text-center mb-4 addColor font-weight-bold">Health Screening</h3>
+    <h3 class="text-center mb-4 addColor font-weight-bold mbsc">Health Screening</h3>
     <p class=" text-center"> Our extensive range of health screening packages offer incredible value, convenience and flexibility tailored to your needs.</p>
     <div class="row ">
 
