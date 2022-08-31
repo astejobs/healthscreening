@@ -438,7 +438,7 @@ p{
                 </td>
             </tr>
             <tr>
-            <td class="price price1">Pricing</td>
+            <td class="price price1"><b>Pricing</b></td>
                                 <td class="price text-center">
                                    $148 <sup>*</sup> 
                                 </td>
