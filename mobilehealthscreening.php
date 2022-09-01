@@ -210,7 +210,21 @@
 p{
     text-align: justify !important;  
 }
-
+.btn2{
+    text-align: center !important ;
+    display: inline !important ;  
+    font-size: 9px !important;
+    padding: 3px !important;
+    margin-top: 0 !important;
+    width: 50% !important;
+    height: 60% !important;
+    background-color: #800020 !important;
+    color:white;
+    border: radius 30px !important;
+}
+.btn1{
+    width: 40% !important;   
+}
 
 @media screen and (min-device-width:100px) and (max-device-width: 480px) {   
     .dsktable{
@@ -252,6 +266,64 @@ p{
   .tbl1 td ,th{
     width:250px!important;
   }
+
+
+
+  .popup {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* The actual popup */
+.popup .popuptext {
+  visibility: hidden;
+  width: 130px;
+  background-color: #800020;
+  color:white !important;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -70px;
+}
+
+/* Popup arrow */
+.popup .popuptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  /* margin-left: -5px; */
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+/* Toggle this class - hide and show the popup */
+.popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;} 
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
+}
 
   </style>
 
@@ -863,7 +935,7 @@ p{
         <tbody>
            
             <tr class="price-table-head ">
-                <td  class="col-md-2">
+                <td  class="">
                 <div class="card text-capitalize mb-3" style="max-width: 18rem; height:17rem;color:#691C32;background-color:#F8F8F8;border:none;">
                     
                     <div class="card-body">
@@ -874,36 +946,39 @@ p{
                     <hr style="height:2px;border-width:0;color:gray;background-color:gray">
                 </td>
 
-                <td  class="col-md-2" style="color:#691C32">
+                <td  class="" style="color:#691C32">
                 <div class="card text-capitalize mb-3" style="max-width: 18rem; height:17rem;color:#691C32;background-color:#F8F8F8;border:none;">
                     
                     <div class="card-body">
                          <p class=""> Focus Mobile 1 </p>
                         <p class="card-text text-center">
                         <small style="font-size: 12px; font-weight: 400;">Urine Diabetes Cholesterol Blood Test</small>
-                        <br><span style="color:691C32;"> <button style="font-size:12px;border:none;" class="addColor">See more..</button></span>
-                        <div class="lit" style="display:none; ">
+                        <!-- <br><span style="color:691C32;"> <button style="font-size:12px;border:none;" class="addColor">See more..</button></span> -->
+                        <!-- <div class="lit" style="display:none; ">
                     <ul class="list-group">
                       <li class="addColor " style="font-size:11px; list-style: none">Urine Test</li>  
                       <li class="addColor " style="font-size:11px;list-style: none"  >Diabetes</li> 
                       <li class="addColor " style="font-size:11px;list-style: none" >Cholesterol</li> 
                       <li class="addColor " style="font-size:11px;list-style: none" >Blood Test</li> 
                     </ul>
-                </div>   
+                </div>    -->
+                <div class="popup addColor" onclick="myFunction()" style="font-size:11px;color:691C32;">See more...
+  <span class="popuptext addColor" id="myPopup"style="font-size:11px; list-style: none">Urine Test<br>Diabetes<br>Cholesterol<br>Blood Test</span>
+</div>
                         </p>
                     </div>
                     </div>
                 <hr style="height:2px;border-width:0;color:gray;background-color:gray">
                 </td>
 
-                <td class="col-md-2" style="color:#691C32">
+                <td class="" style="color:#691C32">
                 <div class="card text-capitalize mb-3" style="max-width: 18rem;height:17rem;color:#691C32;background-color:#F8F8F8;border:none;">
                     
                     <div class="card-body">
                          <p class="text-center"> Focus Mobile 2 </p>
                         <p class="card-text text-center">
                         <small style="font-size: 12px; font-weight: 400;color:#ea6852">Everything in Focus Mobile 1, plus;</small>
-                <br>
+                <!-- <br>
                 <div class="" style="" id="">
                     <ul class="list-group">
                       <li class="addColor" style="font-size:11px; list-style: none" >Intestines</li>  
@@ -912,7 +987,10 @@ p{
                       <li class="addColor" style="font-size:11px;list-style: none" >Pancreas</li>
                       <li class="addColor" style="font-size:11px;list-style: none" >Nose</li> 
                     </ul>
-               </div>
+               </div> -->
+               <div class="popup addColor" onclick="myFun()" style="font-size:11px;color:691C32;">See more..
+  <span class="popuptext addColor" id="myPopup2"style="font-size:11px; list-style: none">Intestines<br>Ovaries<br>Prostate<br>Pancreas<br>Nose</span>
+</div>
                         </p>
                     </div>
                     </div>
@@ -920,7 +998,7 @@ p{
                 <hr style="height:2px;border-width:0;color:gray;background-color:gray">
                 </td>
 
-                <td class="col-md-2" style="color:#691C32">
+                <td class="" style="color:#691C32">
 
                 <div class="card text-capitalize mb-3" style="max-width: 18rem;height:17rem;color:#691C32;background-color:#F8F8F8;border:none;">
                     
@@ -941,7 +1019,7 @@ p{
                 <hr style="height:2px;border-width:0;color:gray;background-color:gray">
                 </td>
                 
-                <td class="col-md-2" style="color:#691C32">
+                <td class="" style="color:#691C32">
                 <div class="card text-capitalize mb-3" style="max-width: 18rem;height:17rem;color:#691C32;background-color:#F8F8F8;border:none;">
                     
                     <div class="card-body">
@@ -960,7 +1038,7 @@ p{
                 <hr style="height:2px;border-width:0;color:gray;background-color:gray">
                 </td>
 
-                <td class="col-md-2" style="color:#691C32">
+                <td class="" style="color:#691C32">
                 <div class="card text-capitalize mb-3" style="max-width: 18rem;height:17rem;color:#691C32;background-color:#F8F8F8;border:none;">
                     
                     <div class="card-body">
@@ -982,20 +1060,20 @@ p{
                         <tr class="">
                           
                           <td></td>
-                            <td class="price text-center">
-                            <a href="https://clinic.platomedical.com/book/dGhldGVzdGluZ3Bybw==/3a15474421d84593b830f623ecee4538/LRacOHE">BOOK NOW</a>
+                            <td class="">
+                            <a href="https://clinic.platomedical.com/book/dGhldGVzdGluZ3Bybw==/3a15474421d84593b830f623ecee4538/LRacOHE"><button type="" class="btn btn-group-small btn2">BOOK NOW</button></a>
                             </td>
-                            <td class="price text-center">
-                                <a href="https://clinic.platomedical.com/book/dGhldGVzdGluZ3Bybw==/3a15474421d84593b830f623ecee4538/LRacOHE">BOOK NOW</a>
+                            <td class="">
+                                <a href="https://clinic.platomedical.com/book/dGhldGVzdGluZ3Bybw==/3a15474421d84593b830f623ecee4538/LRacOHE"> <button type="" class="btn btn-group-small btn2">BOOK NOW</button></a>
                             </td>
-                            <td class="price text-center">
-                                <a href="https://clinic.platomedical.com/book/dGhldGVzdGluZ3Bybw==/3a15474421d84593b830f623ecee4538/LRacOHE">BOOK NOW</a>
+                            <td class="">
+                                <a href="https://clinic.platomedical.com/book/dGhldGVzdGluZ3Bybw==/3a15474421d84593b830f623ecee4538/LRacOHE"><button type="" class="btn btn-group-small btn1 btn2">BOOK<br> NOW</button></a>
                             </td>
-                            <td class="price text-center">
-                                <a href="https://clinic.platomedical.com/book/dGhldGVzdGluZ3Bybw==/3a15474421d84593b830f623ecee4538/LRacOHE">BOOK NOW</a>
+                            <td class="">
+                                <a href="https://clinic.platomedical.com/book/dGhldGVzdGluZ3Bybw==/3a15474421d84593b830f623ecee4538/LRacOHE"><button type="" class="btn btn-group-small btn2">BOOK NOW</button></a>
                             </td>
-                            <td class="price text-center">
-                                <a href="https://clinic.platomedical.com/book/dGhldGVzdGluZ3Bybw==/3a15474421d84593b830f623ecee4538/LRacOHE">BOOK NOW</a>
+                            <td class="">
+                                <a href="https://clinic.platomedical.com/book/dGhldGVzdGluZ3Bybw==/3a15474421d84593b830f623ecee4538/LRacOHE"><button type="" class="btn btn-group-small btn2">BOOK NOW</button></a>
                             </td>
             
                         </tr>
@@ -1521,6 +1599,15 @@ p{
 //   $("button").hide();
    });
 });
+function myFunction() {
+  var popup = document.getElementById("myPopup");
+  popup.classList.toggle("show");
+}
+function myFun() {
+  var popup = document.getElementById("myPopup2");
+  popup.classList.toggle("show");
+}
+
 </script>
 </body>
 
