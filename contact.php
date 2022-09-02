@@ -180,7 +180,7 @@ if(isset($_SESSION['status']))
 
     ?>
         <div class="alert alert-success alert-dismissible fade show"role="alert">
-             <strong>Hey!<strong><?php echo $_SESSION['status'];?>
+             <strong><strong><?php echo $_SESSION['status'];?>
              
         </div>
 
