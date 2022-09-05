@@ -119,7 +119,7 @@ require('./contactEmailSender.php');
   }
  
   iframe{
-    width:300px !important;
+    width: 500px !important;
   }
   
 }
