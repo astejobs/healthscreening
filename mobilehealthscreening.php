@@ -267,6 +267,11 @@ p{
     width:250px!important;
   }
 
+  @media screen and (min-device-width:769px) and (max-device-width: 1200px) { 
+    .mg{
+        padding-top:120px !important;
+    }
+}
 
 
   .popup {
@@ -371,7 +376,7 @@ p{
          <div class="col-md-6">
             <div class="card shadow overflow-hidden" data-aos="zoom-in" data-aos-easing="ease-out-cubic" data-aos-duration="3000">
 
-                <img class="section1-image img-responsive" src="images/mtimage.jpg" id="img"  alt="logo">
+                <img class="section1-image img-responsive mg" src="images/mtimage.jpg" id="img"  alt="logo">
 
 
             </div>
