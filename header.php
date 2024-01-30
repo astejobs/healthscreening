@@ -45,7 +45,7 @@
                   </ul> -->
                 </li>
                 <li class="has-children">
-                  <a href="prevention.html" class="nav-link">Departments</a>
+                  <a href="" class="nav-link">Departments</a>
                   <ul class="dropdown">
                     <li><a href="./cardiologyDiagnosticCenter.php" class="nav-link">Cardiology Diagnostic Center</a></li>
                     <li><a href="./E-ICUCenter.php" class="nav-link">E-ICU Center</a></li>
