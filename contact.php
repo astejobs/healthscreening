@@ -209,7 +209,7 @@ if(isset($_SESSION['status']))
       </div>
       
       
-        <div class="form-group col-md-6">
+        <!-- <div class="form-group col-md-6">
           <label for="inputState">Type of Enquiry  <span class="text-danger" >*</span></label>
           <select id="inputState" class="form-control" name="enquirytype">
             <option selected>Choose...</option>
@@ -219,7 +219,7 @@ if(isset($_SESSION['status']))
             <option> Corporate Health Screening</option>
             <option>Partnership Opportunities</option>
           </select>
-        </div>
+        </div> -->
      
       <div class="form-group col-md-6">
         <label for="exampleFormControlTextarea1">How can we help?<span class="text-danger" >*</span></label>
