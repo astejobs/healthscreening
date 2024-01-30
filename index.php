@@ -191,6 +191,32 @@
         margin-bottom: 5px;
 
       }
+      .divofcards{
+      display: block;
+      flex-direction:column;
+      align-items:center;
+      justify-content: space-around;
+    }
+    .card{
+      width:100%;
+      height:40vh;
+      align-items:center;
+      justify-content: center;
+      padding: 10px;
+      background-color:#691C32;
+      color:white !important;
+      
+    }
+    
+    .card:hover{
+      background-color:white;
+      color:#691C32 !important;
+      cursor: pointer;
+      transition: all .9s ease;
+
+      
+
+    }
     }
 
     @media screen and (min-device-width:481px) and (max-device-width: 768px) {
@@ -219,6 +245,32 @@
         margin-bottom: 5px;
 
       }
+      .divofcards{
+      display: block;
+      flex-direction:column;
+      align-items:center;
+      justify-content: space-around;
+    }
+    .card{
+      width:100%;
+      height:40vh;
+      align-items:center;
+      justify-content: center;
+      padding: 10px;
+      background-color:#691C32;
+      color:white !important;
+      
+    }
+    
+    .card:hover{
+      background-color:white;
+      color:#691C32 !important;
+      cursor: pointer;
+      transition: all .9s ease;
+
+      
+
+    }
     }
 
     @media screen and (min-device-width: 769px) and (max-device-width: 1024px) {
