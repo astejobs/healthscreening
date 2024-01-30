@@ -322,8 +322,8 @@
  ?>
 
     <div class="site-section ">
-      <div class=" mt-5">
-        <div class="owl-carousel owl-theme mt-5">
+      <div class=" mt-2">
+        <div class="owl-carousel owl-theme mt-2">
           <div class="item">
             <img src="./images/uzbekhc.jpg" alt="image">
           </div>
