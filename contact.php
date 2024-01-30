@@ -158,7 +158,7 @@ require('./contactEmailSender.php');
     
     <div class="row margin ">
      
-      <div class="col-md-7 ">
+      <!-- <div class="col-md-7 ">
         <h2 class="mt-5 addColor mbsc" >Contact Us</h2>
         <p style="font-size:16px;" class="addColor "><b> Do you have an enquiry? </b><br>
         <b> Please complete the form and we will get back to you as soon as we can.</b>
@@ -166,11 +166,11 @@ require('./contactEmailSender.php');
         <div class="">
           <h4 class="addColor ">Email</h2>
         <a href="mailto:concierge@thetestingpro.com" style="text-decoration:none ;">concierge@thetestingpro.com</a>
-      </div>
+      </div> -->
     </div>
    
     <div class="col-md-5 ">
-            <img src="./images/fihlogo.png" id="img" class="mt-4 mbsc" alt="logo">
+            <!-- <img src="./images/fihlogo.png" id="img" class="mt-4 mbsc" alt="logo"> -->
       </div>
     </div>
     <?php
@@ -188,7 +188,7 @@ if(isset($_SESSION['status']))
     unset($_SESSION['status']);
 }
 ?>
-    <form method="POST">
+    <form method="POST" class="p-5">
       <div class="form-row mt-4">
         <div class="form-group col-md-6">
           <label for="inputEmail4">Full Name<span class="text-danger" >*</span></label>
@@ -232,7 +232,7 @@ if(isset($_SESSION['status']))
     </div>
       <button type="submit" name="submit" id="submit" class="btn btn-corporate mb-5" disabled >submit</button> 
     </form>
-    <div class="container p-5">
+    <!-- <div class="container p-5">
       <div class="row">
         <div class="col-md-6">
           <div class="row">
@@ -256,7 +256,7 @@ if(isset($_SESSION['status']))
         <iframe id="Ibis" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.7894641242888!2d103.85033011431604!3d1.301211062093321!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da19bba6e345ad%3A0x5860d34bdd937440!2sibis%20Singapore%20on%20Bencoolen!5e0!3m2!1sen!2sin!4v1661494177771!5m2!1sen!2sin" width="530" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
       </div>
-    </div>
+    </div> -->
    
   </div>
 </div>
