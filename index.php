@@ -418,11 +418,11 @@
      <a class="card m-1" href="./E-ICUCenter.php"><div class="">E-ICU Center</div></a>
      <a class="card m-1" href="./oncology.php"> <div class="  ">Oncology Drugs Warehouse and Manufacturing Facility</div></a>
       <a class="card m-1" href="./urology.php"><div class="  ">Urology Center</div></a>
-      <a class="card m-1" href=""><div class="  ">Laparoscopic Training Center</div></a>
-      <a class="card m-1" href=""><div class="   ">Comprehensive Cancer Diagnostic Services</div></a>
-      <a class="card m-1" href=""><div class="   mb-3">Advanced Gastro Cancer Diagnostic Center</div></a>
-      <a class="card m-1" href=""><div class="   mb-3">Treatment Center</div></a>
-      <a class="card m-1" href=""><div class="   mb-3">Training and Exchange Programs</div></a>
+      <a class="card m-1" href="./LaparoscopicTrainingCenter.php"><div class="  ">Laparoscopic Training Center</div></a>
+      <a class="card m-1" href="./cancerDiagnosticCenter.php"><div class="   ">Comprehensive Cancer Diagnostic Services</div></a>
+      <a class="card m-1" href="./gastroCancerDiagnosticCenter.php"><div class="   mb-3">Advanced Gastro Cancer Diagnostic Center</div></a>
+      <a class="card m-1" href="./treatmentCenter.php"><div class="   mb-3">Treatment Center</div></a>
+      <a class="card m-1" href="./TrainingandExchangePrograms.php"><div class="   mb-3">Training and Exchange Programs</div></a>
       
 
     </div>
