@@ -13,7 +13,10 @@
     integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="fonts/icomoon/style.css">
-
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Monoton&family=Roboto:wght@300&display=swap" rel="stylesheet">
+<link rel="icon" href="./images/logo.jpg" />
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/jquery-ui.css">
   <link rel="stylesheet" href="css/owl.carousel.min.css">
@@ -40,13 +43,46 @@
       color: white !important;
 
     }
+    .fontIntro{
+      font-family: 'Roboto', sans-serif;
+      font-size:1.4rem;
+    }
+    .divofcards{
+      display: flex;
+      flex-wrap:wrap;
+      align-items:center;
+      justify-content: space-around;
+    }
+    .card{
+      width:30%;
+      height:20vh;
+      align-items:center;
+      justify-content: center;
+      padding: 10px;
+      background-color:#691C32;
+      color:white !important;
+      
+    }
+    
+    .card:hover{
+      background-color:white;
+      color:#691C32 !important;
+      cursor: pointer;
+      transition: all .9s ease;
+
+      
+
+    }
+
+   
 
     .roundedd {
       border-radius: 30px !important;
-      font-weight:bold !important;
+      font-weight: bold !important;
     }
-    .roundedd:hover{
-      background-color:#9C6167 !important;
+
+    .roundedd:hover {
+      background-color: #9C6167 !important;
     }
 
     .site-footer {
@@ -63,12 +99,13 @@
       color: #691C32 !important;
       font-size: 16px !important;
       font-weight: bold !important;
-      line-height:0.9px !important;
+      line-height: 0.9px !important;
       text-decoration: underline;
 
     }
-    .footer-heading>ul{
-      line-height:0.9 !important;
+
+    .footer-heading>ul {
+      line-height: 0.9 !important;
 
     }
 
@@ -80,7 +117,7 @@
     .item {
       width: 100%;
       height: 100vh;
-      background-size: cover; 
+      background-size: cover;
     }
 
     .section1-image {
@@ -98,109 +135,111 @@
     .dropdown {
       border-top: 2px solid #691C32 !important;
     }
+
     .site-footer {
-    padding: 4% !important;
-}
-.owl-text-overlay {
-  position: absolute;
-  text-align: center;
-  width: 60%;
-  top: 50%;
-  transform: translateY(-50%);
-  left: 0;
-  right: 0;
-  margin-left: auto;
-  margin-right: auto;
-  color: #fff;
-  /* background-color: rgba(0, 0, 0, 0.4); */
-  /* background: rgba(0, 0, 0, 0.4); */
-  /* padding-bottom: 20px; */
-  font-family: "Open Sans", sans-serif;
-  /* border-radius: 15px 50px 30px 5px; */
-}
-h2.owl-title {
-  font-size: 48px;
-  font-weight: bold;
-  margin-bottom: 20px;
-  
-}
-@media screen and (min-device-width:100px) and (max-device-width: 480px) {   
-  
-  .owl-text-overlay {
-  position: absolute;
-  text-align: center;
-  width: 60%;
-  top: 20% !important;
-  transform: translateY(-50%);
-  left: 0;
-  right: 0;
-  margin-left: auto;
-  margin-right: auto;
-  color: #fff;
-  /* background-color: rgba(0, 0, 0, 0.4); */
-  /* background: rgba(0, 0, 0, 0.4); */
-  /* padding-bottom: 20px; */
-  font-family: "Open Sans", sans-serif;
-  /* border-radius: 15px 50px 30px 5px; */
-}
-h2.owl-title {
-  font-size: 20px;
-  font-weight: bold;
-  margin-bottom: 5px;
-  
-}
-}
-@media screen and (min-device-width:481px) and (max-device-width: 768px) {   
-  
-  .owl-text-overlay {
-  position: absolute;
-  text-align: center;
-  width: 60%;
-  top: 30% !important;
-  transform: translateY(-50%);
-  left: 0;
-  right: 0;
-  margin-left: auto;
-  margin-right: auto;
-  color: #fff;
-  /* background-color: rgba(0, 0, 0, 0.4); */
-  /* background: rgba(0, 0, 0, 0.4); */
-  /* padding-bottom: 20px; */
-  font-family: "Open Sans", sans-serif;
-  /* border-radius: 15px 50px 30px 5px; */
-}
-h2.owl-title {
-  font-size: 20px;
-  font-weight: bold;
-  margin-bottom: 5px;
-  
-}
-}
-@media screen and (min-device-width: 769px) and (max-device-width: 1024px) {   
-  .owl-text-overlay {
-  position: absolute;
-  text-align: center;
-  width: 60%;
-  top: 30% !important;
-  transform: translateY(-50%);
-  left: 0;
-  right: 0;
-  margin-left: auto;
-  margin-right: auto;
-  color: #fff;
-  /* background-color: rgba(0, 0, 0, 0.4); */
-  /* background: rgba(0, 0, 0, 0.4); */
-  /* padding-bottom: 20px; */
-  font-family: "Open Sans", sans-serif;
-  /* border-radius: 15px 50px 30px 5px; */
-}
-}
+      padding: 4% !important;
+    }
 
+    .owl-text-overlay {
+      position: absolute;
+      text-align: center;
+      width: 60%;
+      top: 50%;
+      transform: translateY(-50%);
+      left: 0;
+      right: 0;
+      margin-left: auto;
+      margin-right: auto;
+      color: #fff;
+      /* background-color: rgba(0, 0, 0, 0.4); */
+      /* background: rgba(0, 0, 0, 0.4); */
+      /* padding-bottom: 20px; */
+      font-family: "Open Sans", sans-serif;
+      /* border-radius: 15px 50px 30px 5px; */
+    }
 
-  
+    h2.owl-title {
+      font-size: 48px;
+      font-weight: bold;
+      margin-bottom: 20px;
 
+    }
 
- 
+    @media screen and (min-device-width:100px) and (max-device-width: 480px) {
+
+      .owl-text-overlay {
+        position: absolute;
+        text-align: center;
+        width: 60%;
+        top: 20% !important;
+        transform: translateY(-50%);
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
+        color: #fff;
+        /* background-color: rgba(0, 0, 0, 0.4); */
+        /* background: rgba(0, 0, 0, 0.4); */
+        /* padding-bottom: 20px; */
+        font-family: "Open Sans", sans-serif;
+        /* border-radius: 15px 50px 30px 5px; */
+      }
+
+      h2.owl-title {
+        font-size: 20px;
+        font-weight: bold;
+        margin-bottom: 5px;
+
+      }
+    }
+
+    @media screen and (min-device-width:481px) and (max-device-width: 768px) {
+
+      .owl-text-overlay {
+        position: absolute;
+        text-align: center;
+        width: 60%;
+        top: 30% !important;
+        transform: translateY(-50%);
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
+        color: #fff;
+        /* background-color: rgba(0, 0, 0, 0.4); */
+        /* background: rgba(0, 0, 0, 0.4); */
+        /* padding-bottom: 20px; */
+        font-family: "Open Sans", sans-serif;
+        /* border-radius: 15px 50px 30px 5px; */
+      }
+
+      h2.owl-title {
+        font-size: 20px;
+        font-weight: bold;
+        margin-bottom: 5px;
+
+      }
+    }
+
+    @media screen and (min-device-width: 769px) and (max-device-width: 1024px) {
+      .owl-text-overlay {
+        position: absolute;
+        text-align: center;
+        width: 60%;
+        top: 30% !important;
+        transform: translateY(-50%);
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
+        color: #fff;
+        /* background-color: rgba(0, 0, 0, 0.4); */
+        /* background: rgba(0, 0, 0, 0.4); */
+        /* padding-bottom: 20px; */
+        font-family: "Open Sans", sans-serif;
+        /* border-radius: 15px 50px 30px 5px; */
+      }
+    }
   </style>
 
 </head>
@@ -233,30 +272,33 @@ h2.owl-title {
     <div class="site-section ">
       <div class=" mt-5">
         <div class="owl-carousel owl-theme mt-5">
-        <div class="item">
-            <img src="./images/carousel.jpg" alt="image">
-          </div>
           <div class="item">
-          <div class="owl-text-overlay ">
-        <h2 class="owl-title addColor">We Personalised Health Screening </h2>
-        <p class="text-center text-dark">Take proactive care of your health with our various health screening packages that are designed to offer comprehensive screening for you.</p>
-        </div>
+            <img src="./images/uzbekhc.jpg" alt="image">
+          </div>
+          <!-- <div class="item">
+            <div class="owl-text-overlay ">
+              <h2 class="owl-title addColor">We Personalised Health Screening </h2>
+              <p class="text-center text-dark">Take proactive care of your health with our various health screening
+                packages that are designed to offer comprehensive screening for you.</p>
+            </div>
             <img src="./images/carouselimage2.jpg" alt="image">
-          </div>
-          <div class="item">
-          <div class="owl-text-overlay ">
-        <h2 class="owl-title addColor">Fast and Without Fasting   </h2>
-        <p class="text-center text-dark">We put an end to the dreaded overnight fast and reduce hunger pangs with our Non-Fasting Mobile Health Screening.</p>
-        </div>
+          </div> -->
+          <!-- <div class="item">
+            <div class="owl-text-overlay ">
+              <h2 class="owl-title addColor">Fast and Without Fasting </h2>
+              <p class="text-center text-dark">We put an end to the dreaded overnight fast and reduce hunger pangs with
+                our Non-Fasting Mobile Health Screening.</p>
+            </div>
             <img src="./images/hs1.jpeg" alt="image">
-          </div>
-          <div class="item">
-          <div class="owl-text-overlay ">
-        <h2 class="owl-title addColor">Flexibility Through Mobility</h2>
-        <p class="text-center text-dark">We conduct health screening in the comfort of your preferred location, providing you convenience and flexibility without the need to make a trip.</p>
-        </div>
+          </div> -->
+          <!-- <div class="item">
+            <div class="owl-text-overlay ">
+              <h2 class="owl-title addColor">Flexibility Through Mobility</h2>
+              <p class="text-center text-dark">We conduct health screening in the comfort of your preferred location,
+                providing you convenience and flexibility without the need to make a trip.</p>
+            </div>
             <img src="./images/hs2.jpeg" alt="image">
-          </div>
+          </div> -->
 
         </div>
 
@@ -267,86 +309,110 @@ h2.owl-title {
       <p class="text-center addColor display-4 mb-5">Our Focus, Your Wellbeing</p>
       <div class="row">
 
-        <div class="col-md-6">
-          <div class="card shadow overflow-hidden" data-aos="fade-right"  data-aos-easing="ease-out-cubic" data-aos-duration="3000">
-          <img width="100%" class="section1-image img-responsive" src="./images/hs1.jpeg" alt="image">
-        </div>
-        </div>
+        <!-- <div class="col-md-4">
+          <div class=" overflow-hidden" data-aos="fade-right" data-aos-easing="ease-out-cubic" data-aos-duration="3000">
+            <img width="100%" class="section1-image img-responsive rounded-circle" src="./images/hs1.jpeg" alt="image">
+          </div>
+        </div> -->
 
 
-        <div class="col-md-6 ">
+        <div class="col-md-12">
 
           <div class="row">
             <div class="col-md-12">
-              <div class="card shadow p-4 mb-3" data-aos="flip-left"  data-aos-easing="ease-out-cubic" data-aos-duration="3000">
-              <h5 class="text-dark text-center addColor font-weight-bold">About Us</h5>
-              <p class="text-justify "> TheTestingPro™ was created to provide an extensive range of COVID-19 testing
-                services to individuals and companies across Singapore since the pandemic started. Equipped with a
-                wealth of testing operations experience and extensive knowledge of the requirements and systems, we
-                simplify the processes, thus enabling us to conduct efficient testing and provide timely results.
-
-                As we continue to grow, TheTestingPro™ expanded into providing health screening services with
-                comprehensive packages that are tailored to corporate and individual needs whilst providing convenience
-                and unparalleled flexibility.
-              </p>
+              <div class="p-4 mb-3" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="3000">
+                <!-- <h5 class="text-dark text-center addColor font-weight-bold">INTRODUCTION</h5> -->
+                <p class="text-justify fontIntro"> In our endeavor to enhance healthcare services and address the
+                  diverse medical
+                  needs of Uzbekistan, we propose the creation of an Integrated Healthcare Hub.
+                  This comprehensive facility will serve as a beacon of excellence, offering specialized diagnostic,
+                  treatment, and training services across various medical disciplinesIn response to the growing need for
+                  advanced cancer care facilities, we propose the establishment of an Advanced Medical Oncology Center
+                  in Uzbekistan.
+                  This state-of-the-art facility will offer comprehensive diagnostic, treatment, and training services
+                  to address the rising incidence of Cardiolgy Diagnostic and cancer in the region.
+                </p>
+              </div>
             </div>
-</div>
 
           </div>
 
-          <div class="row">
+          <!-- <div class="row">
 
             <div class="col-md-12">
-              <div class="card shadow p-4" data-aos="flip-right" data-aos-easing="ease-out-cubic" data-aos-duration="3000">
-              <h5 class="text-dark fs-5 text-center addColor font-weight-bold">Fast and Without Fasting</h5>
-              <p class="text-justify">We put an end to the dreaded overnight fast that is typically required with
-                TheTestingPro™ Non-Fasting Mobile Health Screening. Removing the need for fasting will mitigate the
-                discomfort and potential adverse effects, such as low blood sugar and dehydration. Several studies have
-                shown fasting is unnecessary due to insignificant differences between fasting and non-fasting lipid
-                levels. </p>
+              <div class="card shadow p-4" data-aos="flip-right" data-aos-easing="ease-out-cubic"
+                data-aos-duration="3000">
+                <h5 class="text-dark fs-5 text-center addColor font-weight-bold">Fast and Without Fasting</h5>
+                <p class="text-justify">We put an end to the dreaded overnight fast that is typically required with
+                  TheTestingPro™ Non-Fasting Mobile Health Screening. Removing the need for fasting will mitigate the
+                  discomfort and potential adverse effects, such as low blood sugar and dehydration. Several studies
+                  have
+                  shown fasting is unnecessary due to insignificant differences between fasting and non-fasting lipid
+                  levels. </p>
+              </div>
             </div>
-</div>
 
-          </div>
-         
+          </div> -->
+
 
         </div>
 
-        
+
       </div>
     </div>
-<h2 class="text-center addColor fs-5 font-weight-bold">Our Services</h2>
-<div class="accordion rounded" data-aos="fade-right"  data-aos-easing="ease-out-cubic" data-aos-duration="3000">
-
-  <div class="tab">
-    <img src="./images/mobilehealth.jpg" alt="">
-    <div class="caption">
-      <h2>Mobile Health Screening</h2>
-      <p class="text-justify">Our Non-Fasting Mobile Health Screening lets you take charge of your health anytime and anywhere,<br> providing flexibility and convenience in the comfort of your preferred location. Our various packages <br>offered are designed to offer comprehensive screening for individuals to take proactive care of their health.</p>
-      <a class="text-white"href="./mobilehealthscreening.php">View More>></a>
-    </div>
-  </div>
-  <div class="tab">
-    <img src="./images/hs2.jpeg" alt="">
-     <div class="caption">
-      <h2>Corporate Health Screening</h2>
-      <p class="text-justify">Investing in your employees’ annual health screening proves that you care for their wellbeing. <br> Health screening amongst employees improves productivity, reduces absenteeism, builds trust <br>and loyalty.  Our range of corporate health screening packages provide a unique opportunity to <br>invest in the long-term health of your employees and lets you choose what works best for your <br>company; be it an on-site workplace health screening or even a home-based health screening.</p>
-      <a class="text-white"href="./corporateHealthPage.php">View More>></a>
+    <h2 class="text-center addColor fs-5 font-weight-bold" id="cards">Our Services</h2>
+    <div class="divofcards">
+     <a class="card m-1" href="./cardiologyDiagnosticCenter.php"><div class="">Comprehensive Cardiology Diagnostic Center</div></a>
+     <a class="card m-1" href="./E-ICUCenter.php"><div class="">E-ICU Center</div></a>
+     <a class="card m-1" href="./oncology.php"> <div class="  ">Oncology Drugs Warehouse and Manufacturing Facility</div></a>
+      <a class="card m-1" href="./cardiologyDiagnosticCenter.php"><div class="  ">Urology Center</div></a>
+      <a class="card m-1" href="./cardiologyDiagnosticCenter.php"><div class="  ">Laparoscopic Training Center</div></a>
+      <a class="card m-1" href="./cardiologyDiagnosticCenter.php"><div class="   ">Comprehensive Cancer Diagnostic Services</div></a>
+      <a class="card m-1" href="./cardiologyDiagnosticCenter.php"><div class="   mb-3">Advanced Gastro Cancer Diagnostic Center</div></a>
+      <a class="card m-1" href="./cardiologyDiagnosticCenter.php"><div class="   mb-3">Treatment Center</div></a>
+      <a class="card m-1" href="./cardiologyDiagnosticCenter.php"><div class="   mb-3">Training and Exchange Programs</div></a>
+      
 
     </div>
+    <!-- <div class="accordion rounded" data-aos="fade-right" data-aos-easing="ease-out-cubic" data-aos-duration="3000">
+
+      <div class="tab">
+        <img src="./images/mobilehealth.jpg" alt="">
+        <div class="caption">
+          <h2>Mobile Health Screening</h2>
+          <p class="text-justify">Our Non-Fasting Mobile Health Screening lets you take charge of your health anytime
+            and anywhere,<br> providing flexibility and convenience in the comfort of your preferred location. Our
+            various packages <br>offered are designed to offer comprehensive screening for individuals to take proactive
+            care of their health.</p>
+          <a class="text-white" href="./mobilehealthscreening.php">View More>></a>
+        </div>
+      </div>
+      <div class="tab">
+        <img src="./images/hs2.jpeg" alt="">
+        <div class="caption">
+          <h2>Corporate Health Screening</h2>
+          <p class="text-justify">Investing in your employees’ annual health screening proves that you care for their
+            wellbeing. <br> Health screening amongst employees improves productivity, reduces absenteeism, builds trust
+            <br>and loyalty. Our range of corporate health screening packages provide a unique opportunity to <br>invest
+            in the long-term health of your employees and lets you choose what works best for your <br>company; be it an
+            on-site workplace health screening or even a home-based health screening.
+          </p>
+          <a class="text-white" href="./corporateHealthPage.php">View More>></a>
+
+        </div>
+      </div>
+      <div class="tab">
+        <img src="./images/h3.jpeg" alt="">
+        <div class="caption">
+          <h2>COVID-19 Testing</h2>
+        </div>
+      </div>
+
+    </div> -->
   </div>
-  <div class="tab">
-    <img src="./images/h3.jpeg" alt="">
-     <div class="caption">
-      <h2>COVID-19 Testing</h2>
-    </div>
-  </div>    
- 
-  </div>
-</div>
 
 
-    <?php
+  <?php
   require_once('footer.php');
  ?>
 

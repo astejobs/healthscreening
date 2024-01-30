@@ -1,17 +1,17 @@
 <div class="site-footer">
-    <div class="container">
+    <!-- <div class="container">
         <div class="row">
             <div class="col-lg-2">
                 <h2 class="footer-heading mb-4">About Us</h2>
                 <ul class="list-unstyled"  style="line-height:0.9">
                     <li><a class="Footer-links" href="#">Announcement/Media</a></li>
                 </ul>
-                <!-- <div class="my-5">
+            <div class="my-5">
             <a href="#" class="pl-0 pr-3"><span class="icon-facebook"></span></a>
             <a href="#" class="pl-3 pr-3"><span class="icon-twitter"></span></a>
             <a href="#" class="pl-3 pr-3"><span class="icon-instagram"></span></a>
             <a href="#" class="pl-3 pr-3"><span class="icon-linkedin"></span></a>
-          </div> -->
+          </div> 
             </div>
             <div class="col-lg-8">
                 <div class="row">   
@@ -55,5 +55,11 @@
 
         </div>
        
-    </div>
+    </div> -->
+    <div className="container mb-2">
+                <div className="col-lg-12">
+                    <p>Copyright © ASTE
+                    </p>
+                </div>
+            </div>
 </div>

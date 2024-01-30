@@ -1,22 +1,27 @@
 <header class="site-navbar light js-sticky-header site-navbar-target bg-white " role="banner">
-      <div class="header1" style="background-color: #691C32; height: 30%;">
+      <!-- <div class="header1" style="background-color: #691C32; height: 30%;">
         <div class=" container Header-icons p-2 text-white">
-        <a href="https://www.facebook.com/thetestingpro " class="float-right" style="margin-right:10px"><i class="fa-brands fa-facebook-f"></i></a>&nbsp;&nbsp;
-        <a href="https://www.instagram.com/thetestingpro" class="float-right" style="margin-right:10px"> <i  class="fa-brands fa-instagram"></i></a>&nbsp;&nbsp;
-         <a href="mailto:concierge@thetestingpro.com" class="text-white float-right" style="margin-right:10px">concierge@thetestingpro.com</a>&nbsp;&nbsp; <i class="fa fa-envelope float-right" style="margin-right:10px; margin-top:5px"></i>
+        <a href="https://www.facebook.com/uzbek " class="float-right" style="margin-right:10px"><i class="fa-brands fa-facebook-f"></i></a>&nbsp;&nbsp;
+        <a href="https://www.instagram.com/uzbek" class="float-right" style="margin-right:10px"> <i  class="fa-brands fa-instagram"></i></a>&nbsp;&nbsp;
+         <a href="mailto:uzbekhealthcare@gmail.com" class="text-white float-right" style="margin-right:10px">uzbekhealthcare@gmail.com</a>&nbsp;&nbsp; <i class="fa fa-envelope float-right" style="margin-right:10px; margin-top:5px"></i>
         
          
         </div>
-      </div>
+      </div> -->
       <div class="container">
     
         <div class="row align-items-center">
 
           <div class="col-6 col-xl-2">
-            <div class="mb-0 site-logo">
-              <a href="./index.php"><img
-                src="./images/WhatsApp_Image_2022-08-23_at_10.05.55_AM-removebg-preview.png" alt="" height=" 100%"
-                width=" 60%"></a></div>
+            <div class="mb-0 site-logo d-flex mt-4">
+               <a href="./index.php"><img
+                src="./images/logoo.png" alt="" height=" 90%"
+                width="70%">
+               
+                </a>
+                <a href="./index.php">
+                <h6 class="mt-2">SPINELLE HEALTHCARE</h6></p>
+              </div>
           </div>
 
           <div class="col-12 col-md-10 d-none d-xl-block">
@@ -31,23 +36,23 @@
                   
                   </ul>
                 </li>-->
-                <li class="has-children">
-                  <a href="./HealthScreening.php" class="nav-link">Health Screening</a>
-                  <ul class="dropdown">
+                <li class="ha">
+                  <a href="./index.php" class="nav-link">Home</a>
+                  <!-- <ul class="dropdown">
                     <li><a href="./mobilehealthscreening.php" class="nav-link">Mobile Health Screening</a></li>
                     <li><a href="./corporateHealthPage.php" class="nav-link">Corporate Health Screening</a></li>
                     
-                  </ul>
+                  </ul> -->
                 </li>
-                <!-- <li class="has-children">
-                  <a href="prevention.html" class="nav-link">COVID-19 Testing</a>
+                <li class="has-children">
+                  <a href="prevention.html" class="nav-link">Departments</a>
                   <ul class="dropdown">
-                    <li><a href="#" class="nav-link">Testing Pods</a></li>
-                    <li><a href="#" class="nav-link">Mobile Testing Service</a></li>
-                    <li><a href="#" class="nav-link">Tele-ART(i-ART)</a></li>
-                  
+                    <li><a href="./cardiologyDiagnosticCenter.php" class="nav-link">Cardiology Diagnostic Center</a></li>
+                    <li><a href="./E-ICUCenter.php" class="nav-link">E-ICU Center</a></li>
+                    <li><a href="./oncology.php" class="nav-link">Oncology Center</a></li>
+                    <li><a href="./urology.php" class="nav-link">Urology Center</a></li>
                   </ul>
-                </li> -->
+                </li> 
 
                 <li><a href="contact.php" class="nav-link">Contact Us</a></li> &nbsp;&nbsp;
                 <li><button class="btn text-white roundedd fs-3 bookappointmentbtn"  style="background-color: #691C32; text-transform: capitalize;"><a href="./bookAppointment.php" class="text-white">Book Appointment</a> </button></li>
