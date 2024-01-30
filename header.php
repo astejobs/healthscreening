@@ -63,7 +63,7 @@
                 </li> 
 
                 <li><a href="contact.php" class="nav-link">Contact Us</a></li> &nbsp;&nbsp;
-                <li><button class="btn text-white roundedd fs-3 bookappointmentbtn"  style="background-color: #691C32; text-transform: capitalize;"><a href="./bookAppointment.php" class="text-white">Book Appointment</a> </button></li>
+                <li><button class="btn text-white roundedd fs-3 bookappointmentbtn"  style="background-color: #691C32; text-transform: capitalize;"><a href="./contact.php" class="text-white">Book Appointment</a> </button></li>
               </ul>
             </nav>
           </div>
