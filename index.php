@@ -7,7 +7,7 @@
   <meta http-equiv="" content="0; url=index.php">
 
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>Health Screening</title>
+  <title>Spinelle Healthcare</title>
   <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;700;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
     integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
@@ -365,12 +365,12 @@
      <a class="card m-1" href="./cardiologyDiagnosticCenter.php"><div class="">Comprehensive Cardiology Diagnostic Center</div></a>
      <a class="card m-1" href="./E-ICUCenter.php"><div class="">E-ICU Center</div></a>
      <a class="card m-1" href="./oncology.php"> <div class="  ">Oncology Drugs Warehouse and Manufacturing Facility</div></a>
-      <a class="card m-1" href="./cardiologyDiagnosticCenter.php"><div class="  ">Urology Center</div></a>
-      <a class="card m-1" href="./cardiologyDiagnosticCenter.php"><div class="  ">Laparoscopic Training Center</div></a>
-      <a class="card m-1" href="./cardiologyDiagnosticCenter.php"><div class="   ">Comprehensive Cancer Diagnostic Services</div></a>
-      <a class="card m-1" href="./cardiologyDiagnosticCenter.php"><div class="   mb-3">Advanced Gastro Cancer Diagnostic Center</div></a>
-      <a class="card m-1" href="./cardiologyDiagnosticCenter.php"><div class="   mb-3">Treatment Center</div></a>
-      <a class="card m-1" href="./cardiologyDiagnosticCenter.php"><div class="   mb-3">Training and Exchange Programs</div></a>
+      <a class="card m-1" href="./urology.php"><div class="  ">Urology Center</div></a>
+      <a class="card m-1" href=""><div class="  ">Laparoscopic Training Center</div></a>
+      <a class="card m-1" href=""><div class="   ">Comprehensive Cancer Diagnostic Services</div></a>
+      <a class="card m-1" href=""><div class="   mb-3">Advanced Gastro Cancer Diagnostic Center</div></a>
+      <a class="card m-1" href=""><div class="   mb-3">Treatment Center</div></a>
+      <a class="card m-1" href=""><div class="   mb-3">Training and Exchange Programs</div></a>
       
 
     </div>
