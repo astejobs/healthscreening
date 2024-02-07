@@ -2,7 +2,7 @@
    
     <div className="container ">
                 <div className="col-lg-12">
-                    <h1>Copyright © ASTE
+                    <h1>Copyright © Healthcare Hub
 </h1>
                 </div>
             </div>
