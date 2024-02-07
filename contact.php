@@ -1,6 +1,5 @@
 <?php 
 require ('vendor/autoload.php');
-require('config.php');
 require('./contactEmailSender.php');
 ?>
 
@@ -158,20 +157,11 @@ require('./contactEmailSender.php');
     
     <div class="row margin ">
      
-      <!-- <div class="col-md-7 ">
-        <h2 class="mt-5 addColor mbsc" >Contact Us</h2>
-        <p style="font-size:16px;" class="addColor "><b> Do you have an enquiry? </b><br>
-        <b> Please complete the form and we will get back to you as soon as we can.</b>
-        </p>
-        <div class="">
-          <h4 class="addColor ">Email</h2>
-        <a href="mailto:concierge@thetestingpro.com" style="text-decoration:none ;">concierge@thetestingpro.com</a>
-      </div> -->
+     
     </div>
    
     <div class="col-md-5 ">
-            <!-- <img src="./images/fihlogo.png" id="img" class="mt-4 mbsc" alt="logo"> -->
-      </div>
+          
     </div>
     <?php
 if(isset($_SESSION['status']))
@@ -204,8 +194,8 @@ if(isset($_SESSION['status']))
         </div>
       
       <div class="form-group col-md-6">
-        <label for="inputAddress">Company<span class="text-danger" >*</span></label>
-        <input type="text" name="company" class="form-control" id="" placeholder="" >
+        <label for="inputAddress">Subject<span class="text-danger" >*</span></label>
+        <input type="text" name="subject" class="form-control" id="" placeholder="" >
       </div>
       
       
@@ -229,7 +219,7 @@ if(isset($_SESSION['status']))
 
       </div>
     </div>
-      <button type="submit" name="submit" id="submit" class="btn btn-corporate mb-5"  >submit</button> 
+      <button type="submit" name="send" id="submit" class="btn btn-corporate mb-5"  >Send</button> 
     </form>
     <!-- <div class="container p-5">
       <div class="row">

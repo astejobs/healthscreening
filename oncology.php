@@ -4,8 +4,7 @@
 //Load Composer's autoloader
 require 'vendor/autoload.php';
 
-include('config.php');
-include('./corporateEmailSender.php');
+include('./contactEmailSender.php');
     
 ?>
 <!doctype html>
@@ -169,7 +168,22 @@ include('./corporateEmailSender.php');
     <div class="col-md-8">
    <p class="text-dark">Fields marked with  <span class="text-danger">*</span> are required</p>
    <h4 class="sent-notification"></h4>
-   <form  id="myForm" method="POST" action="corporateHealthPage.php">
+   <?php
+if(isset($_SESSION['status']))
+{
+
+
+    ?>
+        <div class="alert alert-success alert-dismissible fade show"role="alert">
+             <strong><strong><?php echo $_SESSION['status'];?>
+             
+        </div>
+
+    <?php
+    unset($_SESSION['status']);
+}
+?>
+   <form  id="myForm" method="POST" >
 
       <div class="form-row mt-4">
         <div class="form-group col-md-6">
@@ -186,8 +200,8 @@ include('./corporateEmailSender.php');
         </div>
       
       <div class="form-group col-md-6">
-        <label for="inputAddress">Company<span class="text-danger">*</span></label>
-        <input type="text" class="form-control" name="company" id="company" placeholder=""  >
+        <label for="inputAddress">Subject<span class="text-danger">*</span></label>
+        <input type="text" class="form-control" name="subject" id="company" placeholder=""  >
       </div>
       
       <div class="form-group col-md-6">
@@ -199,7 +213,7 @@ include('./corporateEmailSender.php');
       <div class="g-recaptcha" data-callback="captchaVerified" data-sitekey="<?php echo $siteKey ?>"></div> -->
       </div>
     </div>
-      <button type="submit"  name="submit" id="submit" class="btn btn-corporate mb-5 float-right" >submit</button> 
+      <button type="submit"  name="send" id="send" class="btn btn-corporate mb-5 float-right" >Send</button> 
     </form>
     </div>
 </div>
