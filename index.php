@@ -143,7 +143,7 @@
     .owl-text-overlay {
       position: absolute;
       text-align: center;
-      width: 60%;
+      width: 100%;
       top: 50%;
       transform: translateY(-50%);
       left: 0;
@@ -170,7 +170,7 @@
       .owl-text-overlay {
         position: absolute;
         text-align: center;
-        width: 60%;
+        width: 100%;
         top: 20% !important;
         transform: translateY(-50%);
         left: 0;
@@ -224,7 +224,7 @@
       .owl-text-overlay {
         position: absolute;
         text-align: center;
-        width: 60%;
+        width: 100%;
         top: 30% !important;
         transform: translateY(-50%);
         left: 0;
@@ -271,13 +271,14 @@
       
 
     }
+  
     }
 
     @media screen and (min-device-width: 769px) and (max-device-width: 1024px) {
       .owl-text-overlay {
         position: absolute;
         text-align: center;
-        width: 60%;
+        width: 100%;
         top: 30% !important;
         transform: translateY(-50%);
         left: 0;
@@ -292,6 +293,7 @@
         /* border-radius: 15px 50px 30px 5px; */
       }
     }
+ 
   </style>
 
 </head>
@@ -323,9 +325,9 @@
 
     <div class="site-section ">
       <div class=" mt-2">
-        <div class="owl-carousel owl-theme mt-2">
+        <div class="owl-carousel owl-theme  mt-2">
           <div class="item">
-            <img src="./images/uzbekhc.jpg" alt="image">
+            <img src="./images/hospitalfuture.png" class="imgbg"  alt="image">
           </div>
           <!-- <div class="item">
             <div class="owl-text-overlay ">
@@ -376,11 +378,11 @@
                 <!-- <h5 class="text-dark text-center addColor font-weight-bold">INTRODUCTION</h5> -->
                 <p class="text-justify fontIntro"> In our endeavor to enhance healthcare services and address the
                   diverse medical
-                  needs of Uzbekistan, we propose the creation of an Integrated Healthcare Hub.
+                  needs , we propose the creation of an Integrated Healthcare Hub.
                   This comprehensive facility will serve as a beacon of excellence, offering specialized diagnostic,
                   treatment, and training services across various medical disciplinesIn response to the growing need for
                   advanced cancer care facilities, we propose the establishment of an Advanced Medical Oncology Center
-                  in Uzbekistan.
+                  .
                   This state-of-the-art facility will offer comprehensive diagnostic, treatment, and training services
                   to address the rising incidence of Cardiolgy Diagnostic and cancer in the region.
                 </p>

@@ -150,7 +150,7 @@ include('./corporateEmailSender.php');
          
       <div class="col-md-6 ">
       <h5 class="text-dark font-weight-bold addColor mbsc ">Advanced Gastro Cancer Diagnostic Center</h5>
-      <p class="text-justify">Recognizing the increasing prevalence of gastrointestinal cancers, our center will specialize in the diagnosis and management of these complex diseases. Through advanced endoscopic procedures, molecular biomarker analysis, and multidisciplinary consultations, we will offer comprehensive diagnostic evaluations for patients with gastrointestinal malignancies. Our goal is to improve early detection rates and optimize treatment outcomes for individuals affected by these challenging conditions. </p> 
+      <p class="text-justify">Recognizing the increasing prevalence of gastrointestinal cancers, our center is specialized in the diagnosis and management of these complex diseases. Through advanced endoscopic procedures, molecular biomarker analysis, and multidisciplinary consultations, we are offering comprehensive diagnostic evaluations for patients with gastrointestinal malignancies. Our goal is to improve early detection rates and optimize treatment outcomes for individuals affected by these challenging conditions. </p> 
     </div>
       <div class="col-md-6 ">
       <div class=" overflow-hidden" data-aos="fade-left" data-aos-easing="ease-out-cubic" data-aos-duration="3000">
@@ -195,11 +195,11 @@ include('./corporateEmailSender.php');
         <textarea class="form-control" name="help" id="help" rows="3" required="true" ></textarea>
       </div>
       <div class="form-group col-md-6">
-        <label for="">Complete Captcha</label>
-      <div class="g-recaptcha" data-callback="captchaVerified" data-sitekey="<?php echo $siteKey ?>"></div>
+        <!-- <label for="">Complete Captcha</label>
+      <div class="g-recaptcha" data-callback="captchaVerified" data-sitekey="<?php echo $siteKey ?>"></div> -->
       </div>
     </div>
-      <button type="submit"  name="submit" id="submit" class="btn btn-corporate mb-5 float-right" disabled>submit</button> 
+      <button type="submit"  name="submit" id="submit" class="btn btn-corporate mb-5 float-right" >submit</button> 
     </form>
     </div>
 </div>
@@ -237,10 +237,10 @@ include('./corporateEmailSender.php');
 
   <script src="js/main.js"></script>
   <script type="text/javascript">
-  function captchaVerified(){
-    var submitBtn=document.querySelector('#submit');
-    submitBtn.removeAttribute('disabled');
-  }
+  // function captchaVerified(){
+  //   var submitBtn=document.querySelector('#submit');
+  //   submitBtn.removeAttribute('disabled');
+  // }
 </script>
 
 

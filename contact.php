@@ -226,11 +226,10 @@ if(isset($_SESSION['status']))
         <textarea class="form-control" name="help" id="exampleFormControlTextarea1" rows="3" required="true"></textarea>
       </div>
       <div class="form-group col-md-6">
-      <div class="g-recaptcha" data-callback="captchaVerified" data-sitekey="<?php echo $siteKey ?>"></div>
 
       </div>
     </div>
-      <button type="submit" name="submit" id="submit" class="btn btn-corporate mb-5" disabled >submit</button> 
+      <button type="submit" name="submit" id="submit" class="btn btn-corporate mb-5"  >submit</button> 
     </form>
     <!-- <div class="container p-5">
       <div class="row">
@@ -280,10 +279,10 @@ if(isset($_SESSION['status']))
 
  <!-- Google captcha -->
   <script type="text/javascript">
-  function captchaVerified(){
-    var submitBtn=document.querySelector('#submit');
-    submitBtn.removeAttribute('disabled');
-  }
+  //function captchaVerified(){
+   // var submitBtn=document.querySelector('#submit');
+  //  submitBtn.removeAttribute('disabled');
+  //}
 $(document).ready(function(){
 
 

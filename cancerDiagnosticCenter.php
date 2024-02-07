@@ -150,7 +150,7 @@ include('./corporateEmailSender.php');
          
       <div class="col-md-6 ">
       <h5 class="text-dark font-weight-bold addColor mbsc ">Comprehensive Cancer Diagnostic Services</h5>
-      <p class="text-justify">The Advanced Medical Oncology Center will feature advanced radiology and in-vitro diagnostics (IVD) capabilities. With cutting-edge imaging technologies and molecular diagnostic tests, we aim to provide accurate and timely diagnosis for various types of cancer. From early detection to precise staging, our diagnostic services will enable oncologists to develop personalized treatment plans tailored to each patient's needs. </p> 
+      <p class="text-justify">The Advanced Medical Oncology Center is featured with advanced radiology and in-vitro diagnostics (IVD) capabilities. With cutting-edge imaging technologies and molecular diagnostic tests, we aim to provide accurate and timely diagnosis for various types of cancer. From early detection to precise staging, our diagnostic services are enabled oncologists to develop personalized treatment plans tailored to each patient's needs. </p> 
     </div>
       <div class="col-md-6 ">
       <div class=" overflow-hidden" data-aos="fade-left" data-aos-easing="ease-out-cubic" data-aos-duration="3000">
@@ -195,11 +195,12 @@ include('./corporateEmailSender.php');
         <textarea class="form-control" name="help" id="help" rows="3" required="true" ></textarea>
       </div>
       <div class="form-group col-md-6">
-        <label for="">Complete Captcha</label>
+        <!-- <label for="">Complete Captcha</label>
       <div class="g-recaptcha" data-callback="captchaVerified" data-sitekey="<?php echo $siteKey ?>"></div>
-      </div>
+      -->
     </div>
-      <button type="submit"  name="submit" id="submit" class="btn btn-corporate mb-5 float-right" disabled>submit</button> 
+    </div>
+      <button type="submit"  name="submit" id="submit" class="btn btn-corporate mb-5 float-right" >submit</button> 
     </form>
     </div>
 </div>
@@ -237,10 +238,10 @@ include('./corporateEmailSender.php');
 
   <script src="js/main.js"></script>
   <script type="text/javascript">
-  function captchaVerified(){
-    var submitBtn=document.querySelector('#submit');
-    submitBtn.removeAttribute('disabled');
-  }
+  // function captchaVerified(){
+  //   var submitBtn=document.querySelector('#submit');
+  //   submitBtn.removeAttribute('disabled');
+  // }
 </script>
 
 

@@ -150,7 +150,7 @@ include('./corporateEmailSender.php');
          
       <div class="col-md-6 ">
       <h5 class="text-dark font-weight-bold addColor mbsc ">Laparoscopic Training Center</h5>
-      <p class="text-justify">In response to the growing demand for advanced surgical techniques, we will establish a Laparoscopic Training Center dedicated to providing hands-on training and skill development in minimally invasive surgery. Through structured training programs, workshops, and simulation-based learning, we aim to empower surgeons and healthcare professionals with the expertise and proficiency required to perform laparoscopic procedures safely and effectively. </p> 
+      <p class="text-justify">In response to the growing demand for advanced surgical techniques, we have established a Laparoscopic Training Center dedicated to providing hands-on training and skill development in minimally invasive surgery. Through structured training programs, workshops, and simulation-based learning, we aim to empower surgeons and healthcare professionals with the expertise and proficiency required to perform laparoscopic procedures safely and effectively. </p> 
     </div>
       <div class="col-md-6 ">
       <div class=" overflow-hidden" data-aos="fade-left" data-aos-easing="ease-out-cubic" data-aos-duration="3000">
@@ -195,11 +195,11 @@ include('./corporateEmailSender.php');
         <textarea class="form-control" name="help" id="help" rows="3" required="true" ></textarea>
       </div>
       <div class="form-group col-md-6">
-        <label for="">Complete Captcha</label>
-      <div class="g-recaptcha" data-callback="captchaVerified" data-sitekey="<?php echo $siteKey ?>"></div>
+        <!-- <label for="">Complete Captcha</label>
+      <div class="g-recaptcha" data-callback="captchaVerified" data-sitekey="<?php echo $siteKey ?>"></div> -->
       </div>
     </div>
-      <button type="submit"  name="submit" id="submit" class="btn btn-corporate mb-5 float-right" disabled>submit</button> 
+      <button type="submit"  name="submit" id="submit" class="btn btn-corporate mb-5 float-right">submit</button> 
     </form>
     </div>
 </div>
@@ -237,10 +237,10 @@ include('./corporateEmailSender.php');
 
   <script src="js/main.js"></script>
   <script type="text/javascript">
-  function captchaVerified(){
-    var submitBtn=document.querySelector('#submit');
-    submitBtn.removeAttribute('disabled');
-  }
+  // function captchaVerified(){
+  //   var submitBtn=document.querySelector('#submit');
+  //   submitBtn.removeAttribute('disabled');
+  // }
 </script>
 
 

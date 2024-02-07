@@ -150,7 +150,7 @@ include('./corporateEmailSender.php');
          
       <div class="col-md-6 ">
       <h5 class="text-dark font-weight-bold addColor mbsc ">Urology Center</h5>
-      <p class="text-justify">The Integrated Healthcare Hub will include a specialized Urology Center offering comprehensive diagnostic and treatment services for urological conditions. From minimally invasive procedures such as laparoscopic surgery to advanced treatments for prostate cancer and kidney stones, our center will provide cutting-edge care delivered by experienced urologists and multidisciplinary teams.</p> 
+      <p class="text-justify">The Integrated Healthcare Hub is including a specialized Urology Center offering comprehensive diagnostic and treatment services for urological conditions. From minimally invasive procedures such as laparoscopic surgery to advanced treatments for prostate cancer and kidney stones, our center is providing a cutting-edge care delivered by experienced urologists and multidisciplinary teams.</p> 
     </div>
       <div class="col-md-6 ">
       <div class=" overflow-hidden" data-aos="fade-left" data-aos-easing="ease-out-cubic" data-aos-duration="3000">
@@ -195,11 +195,12 @@ include('./corporateEmailSender.php');
         <textarea class="form-control" name="help" id="help" rows="3" required="true" ></textarea>
       </div>
       <div class="form-group col-md-6">
-        <label for="">Complete Captcha</label>
+        <!-- <label for="">Complete Captcha</label>
       <div class="g-recaptcha" data-callback="captchaVerified" data-sitekey="<?php echo $siteKey ?>"></div>
-      </div>
+       -->
     </div>
-      <button type="submit"  name="submit" id="submit" class="btn btn-corporate mb-5 float-right" disabled>submit</button> 
+    </div>
+      <button type="submit"  name="submit" id="submit" class="btn btn-corporate mb-5 float-right" >submit</button> 
     </form>
     </div>
 </div>
@@ -237,10 +238,10 @@ include('./corporateEmailSender.php');
 
   <script src="js/main.js"></script>
   <script type="text/javascript">
-  function captchaVerified(){
-    var submitBtn=document.querySelector('#submit');
-    submitBtn.removeAttribute('disabled');
-  }
+  // function captchaVerified(){
+  //   var submitBtn=document.querySelector('#submit');
+  //   submitBtn.removeAttribute('disabled');
+  // }
 </script>
 
 
