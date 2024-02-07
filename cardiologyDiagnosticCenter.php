@@ -195,11 +195,11 @@ include('./corporateEmailSender.php');
         <textarea class="form-control" name="help" id="help" rows="3" required="true" ></textarea>
       </div>
       <div class="form-group col-md-6">
-        <label for="">Complete Captcha</label>
-      <div class="g-recaptcha" data-callback="captchaVerified" data-sitekey="<?php echo $siteKey ?>"></div>
-      </div>
+        <!-- <label for="">Complete Captcha</label>
+      <div class="g-recaptcha" data-callback="captchaVerified" data-sitekey="<?php echo $siteKey ?>"></div> -->
+      </div> 
     </div>
-      <button type="submit"  name="submit" id="submit" class="btn btn-corporate mb-5 float-right" disabled>submit</button> 
+      <button type="submit"  name="submit" id="submit" class="btn btn-corporate mb-5 float-right" >submit</button> 
     </form>
     </div>
 </div>
@@ -237,10 +237,10 @@ include('./corporateEmailSender.php');
 
   <script src="js/main.js"></script>
   <script type="text/javascript">
-  function captchaVerified(){
-    var submitBtn=document.querySelector('#submit');
-    submitBtn.removeAttribute('disabled');
-  }
+  // function captchaVerified(){
+  //   var submitBtn=document.querySelector('#submit');
+  //   submitBtn.removeAttribute('disabled');
+  // }
 </script>
 
 

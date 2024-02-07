@@ -150,8 +150,7 @@ include('./corporateEmailSender.php');
          
       <div class="col-md-6 ">
       <h5 class="text-dark font-weight-bold addColor mbsc ">E-ICU Center </h5>
-      <p class="text-justify">Recognizing the critical need for intensive care services,
-         we will establish an E-ICU Center to provide remote monitoring and support to intensive care units (ICUs) established throughout Uzbekistan. Leveraging telemedicine technologies and remote monitoring systems, our E-ICU Center will enable real-time assessment, intervention, and consultation, enhancing patient outcomes and optimizing resource utilization in critical care settings. </p> 
+      <p class="text-justify">Recognizing the critical need for intensive care services, we have established an E-ICU Center to provide remote monitoring and support to intensive care units (ICUs). Leveraging telemedicine technologies and remote monitoring systems, our E-ICU Center is enabled with real-time assessment, intervention, and consultation, enhancing patient outcomes and optimizing resource utilization in critical care settings. </p> 
     </div>
       <div class="col-md-6 ">
       <div class=" overflow-hidden" data-aos="fade-left" data-aos-easing="ease-out-cubic" data-aos-duration="3000">
@@ -196,11 +195,11 @@ include('./corporateEmailSender.php');
         <textarea class="form-control" name="help" id="help" rows="3" required="true" ></textarea>
       </div>
       <div class="form-group col-md-6">
-        <label for="">Complete Captcha</label>
-      <div class="g-recaptcha" data-callback="captchaVerified" data-sitekey="<?php echo $siteKey ?>"></div>
+        <!-- <label for="">Complete Captcha</label>
+      <div class="g-recaptcha" data-callback="captchaVerified" data-sitekey="<?php echo $siteKey ?>"></div> -->
       </div>
     </div>
-      <button type="submit"  name="submit" id="submit" class="btn btn-corporate mb-5 float-right" disabled>submit</button> 
+      <button type="submit"  name="submit" id="submit" class="btn btn-corporate mb-5 float-right" >submit</button> 
     </form>
     </div>
 </div>
@@ -238,10 +237,10 @@ include('./corporateEmailSender.php');
 
   <script src="js/main.js"></script>
   <script type="text/javascript">
-  function captchaVerified(){
-    var submitBtn=document.querySelector('#submit');
-    submitBtn.removeAttribute('disabled');
-  }
+  // function captchaVerified(){
+  //   var submitBtn=document.querySelector('#submit');
+  //   submitBtn.removeAttribute('disabled');
+  // }
 </script>
 
 

@@ -150,7 +150,7 @@ include('./corporateEmailSender.php');
          
       <div class="col-md-6 ">
       <h5 class="text-dark font-weight-bold addColor mbsc ">Oncology Drugs Warehouse and Manufacturing Facility </h5>
-      <p class="text-justify">As part of our commitment to cancer care, the Integrated Healthcare Hub will feature an Oncology Drugs Warehouse and Manufacturing Facility. This facility will serve as a centralized hub for the storage, distribution, and compounding of oncology medications, ensuring timely access to essential drugs for cancer patients across the country. Additionally, our manufacturing facility will produce high-quality oncology medications, addressing supply chain challenges and promoting affordability and accessibility of cancer treatments. </p> 
+      <p class="text-justify">As part of our commitment to cancer care, the Integrated Healthcare Hub isfeatured an Oncology Drugs Warehouse and Manufacturing Facility. This facility is serving as a centralized hub for the storage, distribution, and compounding of oncology medications, ensuring timely access to essential drugs for cancer patients across the country. Additionally, our manufacturing facility is producing high-quality oncology medications, addressing supply chain challenges and promoting affordability and accessibility of cancer treatments. </p> 
     </div>
       <div class="col-md-6 ">
       <div class=" overflow-hidden" data-aos="fade-left" data-aos-easing="ease-out-cubic" data-aos-duration="3000">
@@ -195,11 +195,11 @@ include('./corporateEmailSender.php');
         <textarea class="form-control" name="help" id="help" rows="3" required="true" ></textarea>
       </div>
       <div class="form-group col-md-6">
-        <label for="">Complete Captcha</label>
-      <div class="g-recaptcha" data-callback="captchaVerified" data-sitekey="<?php echo $siteKey ?>"></div>
+        <!-- <label for="">Complete Captcha</label>
+      <div class="g-recaptcha" data-callback="captchaVerified" data-sitekey="<?php echo $siteKey ?>"></div> -->
       </div>
     </div>
-      <button type="submit"  name="submit" id="submit" class="btn btn-corporate mb-5 float-right" disabled>submit</button> 
+      <button type="submit"  name="submit" id="submit" class="btn btn-corporate mb-5 float-right" >submit</button> 
     </form>
     </div>
 </div>
@@ -237,10 +237,10 @@ include('./corporateEmailSender.php');
 
   <script src="js/main.js"></script>
   <script type="text/javascript">
-  function captchaVerified(){
-    var submitBtn=document.querySelector('#submit');
-    submitBtn.removeAttribute('disabled');
-  }
+  // function captchaVerified(){
+  //   var submitBtn=document.querySelector('#submit');
+  //   submitBtn.removeAttribute('disabled');
+  // }
 </script>
 
 

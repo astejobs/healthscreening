@@ -150,7 +150,7 @@ include('./corporateEmailSender.php');
          
       <div class="col-md-6 ">
       <h5 class="text-dark font-weight-bold addColor mbsc ">Training and Exchange Programs</h5>
-      <p class="text-justify">As part of our commitment to advancing cancer care in Uzbekistan, we will establish training and exchange programs in collaboration with renowned international institutions. Through educational partnerships and exchange initiatives, healthcare professionals in Uzbekistan will have access to specialized training opportunities, workshops, and clinical rotations in leading cancer centers abroad. These programs will facilitate knowledge transfer, skill development, and the adoption of best practices in cancer care, ultimately enhancing the quality of oncology services in Uzbekistan </p> 
+      <p class="text-justify">As part of our commitment to advancing cancer care, we have established a training and exchange programs in collaboration with renowned international institutions. Through educational partnerships and exchange initiatives, healthcare professionals across world is having access to specialized training opportunities, workshops, and clinical rotations in leading cancer centers abroad. These programs are facilitating knowledge transfer, skill development, and the adoption of best practices in cancer care, ultimately enhanced the quality of oncology services around globe. </p> 
     </div>
       <div class="col-md-6 ">
       <div class=" overflow-hidden" data-aos="fade-left" data-aos-easing="ease-out-cubic" data-aos-duration="3000">
@@ -195,11 +195,11 @@ include('./corporateEmailSender.php');
         <textarea class="form-control" name="help" id="help" rows="3" required="true" ></textarea>
       </div>
       <div class="form-group col-md-6">
-        <label for="">Complete Captcha</label>
-      <div class="g-recaptcha" data-callback="captchaVerified" data-sitekey="<?php echo $siteKey ?>"></div>
+        <!-- <label for="">Complete Captcha</label>
+      <div class="g-recaptcha" data-callback="captchaVerified" data-sitekey="<?php echo $siteKey ?>"></div> -->
       </div>
     </div>
-      <button type="submit"  name="submit" id="submit" class="btn btn-corporate mb-5 float-right" disabled>submit</button> 
+      <button type="submit"  name="submit" id="submit" class="btn btn-corporate mb-5 float-right" >submit</button> 
     </form>
     </div>
 </div>
@@ -237,10 +237,10 @@ include('./corporateEmailSender.php');
 
   <script src="js/main.js"></script>
   <script type="text/javascript">
-  function captchaVerified(){
-    var submitBtn=document.querySelector('#submit');
-    submitBtn.removeAttribute('disabled');
-  }
+  // function captchaVerified(){
+  //   var submitBtn=document.querySelector('#submit');
+  //   submitBtn.removeAttribute('disabled');
+  // }
 </script>
 
 
