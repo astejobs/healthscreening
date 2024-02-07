@@ -35,8 +35,8 @@ use PHPMailer\PHPMailer\Exception;
      $mail->Port       = 587;                                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
  
      //Recipients
-     $mail->setFrom('info@thetestingpro.com', 'Info');
-     $mail->addAddress('hs@thetestingpro.com', 'TheTestingPro');     //Add a recipient
+     $mail->setFrom('info@thehc.com', 'Info');
+     $mail->addAddress('hs@thehc.com', 'Thehc');     //Add a recipient
     
  
      //Attachments
@@ -102,17 +102,17 @@ use PHPMailer\PHPMailer\Exception;
        $autoRespond->SMTPAuth   = TRUE;
        $autoRespond->SMTPSecure = "tls";
        $autoRespond->Port       = 587;
-       $autoRespond->Username   = "khalid@stie.com.sg";
+       $autoRespond->Username   = "kswisn@st.com.sg";
        $autoRespond->Password   = "Kh1234E!#";
-       $autoRespond->Host       = "mail.stie.com.sg";
+       $autoRespond->Host       = "mail.hch.com";
      
-       $autoRespond->setFrom('info@stie.com.sg', 'Info');
+       $autoRespond->setFrom('healthcarehub@gmail.com', 'Info');
        $autoRespond->AddAddress("$from"); 
-       $autoRespond->Subject = "TheTestingPro™ has received your email"; 
+       $autoRespond->Subject = "Healthcare™ has received your email"; 
        $Message='<html xmlns="http://www.w3.org/1999/xhtml">
        <head>
        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-       <title>HealthScreening|TheTestingPro Mail</title>
+       <title>HealthScreening|HeathCare Hub Mail</title>
        </head>
        
        <body>
@@ -131,7 +131,7 @@ use PHPMailer\PHPMailer\Exception;
                        'Thank you for your time to write to us. We will review it and get back to you within <br>three (3) working days.<br>
                        ' . " \r\n" . '
                        <br><br> Best Regards,<br>
-                      TheTestingPro™ <br>
+                      Healthcare Hub™ <br>
                        
                      </div>
                    </td>
