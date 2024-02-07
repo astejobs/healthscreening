@@ -188,7 +188,7 @@
       h2.owl-title {
         font-size: 20px;
         font-weight: bold;
-        margin-bottom: 5px;
+        margin-bottom: 0px;
 
       }
       .divofcards{
@@ -327,7 +327,7 @@
       <div class=" mt-2">
         <div class="owl-carousel owl-theme  mt-2">
           <div class="item">
-            <img src="./images/hospitalfuture.png" class="imgbg"  alt="image">
+            <img src="./images/hospitalfuture.jpg" class="imgbg"  alt="image">
           </div>
           <!-- <div class="item">
             <div class="owl-text-overlay ">
