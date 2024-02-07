@@ -150,7 +150,7 @@ include('./corporateEmailSender.php');
          
       <div class="col-md-6 ">
       <h5 class="text-dark font-weight-bold addColor mbsc ">Comprehensive Cardiology Diagnostic Center </h5>
-      <p class="text-justify">The Integrated Healthcare Hub will house a state-of-the-art Cardiology Diagnostic Center equipped with advanced imaging technologies, cardiac catheterization laboratories, and electrophysiology suites. From early detection of cardiovascular diseases to advanced interventions such as angioplasty and cardiac ablation, our center will provide comprehensive diagnostic and therapeutic services to patients with cardiac conditions. </p> 
+      <p class="text-justify">The Integrated Healthcare Hub is a house of-the-art of Cardiology Diagnostic Center equipped with advanced imaging technologies, cardiac catheterization laboratories, and electrophysiology suites. From early detection of cardiovascular diseases to advanced interventions such as angioplasty and cardiac ablation, our center is providing comprehensive diagnostic and therapeutic services to patients with cardiac conditions.</p> 
     </div>
       <div class="col-md-6 ">
       <div class=" overflow-hidden" data-aos="fade-left" data-aos-easing="ease-out-cubic" data-aos-duration="3000">

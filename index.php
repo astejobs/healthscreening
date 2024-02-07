@@ -376,15 +376,7 @@
             <div class="col-md-12">
               <div class="p-4 mb-3" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="3000">
                 <!-- <h5 class="text-dark text-center addColor font-weight-bold">INTRODUCTION</h5> -->
-                <p class="text-justify fontIntro"> In our endeavor to enhance healthcare services and address the
-                  diverse medical
-                  needs , we propose the creation of an Integrated Healthcare Hub.
-                  This comprehensive facility will serve as a beacon of excellence, offering specialized diagnostic,
-                  treatment, and training services across various medical disciplinesIn response to the growing need for
-                  advanced cancer care facilities, we propose the establishment of an Advanced Medical Oncology Center
-                  .
-                  This state-of-the-art facility will offer comprehensive diagnostic, treatment, and training services
-                  to address the rising incidence of Cardiolgy Diagnostic and cancer in the region.
+                <p class="text-justify fontIntro"> In our endeavor to enhance healthcare services and address the diverse medical needs, we propose the creation of an Integrated Healthcare Hub. This comprehensive facility is serving as a beacon of excellence, offering specialized diagnostic, treatment, and training services across various medical disciplines In response to the growing need for advanced cancer care facilities, we propose the establishment of an Advanced Medical Oncology Center. This state-of-the-art facility is offering a comprehensive diagnostic, treatment, and training services to address the rising incidence of Cardiology Diagnostic and cancer in the region.
                 </p>
               </div>
             </div>
