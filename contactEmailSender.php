@@ -54,7 +54,7 @@ use PHPMailer\PHPmailer\Exception;
      $mail->Port       = 587;                                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
  
      //Recipients
-     $mail->setFrom($from);
+     $mail->setFrom($from,"Info");
 
      $mail->addAddress('salmanquadir@outlook.com'); 
    
