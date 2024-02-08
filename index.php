@@ -136,9 +136,6 @@
       border-top: 2px solid #691C32 !important;
     }
 
-    .site-footer {
-      padding: 4% !important;
-    }
 
     .owl-text-overlay {
       position: absolute;
@@ -193,6 +190,7 @@
       }
       .divofcards{
       display: block;
+      padding:1rem !important;
       flex-direction:column;
       align-items:center;
       justify-content: space-around;
@@ -248,6 +246,7 @@
       .divofcards{
       display: block;
       flex-direction:column;
+      padding:1rem !important;
       align-items:center;
       justify-content: space-around;
     }
@@ -329,22 +328,22 @@
           <div class="item">
             <img src="./images/hospitalfuture.jpg" class="imgbg"  alt="image">
           </div>
-          <!-- <div class="item">
-            <div class="owl-text-overlay ">
+           <div class="item">
+            <!-- <div class="owl-text-overlay ">
               <h2 class="owl-title addColor">We Personalised Health Screening </h2>
               <p class="text-center text-dark">Take proactive care of your health with our various health screening
                 packages that are designed to offer comprehensive screening for you.</p>
-            </div>
-            <img src="./images/carouselimage2.jpg" alt="image">
-          </div> -->
-          <!-- <div class="item">
-            <div class="owl-text-overlay ">
+            </div> -->
+            <img src="./images/hos1.jpg" alt="image">
+          </div> 
+           <div class="item">
+            <!-- <div class="owl-text-overlay ">
               <h2 class="owl-title addColor">Fast and Without Fasting </h2>
               <p class="text-center text-dark">We put an end to the dreaded overnight fast and reduce hunger pangs with
                 our Non-Fasting Mobile Health Screening.</p>
-            </div>
-            <img src="./images/hs1.jpeg" alt="image">
-          </div> -->
+            </div>  -->
+            <img src="./images/hos2.jpg" alt="image">
+          </div> 
           <!-- <div class="item">
             <div class="owl-text-overlay ">
               <h2 class="owl-title addColor">Flexibility Through Mobility</h2>

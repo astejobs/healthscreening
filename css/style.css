@@ -3,6 +3,10 @@ html {
   overflow-x: hidden;
 }
 
+.site-footer {
+  padding: 1% !important;
+}
+
 body {
   line-height: 1.7;
   color: #575756;

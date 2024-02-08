@@ -1,8 +1,8 @@
 <div class="site-footer mt-5">
    
-    <div className="container ">
-                <div className="col-lg-12">
-                    <h1>Copyright © Spinelle Healthcare</h1>
+    <div class="container text-center">
+                <div class="col-lg-12 ">
+                    <h6>Copyright © Spinelle Healthcare</h6>
                 </div>
             </div>
 </div>
