@@ -47,10 +47,18 @@
                 <li class="has-children">
                   <a href="" class="nav-link">Departments</a>
                   <ul class="dropdown">
-                    <li><a href="./cardiologyDiagnosticCenter.php" class="nav-link">Cardiology Diagnostic Center</a></li>
-                    <li><a href="./E-ICUCenter.php" class="nav-link">E-ICU Center</a></li>
+                    <!-- <li><a href="./cardiologyDiagnosticCenter.php" class="nav-link">Cardiology Diagnostic Center</a></li> -->
+                    <!-- <li><a href="./E-ICUCenter.php" class="nav-link">E-ICU Center</a></li> -->
                     <li><a href="./oncology.php" class="nav-link">Oncology Center</a></li>
-                    <li><a href="./urology.php" class="nav-link">Urology Center</a></li>
+                    <!-- <li><a href="./urology.php" class="nav-link">Urology Center</a></li> -->
+                  </ul>
+                </li> 
+                <li class="has-children">
+                  <a href="" class="nav-link">Our Work</a>
+                  <ul class="dropdown">
+                    <li><a href="./HealthcareInfrastructureConsultancy.php" class="nav-link">Healthcare</a></li>
+                    <li><a href="./HealthcareInfrastructure.php" class="nav-link">Infrastructure</a></li>
+                    
                   </ul>
                 </li> 
                 <li class="has-children">

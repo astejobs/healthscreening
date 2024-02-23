@@ -157,6 +157,21 @@ include('./contactEmailSender.php');
       </div>
 
     </div>
+    <div class="row  mt-5">
+    <div class="col-md-6 ">
+      <div class=" overflow-hidden" data-aos="fade-left" data-aos-easing="ease-out-cubic" data-aos-duration="3000">
+
+       <img  width="100%" class="section1-image img-responsive" src="./images/gastro.jpg" alt="image">
+      </div>
+      </div>
+         
+      <div class="col-md-6 ">
+      <h5 class="text-dark font-weight-bold addColor mbsc ">Advanced Gastro Cancer Diagnostic Center</h5>
+      <p class="text-justify">Recognizing the increasing prevalence of gastrointestinal cancers, our center is specialized in the diagnosis and management of these complex diseases. Through advanced endoscopic procedures, molecular biomarker analysis, and multidisciplinary consultations, we are offering comprehensive diagnostic evaluations for patients with gastrointestinal malignancies. Our goal is to improve early detection rates and optimize treatment outcomes for individuals affected by these challenging conditions. </p> 
+    </div>
+    
+
+    </div>
     <div class="row mt-4">
     <div class="col-md-4">
         <h3 class="text-dark font-weight-bold addColor">Enquire Now</h3>

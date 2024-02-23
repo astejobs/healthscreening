@@ -1509,6 +1509,13 @@ body:after {
   margin-right: 20px;
 }
 
+.header-text {
+  background-color: #691C32;
+  color: white !important;
+  border-radius: 4px;
+  padding: 3px;
+}
+
 .symptom .img img {
   max-width: 100%;
   margin-bottom: 0;
@@ -1848,7 +1855,7 @@ figure figcaption {
 
 .price-table td {
   text-align: center;
-  box-shadow: inset -4px 0 4px -2px rgba(0, 0, 0, 0.30);
+  /* box-shadow: inset -4px 0 4px -2px rgba(0, 0, 0, 0.30); */
 }
 
 .price1 {
@@ -1871,26 +1878,3 @@ th {
 /* body:not(.nohover) tbody tr:hover {
   background-color: #ffa;
 } */
-
-td:hover::after,
-
-td:focus::after {
-  content: '';
-  height: 10000px;
-  left: 0;
-  position: absolute;
-  top: -5000px;
-  width: 100%;
-  z-index: -1;
-}
-
-td:hover::after,
-th:hover::after {
-  /* background: #eff1f5; */
-  box-shadow: 10px 10px 15px 5px rgba(90, 39, 39, 0.7);
-}
-
-.roundedd {
-  border-radius: 30px !important;
-  font-weight: bold !important;
-}
