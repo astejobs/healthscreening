@@ -419,7 +419,7 @@
       <a class="card m-1" href="./TrainingandExchangePrograms.php"><div class="   mb-3">Training and Exchange Programs</div></a>
       
 
-    </div>
+    </div>     
     <!-- <div class="accordion rounded" data-aos="fade-right" data-aos-easing="ease-out-cubic" data-aos-duration="3000">
 
       <div class="tab">
