@@ -174,7 +174,7 @@ include('./contactEmailSender.php');
 
         <div class="card mt-4">
             <div class="card-header header-text ">
-                <h5 class="mb-0">Core Values</h5>
+                <h5 class="mb-0 text-dark">Core Values</h5>
             </div>
             <div class="card-body">
                 <ul>
