@@ -148,7 +148,7 @@ include('./contactEmailSender.php');
             
     
         <div class="card">
-            <div class="card-header header-text text-white">
+            <div class="card-header header-text ">
                 <h3 class="mb-0 text-dark">Healthcare Infrastructure Consultancy: Enhancing Healthcare Delivery</h3>
             </div>
             <div class="card-body">
@@ -173,7 +173,7 @@ include('./contactEmailSender.php');
         </div>
 
         <div class="card mt-4">
-            <div class="card-header header-text text-white">
+            <div class="card-header header-text ">
                 <h5 class="mb-0">Core Values</h5>
             </div>
             <div class="card-body">
