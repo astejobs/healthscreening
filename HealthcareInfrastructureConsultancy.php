@@ -51,6 +51,9 @@ include('./contactEmailSender.php');
     border-radius: 30px !important;
     font-weight:bold !important;
   }
+  .text-dark{
+    color:black!important;
+  }
   .roundedd:hover{
     background-color:#9C6167 !important;
   }
