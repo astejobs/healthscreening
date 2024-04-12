@@ -14,7 +14,7 @@ include('./contactEmailSender.php');
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>Healthcare Center</title>
+  <title>Our Centers</title>
   <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;700;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
     integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
@@ -82,7 +82,7 @@ include('./contactEmailSender.php');
       width:70%;
     }
   .margins{
-    padding-bottom:14%  !important;
+    padding-bottom:20%  !important;
     
   }
   .btn-corporate{
@@ -141,78 +141,89 @@ include('./contactEmailSender.php');
  ?>
  
 
-   <div class="container   ">
+   <div class="container mb-5  ">
     <div class="margins"></div>
-    <div class="container ">
-    <div class="card">
-            <div class="card-header header-text text-white">
-                <h3 class="mb-0">Healthcare Infrastructure:</h3>
-            </div>
-            
-       
-            <div class="card-body">
-                <h5 class="card-title"></h5>
-                
-                <p>A Vital Backbone
-Healthcare infrastructure encompasses the essential components necessary for delivering world-class healthcare services. These components include:</p>
-<ul>
-    <li><strong>Physical Facilities:</strong>Hospitals, clinics, and medical centers form the backbone of healthcare infrastructure. These facilities provide a space for medical professionals to diagnose, treat, and care for patients.
-Infrastructure also includes specialized units such as emergency rooms, operating theaters, and intensive care units.
-</li>
-    <li><strong>Healthcare Personnel:
-</strong>Doctors, nurses, and various paramedical professionals are integral to healthcare delivery. Their expertise ensures patients receive appropriate medical attention.
-Well-trained and skilled healthcare staff are essential for maintaining high-quality services.
-</li>
-    <li><strong>Medical Equipment and Technology:
-</strong>Modern healthcare relies on advanced equipment, including diagnostic tools (like MRI machines and X-ray scanners), surgical instruments, and monitoring devices.
-Infrastructure also encompasses telemedicine technology, which enables remote consultations and healthcare delivery.
-</li>
-    <li><strong>Beds and Wards:
-</strong>Hospital beds, both general and specialized (such as ICU beds), are crucial for patient care.
-Adequate ward facilities accommodate patients during their treatment and recovery.
-</li>
-    <li><strong>Laboratories and Research Centers:
-</strong>Diagnostic laboratories play a pivotal role in disease detection, blood tests, and other investigations.
-Research centers contribute to medical advancements, drug development, and understanding health trends.
-</li>
-    <li><strong>Supply Chain and Logistics:
-</strong>Reliable supplies of pharmaceuticals, medical consumables, and equipment are essential.
-Efficient logistics ensure timely delivery of medical resources.
-</li>
-    <li><strong>Emergency Services:
-</strong>Ambulance services, emergency response teams, and trauma centers are part of healthcare infrastructure.
-Quick access to emergency care can save lives.
-Challenges and Current Status
-</li>
-    <li><strong>Inadequate Faculty and Attendance:
-</strong>An evaluation of medical colleges revealed inadequate faculty and attendance rates. Many colleges failed to meet the required standards.
-Some institutions had “ghost faculty,” and emergency medicine departments existed only on paper.</li>
-    <li><strong>Disparities and Gaps:
-</strong>
+    <h2 class="text-dark font-weight-bold text-center mb-3 addColor ">Our Centers</h2>
+     <div class="row  ">
+      <div class="col-md-4 card  shadow-lg ">
+      <p className="mb-2 text-capitalize mb-3  shadow-lg card border-0  bg-white p-3 rounded">
+      228 Changi Rd,<br/> #01-01 El Bayan Institute,<br/> Singapore 419741
+      </p>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.763945295033!2d103.90210147410447!3d1.317249961681566!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da19195225f763%3A0xe8bf828230fa66d1!2sEl%20Bayan%20Institute!5e0!3m2!1sen!2sin!4v1712898962288!5m2!1sen!2sin" width="350" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
-Disparities exist between urban and rural areas, affecting healthcare access.
-The COVID-19 pandemic highlighted gaps and limitations in the system.</li>
-    <li><strong>Role of Private Healthcare Providers:
-</strong>
-Private providers play a significant role but often at a higher cost.
-Discussions continue about balancing private and public healthcare.</li>
-    <li><strong>Routine Services and Public Health:
-</strong>
-Routine healthcare services, including immunization and disease treatment, face strain.
-The pandemic disrupted non-COVID-19 disease management.</li>
-    <li><strong>Importance of Public Health System:
-</strong>
-The crisis emphasized the need for a robust public health system.
-Strengthening public health infrastructure is crucial for preparedness.</li>
-</ul>               
-            </div>
+      <p class="text-justify"> </p> 
+    </div>
+    <div class="col-md-4 card  shadow-lg ml-3 ">
+      <p className="mb-2 text-capitalize mb-3  shadow-lg card border-0  bg-white p-3 rounded">
+      2 VENTURE DRIVE,<br/> #02-02, VISION EXCHANGE <br/> Singapore
+      </p>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.743192307615!2d103.74214982410437!3d1.3301509116406574!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da11dbf465c3df%3A0xd4524aa8ece03d34!2sVision%20Exchange!5e0!3m2!1sen!2sin!4v1712899575918!5m2!1sen!2sin" width="350" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <p class="text-justify"> </p> 
+    </div>
+
+      
+
+    </div>
+    <div class="row mt-4">
+    <div class="col-md-4">
+        <h3 class="text-dark font-weight-bold addColor">Enquire Now</h3>
+        <p class="addColor font-weight-bold">Do you have an enquiry?</p>
+        <p>Please complete the form and we will get back to you as soon as we can.</p>
+    </div>
+    <div class="col-md-8">
+   <p class="text-dark">Fields marked with  <span class="text-danger">*</span> are required</p>
+   <h4 class="sent-notification"></h4>
+   <?php
+if(isset($_SESSION['status']))
+{
+
+
+    ?>
+        <div class="alert alert-success alert-dismissible fade show"role="alert">
+             <strong><strong><?php echo $_SESSION['status'];?>
+             
         </div>
 
-     
+    <?php
+    unset($_SESSION['status']);
+}
+?>
+   <form  id="myForm" method="POST" >
+
+      <div class="form-row mt-4">
+        <div class="form-group col-md-6">
+          <label for="inputEmail4">Full Name <span class="text-danger">*</span></label>
+          <input type="text" class="form-control" name="name" id="name" placeholder="" required="true" >
+        </div>
+        <div class="form-group col-md-6">
+          <label for="inputEmail4">Email Address <span class="text-danger">*</span></label>
+          <input type="email" class="form-control" name="email" id="email" placeholder="" required="true" >
+        </div>
+        <div class="form-group col-md-6">
+          <label for="inputPassword4">Contact Number <span class="text-danger">*</span></label>
+          <input type="tel" class="form-control" id="phone" name="phone" placeholder="" required="true" >
+        </div>
+      
+      <div class="form-group col-md-6">
+        <label for="inputAddress">Subject<span class="text-danger">*</span></label>
+        <input type="text" class="form-control" name="subject" id="subject" placeholder=""  >
+      </div>
+      
+      <div class="form-group col-md-6">
+        <label for="exampleFormControlTextarea1">How can we help?<span class="text-danger">*</span></label>
+        <textarea class="form-control" name="help" id="help" rows="3" required="true" ></textarea>
+      </div>
+      <div class="form-group col-md-6">
+        <!-- <label for="">Complete Captcha</label>
+      <div class="g-recaptcha" data-callback="captchaVerified" data-sitekey="<?php echo $siteKey ?>"></div> -->
+      </div>
+    </div>
+      <button type="submit"  name="send" id="send" class="btn btn-corporate mb-5 float-right" >Send</button> 
+    </form>
     </div>
 </div>
-   
-  
+
+   </div>
 
    
 

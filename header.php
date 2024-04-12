@@ -68,8 +68,10 @@
                     <li><a href="./LaparoscopicTrainingCenter.php" class="nav-link">Laproscopic Training Center</a></li>
                     
                   </ul>
-                </li> &nbsp;&nbsp;
-
+                </li>
+                <li class="ha">
+                  <a href="./centers.php" class="nav-link">Our Centers</a>
+                </li>
                 <!-- <li><a href="contact.php" class="nav-link">Contact Us</a></li>  -->
                 <li><button class="btn text-white roundedd fs-3 bookappointmentbtn"  style="background-color: #691C32; text-transform: capitalize;"><a href="./contact.php" class="text-white">Book Appointment</a> </button></li>
               </ul>
