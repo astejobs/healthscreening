@@ -149,7 +149,7 @@ include('./contactEmailSender.php');
     
         <div class="card">
             <div class="card-header header-text text-white">
-                <h3 class="mb-0">Healthcare Infrastructure Consultancy: Enhancing Healthcare Delivery</h3>
+                <h3 class="mb-0 text-dark">Healthcare Infrastructure Consultancy: Enhancing Healthcare Delivery</h3>
             </div>
             <div class="card-body">
                 <h5 class="card-title">Transforming Healthcare with Insights and Actions</h5>
