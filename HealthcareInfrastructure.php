@@ -146,7 +146,7 @@ include('./contactEmailSender.php');
     <div class="container ">
     <div class="card">
             <div class="card-header header-text text-white">
-                <h3 class="mb-0">Healthcare Infrastructure:</h3>
+                <h3 class="mb-0 text-dark">Healthcare Infrastructure:</h3>
             </div>
             
        
@@ -166,7 +166,7 @@ Well-trained and skilled healthcare staff are essential for maintaining high-qua
     <li><strong>Medical Equipment and Technology:
 </strong>Modern healthcare relies on advanced equipment, including diagnostic tools (like MRI machines and X-ray scanners), surgical instruments, and monitoring devices.
 Infrastructure also encompasses telemedicine technology, which enables remote consultations and healthcare delivery.
-</li>
+</li>  
     <li><strong>Beds and Wards:
 </strong>Hospital beds, both general and specialized (such as ICU beds), are crucial for patient care.
 Adequate ward facilities accommodate patients during their treatment and recovery.
